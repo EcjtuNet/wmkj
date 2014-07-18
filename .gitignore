@@ -1,0 +1,13 @@
+GlobalDefine.php~
+Define.php
+*.log
+api-doc-service-master/
+bak/
+build/
+signup/
+struct/
+test/
+wechatbak/
+wxnode/
+*.swp
+index.php
