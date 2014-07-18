@@ -1,0 +1,36 @@
+<?php
+/**
+* 查询功能类使用的抽象基类
+*@version 1.0.0
+*@author homker
+*/
+abstract class AbstractQuery()
+{
+	//所有使用的变量
+	protected $_StudentID;
+  	protected $_ClassID;
+  	protected $_WeChatID;
+  	
+  	//返回消息的变量
+  	protected ( string ) $_content;
+  	protected ( array ) $_contents;
+  	
+	//使用的函数
+	abstract private function init($_StudentID ,$_ClassID ,$_WeChatID);
+	/**
+	* 以字符串的形式返回查询结果。
+	* @version 1.9.0
+	* @author homker
+	* @return ( string )$_content
+	*/
+	abstract public function progress();
+	/**
+	* 以数组的形式返回查询结果
+	* @version 1.0.0
+	* @author homker
+	* @return ( array )$_contents
+	*/
+	abstract public function progresses();
+}
+
+?>

@@ -1,0 +1,379 @@
+<?php
+/**
+ * 核心基类，所有的回复的都必须加载的类。
+ * @version 1.0.0
+ * @author homker
+ *
+ */
+//require_once dirname(dirname(__FILE__)) . '/common/Common.php';
+require_once dirname(dirname(__FILE__)) .'/common/Define.php';
+require_once dirname(dirname(__FILE__)) .'/common/GlobalFunctions.php';
+require_once dirname(dirname(__FILE__)) .'/common/DbFactory.php';
+require_once dirname(__FILE__) .'/PicArc.php';
+require_once dirname(__FILE__) .'/model/rxl.php';
+require_once dirname(__FILE__) .'/model/predis-0.8/autoload.php';
+
+class WeChatCallBack {
+	protected $_postObject;
+	protected $_fromUserName;
+	protected $_toUserName;
+	protected $_createTime;
+	protected $_msgType;
+	protected $_msgId;
+	protected $_event;
+	protected $_EventKey;
+	protected $_time;
+	
+    public function getToUserName() {
+    	return $this->_toUserName;
+    }
+    
+    protected  function makeHint($hint) {
+    	$resultStr = sprintf ( HINT_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, 'text', $hint );
+		return $resultStr;
+    }
+    /**
+    *@desc 用来封装图文信息
+    *@param (int) $hint (array) $hint = array( '1' =>array('title'=>$title ,'describle'=>$desc ,'picurl'=>$picurl ,'url'=>$url),'2' =>arry(……) );
+    *@return (string) $resultStr
+    */
+    protected function makePic($hint){
+    	$resultHead = sprintf( SUCC_TPL_head, $this->_fromUserName, $this->_toUserName, $this->_time,'news', count($hint) );
+    	foreach($hint as $key => $value){
+    		$resultBody = $resultBody . sprintf( SUCC_TPL_body, $value['title'], $value['describle'] , $value['picurl'], $value['url'] );
+    	}
+    	return $resultStr = $resultHead.$resultBody.SUCC_TPL_footer;
+    }
+     /**
+    *@desc 用来封装音乐信息
+    *@param 
+    *@return (string) $resultStr
+    */
+    protected function makeMus($hint){
+    	$resultStr = sprintf(MUSIC_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, $hint['title'], $hint['describle'], $hint['musicurl'], $hint['HQurl'] );
+    	return $resultStr;
+    }
+	
+	public function init($postObj) {
+		// 获取参数
+		$this->_postObject = $postObj;
+		if ($this->_postObject == false) {
+			return false;
+		}
+		$this->_fromUserName = ( string ) trim ( $this->_postObject->FromUserName );//openID
+		$this->_toUserName = ( string ) trim ( $this->_postObject->ToUserName );//公众号名字
+		$this->_msgType = ( string ) trim ( $this->_postObject->MsgType );
+		$this->_event = ( string ) trim ( $this->_postObject->Event);
+		$this->_EventKey = ( string ) trim ( $this->_postObject->EventKey);
+		$this->_createTime = ( int ) trim ( $this->_postObject->CreateTime );
+		$this->_msgId = ( int ) trim ( $this->_postObject->MsgId );
+		$this->_time = time ();
+		if(!($this->_fromUserName && $this->_toUserName && $this->_msgType)) {
+			return false;
+		}
+		return true;
+	}
+	/*
+	public function process($content) {
+		if($content!=""){
+			return $this->makeHint($content);
+		}
+		return $this->makeHint("没有匹配信息");
+	}*/
+	
+	public function process(){
+
+		$redis = new Predis\Client();
+
+		if($this->_msgType == 'event'){
+			interface_log(DEBUG, 0, "进入事件，事件是".$this->_event);
+			if($this->_event == 'subscribe'){
+				return $this->makeHint("又有一个新朋友了，小新很开心呢！/可爱\n日小新微信公众平台，微信号：rixinwx\n日小新，用心为你打造贴心实用的花椒微信家园~\n你可以试着回复以下关键字来使用日小新：\n\n
+				/可爱回复“目录”---- 本菜单
+				/可爱回复“小新快递“--- 交大最新消息
+				/可爱回复“交大影院“--- 本周南区影院电影
+				/可爱回复“微杂志”---- 美文欣赏
+				/可爱回复“孔目湖讲坛”---- 每期孔目湖讲坛预告
+				/可爱回复“微动漫”----- 动漫迷的福音
+				/可爱回复“微童话”----找寻遗失的童年
+				/可爱回复“外卖”-----  校周边外卖电话
+				/可爱回复“日新卡”---- 日新卡可以打折的商家
+				/可爱回复“微音乐”----来自小新的音乐推荐
+				/可爱回复“小新说”----小新跟你说晚安
+				/可爱回复“微科技”----好玩的DIY制作或科技
+				/可爱回复“查课表”----绑定学号后可以查哦~
+				/可爱回复“查成绩”----童鞋你懂的~\n
+				（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）");
+			}elseif($this->_event == 'CLICK'){
+				if($picObj = new PicArc()){
+					interface_log(DEBUG , 0, "class works");
+				}
+
+				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'){
+					//$count = ($this->_EventKey=='KUAIDI')? 4 : 1;
+					$count = 5;
+					$arr = $picObj->getContent($this->_EventKey,$count);
+					interface_log(DEBUG , 0, "数据库提取数据正常。");
+					if(is_array($arr)){
+						return $this->makePic($arr);
+					}elseif(is_string($arr)){
+						return $this->makeHint($arr);
+					}
+				}else{
+					switch($this->_EventKey)
+					{
+
+						case 'DIANTAI': $model = "model_MUSIC" ; break;
+						case 'KAOSHI' : $model = "model_KS"    ; break;
+						case 'CHENGJI': $model = "model_CJ"    ; break;
+						case 'YKT'    : $model = "model_YKT"   ; break;
+					}
+					interface_log(DEBUG, 0, $model);
+					$queryObj = $this->modelMatch($model);
+					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
+					if(!$queryObj){
+						if($StudentID = $this->getSID($this->_fromUserName)){
+							$queryObj = $this->modelMatch_xh($model);
+						}else{
+							interface_log('ERROR', 0,"未获取到学号。");
+							return $this->makeHint(NO_BD);
+						}
+						interface_log(DEBUG,0,"学号是：".$StudentID);
+					}
+					$queryObj->init($StudentID);
+					$out = $queryObj->progress();
+					if(is_array($out)){
+						return $this->makeMus($out);
+					}else{	
+						return $this->makeHint($out);
+					}
+				}
+			}
+		}if($this->_msgType == 'text'){
+			$rb = new rxl();
+			$rb->init($this->_postObject->Content);
+			$model = $rb->progress($this->FromUserName);
+				if (!isset($model)) {
+					$out = $this->bdcheck($this->_postObject->Content);
+					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
+					return $this->makeHint($out);
+				}
+				if(strstr($model, 'model')){
+					$queryObj = $this->modelMatch($model);
+
+					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
+					if(!$queryObj){
+						if($StudentID = $this->getSID($this->_fromUserName)){
+							interface_log(DEBUG, 0,"所属模块".$model);
+							$queryObj = $this->modelMatch_xh($model);
+							interface_log(DEBUG, 0,var_export($queryObj,TRUE));
+						}
+					}
+					if(!is_object($queryobj)){
+					interface_log(DEBUG, 0,"所属模块".$model);
+						if($StudentID = $this->getSID($this->_fromUserName)){
+							//interface_log(DEBUG, 0,"所属模块".$model);
+							$queryObj = $this->modelMatch_xh($model);
+							interface_log(DEBUG, 0,"所属模块".var_export($queryObj,TRUE));
+						}else{
+							interface_log('ERROR', 0,"未获取到学号。".NO_BD);
+							return $this->makeHint(NO_BD);
+						}
+					}
+					$queryObj->init($StudentID);
+					$out = $queryObj->progress();
+					if(is_array($out)){
+						return $this->makeMus($out);
+					}else{
+						return $this->makeHint($out);
+					}
+				}else{
+					return $this->makeHint($model);
+				}
+		}
+	}
+	
+	private function modelMatch($model)
+	{
+
+		if($model == 'model_MUSIC'){
+			require_once dirname(__FILE__) . '/model/musicquery.php';
+			return new musicquery();
+		}
+		return false;
+		//return $model;
+	}
+	
+	private function modelMatch_xh($model)//需要匹配学号的模式在这个函数下匹配
+	{
+		if($model == 'model_KEBIAO'){
+			require_once dirname(__FILE__) . '/model/classquery.php';
+			return new classquery();
+		}
+		elseif($model == 'model_CJ') {
+			require_once dirname(__FILE__) . '/model/scorequery.php';
+			return new scorequery();
+		}
+		elseif($model == 'model_BUKAO'){
+			require_once dirname(__FILE__) . '/model/bukaoquery.php';
+			return new bukaoquery();
+		}
+		elseif($model == 'model_KS'){
+			require_once dirname(__FILE__) . '/model/kaoshiquery.php';
+			return new kaoshiquery();
+		}
+		elseif($model == 'model_MUSIC'){
+			require_once dirname(__FILE__) .'/model/musicquery.php';
+			return new musicquery();
+		}
+		elseif($model == 'model_YKT'){
+            require_once dirname(__FILE__) .'/model/yktquery.php';
+            return new yktquery();
+        }
+		elseif($model == 'model_GETUP'){
+			require_once dirname(__FILE__) .'/model/getup.php';
+            return new getup();
+		}
+		else{
+			return $model;
+		}
+	}
+	private function getSID($openID){
+		try {
+			$db = DbFactory::getInstance('WX');
+			$sql = "SELECT bd,xh FROM user WHERE wxh ='$openID'";
+			//$sql = "insert into userinput (userId, input) values(\"" . $this->_fromUserName . "\", \"" . $this->_postObject->Content . "\")";
+			interface_log(DEBUG, 0, "sql:" . $sql);			
+			$rs = $db->query($sql);	
+			if($row = $db->fetch($rs)){
+				interface_log(DEBUG, 0,"数据库读取正常，读取数据为：".var_export($row,TRUE));
+				if($row['bd'] == 1){
+					return $StudentID = $row['xh'];
+				}else{
+					interface_log('DEBUG', 0 ,"学号未绑定。");
+					$this->makeHint(NO_BD);
+				}
+			}else{
+				interface_log('ERROR', EC_DB_OP_EXCEPTION ,"学号未绑定。");
+				return false;
+			}
+		} catch (DB_Exception $e) {
+			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+		}
+	}
+	public function datacheck($keyword){
+		$keyword = intval($keyword);
+        if(($keyword < 20000000000000)||($keyword > 30000000000000)){
+			return FALSE;
+        }else{
+			return TRUE;
+		}                
+     }
+	private function bdcheck($content){
+		$aword = substr($content,0,2);
+		$zword = substr($content,2,14);
+		$wxh   =$this->_fromUserName;
+		if((!$this->datacheck($zword)) AND (strtolower($aword) == 'xh')){	
+			return $out = NO_STYLE_XH;
+		}
+		elseif(($this->datacheck($zword)) AND  (strtolower($aword) == 'xh'))
+		{
+			$xh 	= $zword;
+			try{
+				$db 	= DbFactory::getInstance('WX');
+				$sqlWxh = "SELECT * FROM `user` WHERE wxh = '$wxh'";
+				$rsWxh 	= $db->query($sqlWxh);
+				$sqlXh 	= "SELECT * FROM `user` WHERE xh = '$xh'";
+				$rsXh 	= $db->query($sqlXh);
+				$rstWxh = $db->fetch($rsWxh);
+				$rstXh   = $db->fetch($rsXh);
+				if($rstWxh['bd'] == 1){
+					return $out = "你的微信已经绑定了学号，直接回复 查成绩 可以查询你本学期的成绩了";
+				}
+				elseif($rstXh['bd'] == 1){
+					return $out = "这个学号已经被绑定了~";
+				}else{
+					$delxh  = "DELETE FROM `user` WHERE xh = '$xh'";
+					$delwxh = "DELETE FROM `user` WHERE wxh = '$wxh'";
+					$sql 	= "INSERT INTO `user`(`wxh`, `xh`, `bd`) VALUES ('$wxh','$xh',0)";
+					$db->delete($delxh);
+					$db->delete($delwxh);
+					$db->insert($sql);
+					return $out = "成功，请回复 sf你的身份证号码后4位数 继续绑定,例如:sf1234";
+				}
+			}catch (DB_Exception $e) {
+				interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+			}
+		}
+		elseif((strlen($content) == 6||(strlen($content)==20)) AND  (strtolower($aword) == 'sf'))
+		{
+			try{
+				$db 	= DbFactory::getInstance('WX');	
+				$sql  	= $db->query("SELECT * FROM `user` WHERE wxh = '$wxh'");
+				$result = $db->fetch($sql);
+				interface_log(DEBUG, 0, "数据库所得内容：".$result);
+				if(($result['xh'] > 0) AND ($result['bd'] == 0)){
+				 	$xh 	= intval($result['xh']);
+				 	$dbs	= DbFactory::getInstance('SCORE');
+				 	$sql	= $dbs->query("SELECT * FROM `StudentInfo` WHERE StudentID='$xh'");	
+				 	$rs 	= $dbs->fetch($sql);
+				 	$idcard = $rs['IDCard'];
+			 	 	$idh4 	= substr("$idcard",-4); 
+				 	$keywordh4 =  strtoupper(substr("$zword",-4));
+				 	if($idh4 == $keywordh4){
+						$sql = "UPDATE `user` SET `bd`= 1 WHERE wxh = '$wxh' ";
+                		$db->update($sql);
+						return $out = "绑定成功啦!现在可以直接回复 查成绩 查询了哟";
+					}else{
+						return $out = "验证失败，身份证号与学号不匹配，或你的微信号还没有绑定学号\n回复 xh你的学号 绑定，例如：xh20122010010000";
+					}
+				}
+				elseif($result['bd'] == 1){
+					return $out = "你的微信已经绑定了学号，不能重复绑定，回复 查成绩 可直接查询你本学期的成绩";
+				}else{
+					return $out = "你还没有绑定学号，请回复 xh你的学号 ，例如：xh20122010010000\n绑定后,你可以通过输入“查成绩”来查询你本学期的成绩";
+				}
+			}catch (DB_Exception $e) {
+				interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+			}
+		}
+	    elseif((strlen($content) == 8) AND (strtolower($aword) == 'cd')){
+            $yword = substr($content,2,6);
+            if(strlen($yword)==6){
+            	try{
+                    $db     = DbFactory::getInstance('WX');
+                    $sql    = $db->query("SELECT * FROM `user` WHERE wxh = '$wxh'");
+                    $result = $db->fetch($sql);
+                    interface_log(DEBUG, 0, "数据库所得内容：".$result);
+                    if(($result['bd'] == 1) AND ($result['yktpw']===NULL ))
+		    {
+			$a = exec("python /home/data/www/api_ecjtu_net/paykt.py '$result[xh]' '$yword'");
+			if($a=='false'){
+				return $out = "密码不对哦，请重试";
+			}
+			else
+			{	
+                    		$sql    = "UPDATE `user` SET `yktpw` = '$yword' WHERE wxh = '$wxh'";
+                    		interface_log(DEBUG, 0,"sql语句为："."UPDATE `user` SET `yktpw` = '$yword' WHERE wxh = '$wxh'");
+                    		$db->update($sql);
+                    		return $out = "绑定成功啦!可以查一卡通余额了哦";
+			}
+                    }
+		    elseif(($result['bd'] == 1) AND (strlen($result['yktpw'])==6))
+   	       	    {
+				return $out = "你已经绑定过一卡通了";
+		    }
+		    else{
+                     	return $out = "绑定一卡通失败，密码不正确\n或者你的微信号还没有绑定学号\n回复 xh你的学号 绑定，例如：xh20122010010000";
+                    }
+                }catch (DB_Exception $e) {
+                    interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+                }
+            }else{
+              return $out = "小新觉得一卡通的密码应该是数字哦~！";
+            }
+        }
+	}	
+    
+   		
+}

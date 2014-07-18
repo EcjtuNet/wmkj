@@ -1,0 +1,3239 @@
+[2014-07-17 10:19:40][20664][INFO]return successfully!
+[2014-07-17 10:19:40][20664][INFO]return successfully! | ***************************************
+[2014-07-17 10:19:40][20664][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:19:40][20664][INFO]return successfully! | request:
+[2014-07-17 10:19:40][20664][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:19:40][20664][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:19:40][20664][INFO]return successfully! | ***************************************
+[2014-07-17 10:19:40][20664][INFO]return successfully!
+[2014-07-17 10:20:31][20241][INFO]return successfully!
+[2014-07-17 10:20:31][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:20:31][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:20:31][20241][INFO]return successfully! | request:
+[2014-07-17 10:20:31][20241][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:20:31][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:20:31][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:20:31][20241][INFO]return successfully!
+[2014-07-17 10:20:33][20173][INFO]return successfully!
+[2014-07-17 10:20:33][20173][INFO]return successfully! | ***************************************
+[2014-07-17 10:20:33][20173][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:20:33][20173][INFO]return successfully! | request:
+[2014-07-17 10:20:33][20173][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:20:33][20173][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:20:33][20173][INFO]return successfully! | ***************************************
+[2014-07-17 10:20:33][20173][INFO]return successfully!
+[2014-07-17 10:21:01][20171][INFO]return successfully!
+[2014-07-17 10:21:01][20171][INFO]return successfully! | ***************************************
+[2014-07-17 10:21:01][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:21:01][20171][INFO]return successfully! | request:
+[2014-07-17 10:21:01][20171][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:21:01][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:21:01][20171][INFO]return successfully! | ***************************************
+[2014-07-17 10:21:01][20171][INFO]return successfully!
+[2014-07-17 10:21:29][20241][INFO]return successfully!
+[2014-07-17 10:21:29][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:21:29][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:21:29][20241][INFO]return successfully! | request:
+[2014-07-17 10:21:29][20241][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:21:29][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:21:29][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:21:29][20241][INFO]return successfully!
+[2014-07-17 10:24:37][20170][INFO]return successfully!
+[2014-07-17 10:24:37][20170][INFO]return successfully! | ***************************************
+[2014-07-17 10:24:37][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:24:37][20170][INFO]return successfully! | request:
+[2014-07-17 10:24:37][20170][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:24:37][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:24:37][20170][INFO]return successfully! | ***************************************
+[2014-07-17 10:24:37][20170][INFO]return successfully!
+[2014-07-17 10:26:56][20176][INFO]return successfully!
+[2014-07-17 10:26:56][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:26:56][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:26:56][20176][INFO]return successfully! | request:
+[2014-07-17 10:26:56][20176][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:26:56][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:26:56][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:26:56][20176][INFO]return successfully!
+[2014-07-17 10:29:48][20169][INFO]return successfully!
+[2014-07-17 10:29:48][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:29:48][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:29:48][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564207</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036852301694408427</MsgId>
+</xml>
+[2014-07-17 10:29:48][20169][INFO]return successfully! | get:array (
+  'signature' => '92435aaa4bdc9cdf2a18f82a214dfc412677e64e',
+  'timestamp' => '1405564208',
+  'nonce' => '1227804535',
+)
+[2014-07-17 10:29:48][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:29:48][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:29:48][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405564188</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:29:48][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:29:48][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:29:48][20169][INFO]return successfully!
+[2014-07-17 10:29:48][20169][INFO]return successfully! | cost time:0.017321109771729 
+[2014-07-17 10:31:33][20170][INFO]return successfully!
+[2014-07-17 10:31:33][20170][INFO]return successfully! | ***************************************
+[2014-07-17 10:31:33][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:31:33][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564313</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036852756960941823</MsgId>
+</xml>
+[2014-07-17 10:31:33][20170][INFO]return successfully! | get:array (
+  'signature' => 'f5c955dee3b384b032bc466c7cdb38cf791be62b',
+  'timestamp' => '1405564313',
+  'nonce' => '1039283306',
+)
+[2014-07-17 10:31:33][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:31:33][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:31:33][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405564293</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:31:33][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:31:33][20170][INFO]return successfully! | ***************************************
+[2014-07-17 10:31:33][20170][INFO]return successfully!
+[2014-07-17 10:31:33][20170][INFO]return successfully! | cost time:0.016763925552368 
+[2014-07-17 10:35:24][20169][INFO]return successfully!
+[2014-07-17 10:35:24][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:35:24][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:35:24][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564544</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[妈蛋]]></Content>
+<MsgId>6036853749098387230</MsgId>
+</xml>
+[2014-07-17 10:35:24][20169][INFO]return successfully! | get:array (
+  'signature' => '56c7430dc54d8fb4490c8693cafd53c5a88f60b4',
+  'timestamp' => '1405564544',
+  'nonce' => '1664863897',
+)
+[2014-07-17 10:35:24][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:35:24][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:36:38][20241][INFO]return successfully!
+[2014-07-17 10:36:38][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:36:38][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:36:38][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564617</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[妈蛋]]></Content>
+<MsgId>6036854062630999846</MsgId>
+</xml>
+[2014-07-17 10:36:38][20241][INFO]return successfully! | get:array (
+  'signature' => '48e0a99d41a514db68a7119f30d936905313bef5',
+  'timestamp' => '1405564618',
+  'nonce' => '339421036',
+)
+[2014-07-17 10:36:38][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:36:38][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:36:38][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405564598</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:36:38][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:36:38][20241][INFO]return successfully! | ***************************************
+[2014-07-17 10:36:38][20241][INFO]return successfully!
+[2014-07-17 10:36:38][20241][INFO]return successfully! | cost time:0.014914989471436 
+[2014-07-17 10:40:06][20171][INFO]return successfully!
+[2014-07-17 10:40:06][20171][INFO]return successfully! | ***************************************
+[2014-07-17 10:40:06][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:40:06][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564824</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[你妹]]></Content>
+<MsgId>6036854951689230143</MsgId>
+</xml>
+[2014-07-17 10:40:06][20171][INFO]return successfully! | get:array (
+  'signature' => '7a6fe0f076a50347f6ab25bc63b73897e582c913',
+  'timestamp' => '1405564824',
+  'nonce' => '1470667525',
+)
+[2014-07-17 10:40:06][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:40:06][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:40:06][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405564806</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:40:06][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:40:06][20171][INFO]return successfully! | ***************************************
+[2014-07-17 10:40:06][20171][INFO]return successfully!
+[2014-07-17 10:40:06][20171][INFO]return successfully! | cost time:0.01645302772522 
+[2014-07-17 10:40:49][20170][INFO]return successfully!
+[2014-07-17 10:40:49][20170][INFO]return successfully! | ***************************************
+[2014-07-17 10:40:49][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:40:49][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564869</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036855144962758472</MsgId>
+</xml>
+[2014-07-17 10:40:49][20170][INFO]return successfully! | get:array (
+  'signature' => 'e3635528426c00ad00527517bd5887e0a8c959bc',
+  'timestamp' => '1405564869',
+  'nonce' => '1192760039',
+)
+[2014-07-17 10:40:49][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:40:49][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:40:49][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:40:49][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:41:26][20190][INFO]return successfully!
+[2014-07-17 10:41:26][20190][INFO]return successfully! | ***************************************
+[2014-07-17 10:41:26][20190][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:41:26][20190][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564905</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[晚安]]></Content>
+<MsgId>6036855299581581136</MsgId>
+</xml>
+[2014-07-17 10:41:26][20190][INFO]return successfully! | get:array (
+  'signature' => '86ab6dd3f38999059e6a32184a2a484cd1ebb69d',
+  'timestamp' => '1405564906',
+  'nonce' => '1469950469',
+)
+[2014-07-17 10:41:26][20190][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:41:26][20190][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:41:26][20190][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405564886</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[有一些“晚安”是没说完的“我爱你”。那么，晚安。]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:41:26][20190][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:41:26][20190][INFO]return successfully! | ***************************************
+[2014-07-17 10:41:26][20190][INFO]return successfully!
+[2014-07-17 10:41:26][20190][INFO]return successfully! | cost time:0.018929958343506 
+[2014-07-17 10:42:57][20172][INFO]return successfully!
+[2014-07-17 10:42:57][20172][INFO]return successfully! | ***************************************
+[2014-07-17 10:42:57][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:42:57][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405564996</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036855690423605085</MsgId>
+</xml>
+[2014-07-17 10:42:57][20172][INFO]return successfully! | get:array (
+  'signature' => '57d8b862d52318ec7de8bb5ad8295bab3ba53994',
+  'timestamp' => '1405564997',
+  'nonce' => '1325223253',
+)
+[2014-07-17 10:42:57][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:42:57][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:42:57][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:42:57][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:43:04][20171][INFO]return successfully!
+[2014-07-17 10:43:04][20171][INFO]return successfully! | ***************************************
+[2014-07-17 10:43:04][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:43:04][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565003</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[一卡通]]></Content>
+<MsgId>6036855720488376158</MsgId>
+</xml>
+[2014-07-17 10:43:04][20171][INFO]return successfully! | get:array (
+  'signature' => '591cc6ba69f5a62fab0cc35359b204a0b5394439',
+  'timestamp' => '1405565003',
+  'nonce' => '1817802994',
+)
+[2014-07-17 10:43:04][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:43:04][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:43:04][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:43:04][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:44:53][20173][INFO]return successfully!
+[2014-07-17 10:44:53][20173][INFO]return successfully! | ***************************************
+[2014-07-17 10:44:53][20173][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:44:53][20173][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565112</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036856188639811437</MsgId>
+</xml>
+[2014-07-17 10:44:53][20173][INFO]return successfully! | get:array (
+  'signature' => 'bbba81806397d03691861dfed32f8d3b4c419d92',
+  'timestamp' => '1405565113',
+  'nonce' => '581661644',
+)
+[2014-07-17 10:44:53][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:44:53][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:44:53][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:44:53][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:45:57][20176][INFO]return successfully!
+[2014-07-17 10:45:57][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:45:57][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:45:57][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565176</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[饭卡]]></Content>
+<MsgId>6036856463517718391</MsgId>
+</xml>
+[2014-07-17 10:45:57][20176][INFO]return successfully! | get:array (
+  'signature' => 'ab59f387ccdac981a89a199ab3d45cea163fb870',
+  'timestamp' => '1405565177',
+  'nonce' => '1999353524',
+)
+[2014-07-17 10:45:57][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:45:57][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:45:57][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:45:57][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:47:46][20176][INFO]return successfully!
+[2014-07-17 10:47:46][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:47:46][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:47:46][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjsi9ke4B7lrerv_6jhZTDIo]]></FromUserName>
+<CreateTime>1405565285</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036856931669153672</MsgId>
+</xml>
+[2014-07-17 10:47:46][20176][INFO]return successfully! | get:array (
+  'signature' => 'ef86cdc6ff6a3e512a8cf653a922ec563e90b41d',
+  'timestamp' => '1405565286',
+  'nonce' => '1574541310',
+)
+[2014-07-17 10:47:46][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:47:46][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:47:46][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:47:46][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:49:21][20176][INFO]return successfully!
+[2014-07-17 10:49:21][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:49:21][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:49:21][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565380</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[补考]]></Content>
+<MsgId>6036857339691046810</MsgId>
+</xml>
+[2014-07-17 10:49:21][20176][INFO]return successfully! | get:array (
+  'signature' => '6b0a3f47c5b2acbe5d59cb657e9631c3a61fb6e5',
+  'timestamp' => '1405565381',
+  'nonce' => '1944613143',
+)
+[2014-07-17 10:49:21][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:49:21][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:49:21][20176][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405565361</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:49:21][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:49:21][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:49:21][20176][INFO]return successfully!
+[2014-07-17 10:49:21][20176][INFO]return successfully! | cost time:0.015718936920166 
+[2014-07-17 10:49:57][21301][INFO]return successfully!
+[2014-07-17 10:49:57][21301][INFO]return successfully! | ***************************************
+[2014-07-17 10:49:57][21301][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:49:57][21301][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565416</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[考场]]></Content>
+<MsgId>6036857494309869473</MsgId>
+</xml>
+[2014-07-17 10:49:57][21301][INFO]return successfully! | get:array (
+  'signature' => 'd36fb91dbf67534bac4bfd706a8423f2d1551e67',
+  'timestamp' => '1405565417',
+  'nonce' => '1970784878',
+)
+[2014-07-17 10:49:57][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:49:57][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:49:57][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:49:57][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:49:57][21301][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405565397</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[对不起，暂时未查询到相关考试信息。
+提示：部分考试安排未出，请花椒们密切关注<a href="http://202.101.209.252:8080/jwcmis/examarrange.jsp?classid=">校教务处</a>的官方信息。]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:49:57][21301][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:49:57][21301][INFO]return successfully! | ***************************************
+[2014-07-17 10:49:57][21301][INFO]return successfully!
+[2014-07-17 10:49:57][21301][INFO]return successfully! | cost time:0.14367079734802 
+[2014-07-17 10:51:08][20169][INFO]return successfully!
+[2014-07-17 10:51:08][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:51:08][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:51:08][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565487</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[考场]]></Content>
+<MsgId>6036857799252547502</MsgId>
+</xml>
+[2014-07-17 10:51:08][20169][INFO]return successfully! | get:array (
+  'signature' => '1763a2fdf1c7a89475f8eee9712f3902574755a9',
+  'timestamp' => '1405565488',
+  'nonce' => '1697354086',
+)
+[2014-07-17 10:51:08][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:51:08][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:51:08][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:51:08][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:51:08][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:51:08][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:51:09][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405565468</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[同学，你的考试信息查询如下：
+第1门:
+科目:毛泽东思想和中国特色社会主义理论体系概论
+考试周：18
+时间:06月27日(星期五)14:30-16:30
+地点:15-219
+主监考:王新华(马院)
+副监考:王晶晶(软件)
+***********************
+第2门:
+科目:数据库系统原理（B）
+考试周：19
+时间:06月30日(星期一)10:15-12:15
+地点:15-201
+主监考:张薇(软件)
+副监考:郭谊、邓先礼(软件)
+***********************
+第3门:
+科目:财务会计学
+考试周：19
+时间:07月04日(星期五)08:00-10:00
+地点:15-220
+主监考:郑也夫(经管)
+副监考:刘芳馨、赖春艳(软件)
+***********************
+信息来源：<a href="http://202.101.209.252:8080/jwcmis/examarrange.jsp?classid=201221100902">校教务处</a> 
+更新时间：2014-07-17 10:51:09]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 10:51:09][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:51:09][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:51:09][20169][INFO]return successfully!
+[2014-07-17 10:51:09][20169][INFO]return successfully! | cost time:1.1447870731354 
+[2014-07-17 10:52:44][20664][INFO]return successfully!
+[2014-07-17 10:52:44][20664][INFO]return successfully! | ***************************************
+[2014-07-17 10:52:44][20664][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:52:44][20664][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565583</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[饭卡]]></Content>
+<MsgId>6036858211569407934</MsgId>
+</xml>
+[2014-07-17 10:52:44][20664][INFO]return successfully! | get:array (
+  'signature' => 'd3f5e30ef25f530197888b256f9ebca8f8083840',
+  'timestamp' => '1405565584',
+  'nonce' => '1353959743',
+)
+[2014-07-17 10:52:44][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:52:44][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:52:44][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:52:44][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:53:01][20172][INFO]return successfully!
+[2014-07-17 10:53:01][20172][INFO]return successfully! | ***************************************
+[2014-07-17 10:53:01][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:53:01][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565600</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[课表]]></Content>
+<MsgId>6036858284583851969</MsgId>
+</xml>
+[2014-07-17 10:53:01][20172][INFO]return successfully! | get:array (
+  'signature' => 'd57428d238722cd7e1dc9b1b54a4ead7021b95d2',
+  'timestamp' => '1405565601',
+  'nonce' => '973288913',
+)
+[2014-07-17 10:53:01][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:53:01][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:53:01][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:53:01][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:53:43][20173][INFO]return successfully!
+[2014-07-17 10:53:43][20173][INFO]return successfully! | ***************************************
+[2014-07-17 10:53:43][20173][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:53:43][20173][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565642</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036858464972478408</MsgId>
+</xml>
+[2014-07-17 10:53:43][20173][INFO]return successfully! | get:array (
+  'signature' => '802ad8c76c94d417d6bec33c196c44b29d34769f',
+  'timestamp' => '1405565643',
+  'nonce' => '677880770',
+)
+[2014-07-17 10:53:43][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:53:43][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:53:43][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:53:43][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:56:50][20175][INFO]return successfully!
+[2014-07-17 10:56:50][20175][INFO]return successfully! | ***************************************
+[2014-07-17 10:56:50][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:56:50][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405565829</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[饭卡]]></Content>
+<MsgId>6036859268131362801</MsgId>
+</xml>
+[2014-07-17 10:56:50][20175][INFO]return successfully! | get:array (
+  'signature' => 'af5d3247e2dc861c93269998a9ae197e55b706c9',
+  'timestamp' => '1405565830',
+  'nonce' => '997845575',
+)
+[2014-07-17 10:56:50][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:56:50][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:56:50][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:56:50][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:58:31][20176][INFO]return successfully!
+[2014-07-17 10:58:31][20176][INFO]return successfully! | ***************************************
+[2014-07-17 10:58:31][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:58:31][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjlU9rFhCFf5xKaRICfnj5Ms]]></FromUserName>
+<CreateTime>1405565931</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036859706218027007</MsgId>
+</xml>
+[2014-07-17 10:58:31][20176][INFO]return successfully! | get:array (
+  'signature' => 'b10d92049202821beb1ed51ee1c940e0067fe020',
+  'timestamp' => '1405565930',
+  'nonce' => '1050933604',
+)
+[2014-07-17 10:58:31][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:58:31][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:58:31][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 10:58:31][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 10:59:37][20169][INFO]return successfully!
+[2014-07-17 10:59:37][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:59:37][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 10:59:37][20169][INFO]return successfully! | request:
+[2014-07-17 10:59:37][20169][INFO]return successfully! | get:array (
+)
+[2014-07-17 10:59:37][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 10:59:37][20169][INFO]return successfully! | ***************************************
+[2014-07-17 10:59:37][20169][INFO]return successfully!
+[2014-07-17 11:02:10][21301][INFO]return successfully!
+[2014-07-17 11:02:10][21301][INFO]return successfully! | ***************************************
+[2014-07-17 11:02:10][21301][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:02:10][21301][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566149</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[饭卡]]></Content>
+<MsgId>6036860642520897573</MsgId>
+</xml>
+[2014-07-17 11:02:10][21301][INFO]return successfully! | get:array (
+  'signature' => '14bb70d3b0384d60ad22b215c609f9cc1b689d90',
+  'timestamp' => '1405566150',
+  'nonce' => '1741262134',
+)
+[2014-07-17 11:02:10][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:02:10][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:02:10][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:02:10][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:02:10][21301][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405566130</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[抱歉，程序出错了，请稍后重试。]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:02:10][21301][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:02:10][21301][INFO]return successfully! | ***************************************
+[2014-07-17 11:02:10][21301][INFO]return successfully!
+[2014-07-17 11:02:10][21301][INFO]return successfully! | cost time:0.30454301834106 
+[2014-07-17 11:02:55][21301][INFO]return successfully!
+[2014-07-17 11:02:55][21301][INFO]return successfully! | ***************************************
+[2014-07-17 11:02:55][21301][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:02:55][21301][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566194</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[补考]]></Content>
+<MsgId>6036860835794425905</MsgId>
+</xml>
+[2014-07-17 11:02:55][21301][INFO]return successfully! | get:array (
+  'signature' => '7c35bef9f056080c2f3b535e4f6f3acba481d708',
+  'timestamp' => '1405566195',
+  'nonce' => '614239620',
+)
+[2014-07-17 11:02:55][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:02:55][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:02:55][21301][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405566175</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:02:55][21301][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:02:55][21301][INFO]return successfully! | ***************************************
+[2014-07-17 11:02:55][21301][INFO]return successfully!
+[2014-07-17 11:02:55][21301][INFO]return successfully! | cost time:0.017954111099243 
+[2014-07-17 11:04:06][20232][INFO]return successfully!
+[2014-07-17 11:04:06][20232][INFO]return successfully! | ***************************************
+[2014-07-17 11:04:06][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:04:06][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566265</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036861140737103929</MsgId>
+</xml>
+[2014-07-17 11:04:06][20232][INFO]return successfully! | get:array (
+  'signature' => 'aa58710f99bc639e47fb4ab43eff916be4e3b88f',
+  'timestamp' => '1405566266',
+  'nonce' => '1035758027',
+)
+[2014-07-17 11:04:06][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:04:06][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:04:06][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:04:06][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:13:18][20173][INFO]return successfully!
+[2014-07-17 11:13:18][20173][INFO]return successfully! | ***************************************
+[2014-07-17 11:13:18][20173][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:13:18][20173][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566818</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036863515854018799</MsgId>
+</xml>
+[2014-07-17 11:13:18][20173][INFO]return successfully! | get:array (
+  'signature' => 'fb761844818db7ae8c4c60272dd076e461580e50',
+  'timestamp' => '1405566818',
+  'nonce' => '1616891500',
+)
+[2014-07-17 11:13:18][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:13:18][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:13:18][20173][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:13:18][20173][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:13:19][20173][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405566798</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育Ⅳ  79
+☆ 形势政策与省情教育II  合格
+☆ 财务会计学  81
+☆ 毛泽东思想和中国特色社会主义理论体系概论  68
+☆ 软件工程  94
+☆ 数据库系统原理（B）  78
+☆ Web应用设计基础（B）  中等
+☆ 大学英语Ⅳ  60
+你的平均分是: 75(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:13:19][20173][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:13:19][20173][INFO]return successfully! | ***************************************
+[2014-07-17 11:13:19][20173][INFO]return successfully!
+[2014-07-17 11:13:19][20173][INFO]return successfully! | cost time:0.23930287361145 
+[2014-07-17 11:13:52][20171][INFO]return successfully!
+[2014-07-17 11:13:52][20171][INFO]return successfully! | ***************************************
+[2014-07-17 11:13:52][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:13:52][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566852</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036863661882906871</MsgId>
+</xml>
+[2014-07-17 11:13:52][20171][INFO]return successfully! | get:array (
+  'signature' => '1beee7d43dadd264af96c91e0cc4ed8aa605c5a6',
+  'timestamp' => '1405566852',
+  'nonce' => '17485717',
+)
+[2014-07-17 11:13:52][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:13:52][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:13:52][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:13:52][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:13:52][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405566832</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:13:52][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:13:52][20171][INFO]return successfully! | ***************************************
+[2014-07-17 11:13:52][20171][INFO]return successfully!
+[2014-07-17 11:13:52][20171][INFO]return successfully! | cost time:0.13188195228577 
+[2014-07-17 11:14:12][20171][INFO]return successfully!
+[2014-07-17 11:14:12][20171][INFO]return successfully! | ***************************************
+[2014-07-17 11:14:12][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:14:12][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></FromUserName>
+<CreateTime>1405566871</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036863743487285499</MsgId>
+</xml>
+[2014-07-17 11:14:12][20171][INFO]return successfully! | get:array (
+  'signature' => '154a300b937b050ff035248e7bc58842228ecf3a',
+  'timestamp' => '1405566871',
+  'nonce' => '679949462',
+)
+[2014-07-17 11:14:12][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:14:12][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:14:12][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:14:12][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:14:12][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjv0GoTrHCUPEaiZwwHQIxJE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405566852</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育Ⅳ  79
+☆ 形势政策与省情教育II  合格
+☆ 财务会计学  81
+☆ 毛泽东思想和中国特色社会主义理论体系概论  68
+☆ 软件工程  94
+☆ 数据库系统原理（B）  78
+☆ Web应用设计基础（B）  中等
+☆ 大学英语Ⅳ  60
+你的平均分是: 75(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:14:12][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:14:12][20171][INFO]return successfully! | ***************************************
+[2014-07-17 11:14:12][20171][INFO]return successfully!
+[2014-07-17 11:14:12][20171][INFO]return successfully! | cost time:0.11619591712952 
+[2014-07-17 11:18:12][20170][INFO]return successfully!
+[2014-07-17 11:18:12][20170][INFO]return successfully! | ***************************************
+[2014-07-17 11:18:12][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:18:12][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjsbellEBVJhcTPZvWJCLYQU]]></FromUserName>
+<CreateTime>1405567112</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036864778574403871</MsgId>
+</xml>
+[2014-07-17 11:18:12][20170][INFO]return successfully! | get:array (
+  'signature' => '474ccdb841b2939baf82b61943eb2a017ac1f263',
+  'timestamp' => '1405567112',
+  'nonce' => '1669999113',
+)
+[2014-07-17 11:18:12][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:18:12][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:18:12][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:18:12][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:18:13][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjsbellEBVJhcTPZvWJCLYQU]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405567092</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 机械原理(A)  60
+☆ 形势政策与省情教育II  合格
+☆ 概率论  中等
+☆ 西方音乐史  及格
+☆ 材料力学(B)  47
+☆ 电工基础(A)  70
+☆ 网络技术  良好
+☆ 三维CAD造型  及格
+☆ 《机械原理》课程设计  及格
+☆ 体育Ⅳ  65
+☆ 毛泽东思想和中国特色社会主义理论体系概论  62
+☆ 大学英语Ⅳ  60
+你的平均分是: 63(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:18:13][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:18:13][20170][INFO]return successfully! | ***************************************
+[2014-07-17 11:18:13][20170][INFO]return successfully!
+[2014-07-17 11:18:13][20170][INFO]return successfully! | cost time:0.23760008811951 
+[2014-07-17 11:31:36][20241][INFO]return successfully!
+[2014-07-17 11:31:36][20241][INFO]return successfully! | ***************************************
+[2014-07-17 11:31:36][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:31:36][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjsJRy5WgvRanerdAbjlcdTI]]></FromUserName>
+<CreateTime>1405567914</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 11:31:36][20241][INFO]return successfully! | get:array (
+  'signature' => '0213f6c111959b78b155ee2b3ecde26ce346343d',
+  'timestamp' => '1405567914',
+  'nonce' => '1793415856',
+)
+[2014-07-17 11:31:36][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjsJRy5WgvRanerdAbjlcdTI]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405567896</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[又有一个新朋友了，小新很开心呢！/可爱
+日小新微信公众平台，微信号：rixinwx
+日小新，用心为你打造贴心实用的花椒微信家园~
+你可以试着回复以下关键字来使用日小新：
+
+
+				/可爱回复“目录”---- 本菜单
+				/可爱回复“小新快递“--- 交大最新消息
+				/可爱回复“交大影院“--- 本周南区影院电影
+				/可爱回复“微杂志”---- 美文欣赏
+				/可爱回复“孔目湖讲坛”---- 每期孔目湖讲坛预告
+				/可爱回复“微动漫”----- 动漫迷的福音
+				/可爱回复“微童话”----找寻遗失的童年
+				/可爱回复“外卖”-----  校周边外卖电话
+				/可爱回复“日新卡”---- 日新卡可以打折的商家
+				/可爱回复“微音乐”----来自小新的音乐推荐
+				/可爱回复“小新说”----小新跟你说晚安
+				/可爱回复“微科技”----好玩的DIY制作或科技
+				/可爱回复“查课表”----绑定学号后可以查哦~
+				/可爱回复“查成绩”----童鞋你懂的~
+
+				（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:31:36][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:31:36][20241][INFO]return successfully! | ***************************************
+[2014-07-17 11:31:36][20241][INFO]return successfully!
+[2014-07-17 11:31:36][20241][INFO]return successfully! | cost time:0.008746862411499 
+[2014-07-17 11:39:17][20232][INFO]return successfully!
+[2014-07-17 11:39:17][20232][INFO]return successfully! | ***************************************
+[2014-07-17 11:39:17][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 11:39:17][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjprGbRsVRpbZFC8_h2WVch4]]></FromUserName>
+<CreateTime>1405568377</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[~]]></Content>
+<MsgId>6036870211708033445</MsgId>
+</xml>
+[2014-07-17 11:39:17][20232][INFO]return successfully! | get:array (
+  'signature' => '8cf9f030e391c3bcc30b370b1aaa1eebe8cb1e69',
+  'timestamp' => '1405568377',
+  'nonce' => '1254940859',
+)
+[2014-07-17 11:39:17][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 11:39:17][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 11:39:17][20232][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjprGbRsVRpbZFC8_h2WVch4]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405568357</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 11:39:17][20232][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 11:39:17][20232][INFO]return successfully! | ***************************************
+[2014-07-17 11:39:17][20232][INFO]return successfully!
+[2014-07-17 11:39:17][20232][INFO]return successfully! | cost time:0.014573812484741 
+[2014-07-17 12:02:42][20171][INFO]return successfully!
+[2014-07-17 12:02:42][20171][INFO]return successfully! | ***************************************
+[2014-07-17 12:02:42][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:02:42][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjhk_SK5rChL_GQbEfvdf9Uw]]></FromUserName>
+<CreateTime>1405569781</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036876241842117079</MsgId>
+</xml>
+[2014-07-17 12:02:42][20171][INFO]return successfully! | get:array (
+  'signature' => '661fc7c9ca72f1191dc0d596bf9946acde3b44d9',
+  'timestamp' => '1405569782',
+  'nonce' => '2083802017',
+)
+[2014-07-17 12:02:42][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:02:42][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:02:42][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:02:42][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:02:42][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjhk_SK5rChL_GQbEfvdf9Uw]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405569762</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育II  82
+☆ 计算机实用软件  优秀
+☆ 计算机实用软件课程设计  优秀
+☆ 思想道德修养与法律基础  良好
+☆ 设计素描  83
+☆ 设计色彩  81
+☆ 写生实习  优秀
+☆ 近代中日关系史研究  良好
+☆ 形势政策与省情教育I  合格
+☆ 大学英语Ⅱ  86
+☆ 三大构成Ⅱ  91
+☆ 画法几何与阴影透视  68
+☆ 中国书画  76
+你的平均分是: 83(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:02:42][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:02:42][20171][INFO]return successfully! | ***************************************
+[2014-07-17 12:02:42][20171][INFO]return successfully!
+[2014-07-17 12:02:42][20171][INFO]return successfully! | cost time:0.075608015060425 
+[2014-07-17 12:29:59][20175][INFO]return successfully!
+[2014-07-17 12:29:59][20175][INFO]return successfully! | ***************************************
+[2014-07-17 12:29:59][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:29:59][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjvaWwm0UzbBpZWyX3I5Mlw0]]></FromUserName>
+<CreateTime>1405571418</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[补考时间]]></Content>
+<MsgId>6036883272703580684</MsgId>
+</xml>
+[2014-07-17 12:29:59][20175][INFO]return successfully! | get:array (
+  'signature' => '85b1f83f576b489e7878dcb26d0848b900aff666',
+  'timestamp' => '1405571418',
+  'nonce' => '98586086',
+)
+[2014-07-17 12:29:59][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:29:59][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:29:59][20175][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjvaWwm0UzbBpZWyX3I5Mlw0]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571399</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:29:59][20175][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:29:59][20175][INFO]return successfully! | ***************************************
+[2014-07-17 12:29:59][20175][INFO]return successfully!
+[2014-07-17 12:29:59][20175][INFO]return successfully! | cost time:0.01372504234314 
+[2014-07-17 12:30:35][21301][INFO]return successfully!
+[2014-07-17 12:30:35][21301][INFO]return successfully! | ***************************************
+[2014-07-17 12:30:35][21301][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:30:35][21301][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></FromUserName>
+<CreateTime>1405571455</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[一卡通]]></Content>
+<MsgId>6036883431617370637</MsgId>
+</xml>
+[2014-07-17 12:30:35][21301][INFO]return successfully! | get:array (
+  'signature' => '0d6dba1177f79a58adc9fe7d78c26e087f97e4b3',
+  'timestamp' => '1405571455',
+  'nonce' => '903057412',
+)
+[2014-07-17 12:30:35][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:30:35][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:30:35][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:30:35][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:30:36][21301][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571435</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[抱歉，程序出错了，请稍后重试。]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:30:36][21301][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:30:36][21301][INFO]return successfully! | ***************************************
+[2014-07-17 12:30:36][21301][INFO]return successfully!
+[2014-07-17 12:30:36][21301][INFO]return successfully! | cost time:0.33154892921448 
+[2014-07-17 12:31:19][20170][INFO]return successfully!
+[2014-07-17 12:31:19][20170][INFO]return successfully! | ***************************************
+[2014-07-17 12:31:19][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:31:19][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></FromUserName>
+<CreateTime>1405571498</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[xh20130110170210]]></Content>
+<MsgId>6036883616300964367</MsgId>
+</xml>
+[2014-07-17 12:31:19][20170][INFO]return successfully! | get:array (
+  'signature' => '2c39647e56c6e55a06b14c5d2a298365c58d3f79',
+  'timestamp' => '1405571498',
+  'nonce' => '1732136816',
+)
+[2014-07-17 12:31:19][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:31:19][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:31:19][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:31:19][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:31:19][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571479</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你的微信已经绑定了学号，直接回复 查成绩 可以查询你本学期的成绩了]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:31:19][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:31:19][20170][INFO]return successfully! | ***************************************
+[2014-07-17 12:31:19][20170][INFO]return successfully!
+[2014-07-17 12:31:19][20170][INFO]return successfully! | cost time:0.021267890930176 
+[2014-07-17 12:31:35][20172][INFO]return successfully!
+[2014-07-17 12:31:35][20172][INFO]return successfully! | ***************************************
+[2014-07-17 12:31:35][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:31:35][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></FromUserName>
+<CreateTime>1405571513</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036883680725473809</MsgId>
+</xml>
+[2014-07-17 12:31:35][20172][INFO]return successfully! | get:array (
+  'signature' => '8f5166ae0ab9508f6724d132cf15db22ff73ad49',
+  'timestamp' => '1405571513',
+  'nonce' => '2057234254',
+)
+[2014-07-17 12:31:35][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:31:35][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:31:35][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:31:35][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:31:35][20172][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjmfNhqaOEpCwo2wvfTHBaNQ]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571495</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 数字地形测量学  67
+☆ 公共德语Ⅰ   不及格
+☆ 数字测图实习  良好
+☆ 体育II  85
+☆ 军事理论  优秀
+☆ 思想道德修养与法律基础  良好
+☆ 形势政策与省情教育I  合格
+☆ 高等数学(A)Ⅱ  65
+☆ 大学物理Ⅰ  69
+☆ 大学物理实验Ⅰ  中等
+☆ 大学英语Ⅱ  70
+你的平均分是: 72(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:31:35][20172][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:31:35][20172][INFO]return successfully! | ***************************************
+[2014-07-17 12:31:35][20172][INFO]return successfully!
+[2014-07-17 12:31:35][20172][INFO]return successfully! | cost time:0.17541193962097 
+[2014-07-17 12:34:43][20169][INFO]return successfully!
+[2014-07-17 12:34:43][20169][INFO]return successfully! | ***************************************
+[2014-07-17 12:34:43][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:34:43][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtcJ_V8SNZYF9pSZPJnQMhY]]></FromUserName>
+<CreateTime>1405571702</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[2012512003]]></Content>
+<MsgId>6036884492474292762</MsgId>
+</xml>
+[2014-07-17 12:34:43][20169][INFO]return successfully! | get:array (
+  'signature' => 'fccba52cf4969f91ef6a007696c14243e7c67b46',
+  'timestamp' => '1405571702',
+  'nonce' => '1739003422',
+)
+[2014-07-17 12:34:43][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:34:43][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:34:43][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtcJ_V8SNZYF9pSZPJnQMhY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571683</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:34:43][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:34:43][20169][INFO]return successfully! | ***************************************
+[2014-07-17 12:34:43][20169][INFO]return successfully!
+[2014-07-17 12:34:43][20169][INFO]return successfully! | cost time:0.013628005981445 
+[2014-07-17 12:35:07][20171][INFO]return successfully!
+[2014-07-17 12:35:07][20171][INFO]return successfully! | ***************************************
+[2014-07-17 12:35:07][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:35:07][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtcJ_V8SNZYF9pSZPJnQMhY]]></FromUserName>
+<CreateTime>1405571726</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[运营二班成绩]]></Content>
+<MsgId>6036884595553507867</MsgId>
+</xml>
+[2014-07-17 12:35:07][20171][INFO]return successfully! | get:array (
+  'signature' => '9ab56d5fe77d648a77c612fb4dcbb9ce82e76074',
+  'timestamp' => '1405571726',
+  'nonce' => '2078831382',
+)
+[2014-07-17 12:35:07][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:35:07][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:35:07][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtcJ_V8SNZYF9pSZPJnQMhY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405571707</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:35:07][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:35:07][20171][INFO]return successfully! | ***************************************
+[2014-07-17 12:35:07][20171][INFO]return successfully!
+[2014-07-17 12:35:07][20171][INFO]return successfully! | cost time:0.017841100692749 
+[2014-07-17 12:42:15][20241][INFO]return successfully!
+[2014-07-17 12:42:15][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:42:15][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:42:15][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpoRdlClfnt9TGswse32piA]]></FromUserName>
+<CreateTime>1405572155</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 12:42:15][20241][INFO]return successfully! | get:array (
+  'signature' => 'd4c7f7956fd460579ec45b37fca4caa3aa366a23',
+  'timestamp' => '1405572155',
+  'nonce' => '2056904376',
+)
+[2014-07-17 12:42:15][20241][INFO]return successfully! | response:
+[2014-07-17 12:42:15][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:42:15][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:42:15][20241][INFO]return successfully!
+[2014-07-17 12:42:15][20241][INFO]return successfully! | cost time:0.012192964553833 
+[2014-07-17 12:43:46][20172][INFO]return successfully!
+[2014-07-17 12:43:46][20172][INFO]return successfully! | ***************************************
+[2014-07-17 12:43:46][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:43:46][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpoRdlClfnt9TGswse32piA]]></FromUserName>
+<CreateTime>1405572246</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 12:43:46][20172][INFO]return successfully! | get:array (
+  'signature' => '830ccea9622ebcbe40f954d12427d7a414fdd46f',
+  'timestamp' => '1405572246',
+  'nonce' => '25948948',
+)
+[2014-07-17 12:43:46][20172][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjpoRdlClfnt9TGswse32piA]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405572226</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[又有一个新朋友了，小新很开心呢！/可爱
+日小新微信公众平台，微信号：rixinwx
+日小新，用心为你打造贴心实用的花椒微信家园~
+你可以试着回复以下关键字来使用日小新：
+
+
+				/可爱回复“目录”---- 本菜单
+				/可爱回复“小新快递“--- 交大最新消息
+				/可爱回复“交大影院“--- 本周南区影院电影
+				/可爱回复“微杂志”---- 美文欣赏
+				/可爱回复“孔目湖讲坛”---- 每期孔目湖讲坛预告
+				/可爱回复“微动漫”----- 动漫迷的福音
+				/可爱回复“微童话”----找寻遗失的童年
+				/可爱回复“外卖”-----  校周边外卖电话
+				/可爱回复“日新卡”---- 日新卡可以打折的商家
+				/可爱回复“微音乐”----来自小新的音乐推荐
+				/可爱回复“小新说”----小新跟你说晚安
+				/可爱回复“微科技”----好玩的DIY制作或科技
+				/可爱回复“查课表”----绑定学号后可以查哦~
+				/可爱回复“查成绩”----童鞋你懂的~
+
+				（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:43:46][20172][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:43:46][20172][INFO]return successfully! | ***************************************
+[2014-07-17 12:43:46][20172][INFO]return successfully!
+[2014-07-17 12:43:46][20172][INFO]return successfully! | cost time:0.020231008529663 
+[2014-07-17 12:44:19][20241][INFO]return successfully!
+[2014-07-17 12:44:19][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:44:19][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:44:19][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpoRdlClfnt9TGswse32piA]]></FromUserName>
+<CreateTime>1405572278</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036886966375455290</MsgId>
+</xml>
+[2014-07-17 12:44:19][20241][INFO]return successfully! | get:array (
+  'signature' => 'd06c8e3bd6b65d2a12432469bf1339ddfa0ca0e1',
+  'timestamp' => '1405572278',
+  'nonce' => '1554071063',
+)
+[2014-07-17 12:44:19][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:44:19][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:44:19][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:44:19][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:44:19][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjpoRdlClfnt9TGswse32piA]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405572259</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育保健与康复  良好
+☆ 体育II  78
+☆ 计算机实用软件  优秀
+☆ 计算机实用软件课程设计  良好
+☆ 思想道德修养与法律基础  良好
+☆ 形势政策与省情教育I  合格
+☆ 大学英语Ⅱ  79
+☆ 设计素描  67
+☆ 设计色彩  79
+☆ 三大构成Ⅱ  72
+☆ 形式设计  良好
+☆ 艺术设计概论  良好
+☆ 写生实习  良好
+你的平均分是: 78(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:44:19][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:44:19][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:44:19][20241][INFO]return successfully!
+[2014-07-17 12:44:19][20241][INFO]return successfully! | cost time:0.097100973129272 
+[2014-07-17 12:49:56][20241][INFO]return successfully!
+[2014-07-17 12:49:56][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:49:56][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 12:49:56][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjhFqauSc9OORQLE4jjvTG6Q]]></FromUserName>
+<CreateTime>1405572615</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036888413779434052</MsgId>
+</xml>
+[2014-07-17 12:49:56][20241][INFO]return successfully! | get:array (
+  'signature' => 'd10291313e770459fe0121c1bca776e23797601c',
+  'timestamp' => '1405572615',
+  'nonce' => '695050805',
+)
+[2014-07-17 12:49:56][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:49:56][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:49:56][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 12:49:56][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 12:49:56][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjhFqauSc9OORQLE4jjvTG6Q]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405572596</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 结构稳定与振动(A)  75
+☆ 房屋混凝土及砌体结构设计  及格
+☆ 基础工程(A)  84
+☆ 预应力混凝土结构设计  中等
+☆ 施工技术(A)  75
+☆ 结构矩阵分析及程序设计  中等
+☆ 钢结构设计原理  65
+☆ 基础工程(A)课程设计  优秀
+☆ 房屋混凝土及砌体结构设计课程设计  及格
+☆ 形势政策与省情教育III  合格
+你的平均分是: 72(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 12:49:56][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 12:49:56][20241][INFO]return successfully! | ***************************************
+[2014-07-17 12:49:56][20241][INFO]return successfully!
+[2014-07-17 12:49:56][20241][INFO]return successfully! | cost time:0.25275802612305 
+[2014-07-17 13:02:11][20170][INFO]return successfully!
+[2014-07-17 13:02:11][20170][INFO]return successfully! | ***************************************
+[2014-07-17 13:02:11][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 13:02:11][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjjVNGqZMPAf_VMzmT1jqnCM]]></FromUserName>
+<CreateTime>1405573350</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036891570580396641</MsgId>
+</xml>
+[2014-07-17 13:02:11][20170][INFO]return successfully! | get:array (
+  'signature' => 'f4a4e2d8bed7832b5fb7f5a1e9e9ead8a7a88250',
+  'timestamp' => '1405573350',
+  'nonce' => '528339239',
+)
+[2014-07-17 13:02:11][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:02:11][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:02:11][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:02:11][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:02:11][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjjVNGqZMPAf_VMzmT1jqnCM]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405573331</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 建筑构造  85
+☆ 建筑力学I(B)  74
+☆ 水彩Ⅱ  良好
+☆ 形势政策与省情教育II  合格
+☆ 建筑设计II  91
+☆ 体育Ⅳ  90
+☆ 素描与水彩写生实习  良好
+☆ 中国近现代史纲要  优秀
+☆ 大学英语Ⅳ  68
+☆ 公共建筑设计原理  优秀
+你的平均分是: 83(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 13:02:11][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 13:02:11][20170][INFO]return successfully! | ***************************************
+[2014-07-17 13:02:11][20170][INFO]return successfully!
+[2014-07-17 13:02:11][20170][INFO]return successfully! | cost time:0.14972591400146 
+[2014-07-17 13:06:30][20175][INFO]return successfully!
+[2014-07-17 13:06:30][20175][INFO]return successfully! | ***************************************
+[2014-07-17 13:06:30][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 13:06:30][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjjVl8U_DLyqtLPTvCgaP89U]]></FromUserName>
+<CreateTime>1405573609</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036892682976926328</MsgId>
+</xml>
+[2014-07-17 13:06:30][20175][INFO]return successfully! | get:array (
+  'signature' => 'e898765c51e082741fb633dda2820a9315788b9e',
+  'timestamp' => '1405573609',
+  'nonce' => '748123356',
+)
+[2014-07-17 13:06:30][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:06:30][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:06:30][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:06:30][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:06:30][20175][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjjVl8U_DLyqtLPTvCgaP89U]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405573590</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 运动医学  良好
+☆ 电工电子学Ⅰ  61
+☆ 机械原理(A)  43
+☆ 三维CAD造型  中等
+☆ 工程经济分析(B)  良好
+☆ 《机械原理》课程设计  及格
+☆ 体育Ⅳ  80
+☆ 毛泽东思想和中国特色社会主义理论体系概论  52
+☆ 形势政策与省情教育II  合格
+☆ 概率论  良好
+☆ 工程热力学及传热学  66
+☆ 大学英语Ⅳ  75
+你的平均分是: 67(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 13:06:30][20175][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 13:06:30][20175][INFO]return successfully! | ***************************************
+[2014-07-17 13:06:30][20175][INFO]return successfully!
+[2014-07-17 13:06:30][20175][INFO]return successfully! | cost time:0.22074794769287 
+[2014-07-17 13:23:10][20170][INFO]return successfully!
+[2014-07-17 13:23:10][20170][INFO]return successfully! | ***************************************
+[2014-07-17 13:23:10][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 13:23:10][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpkYCJLuuGcUAN58-pWnazs]]></FromUserName>
+<CreateTime>1405574609</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036896977944222353</MsgId>
+</xml>
+[2014-07-17 13:23:10][20170][INFO]return successfully! | get:array (
+  'signature' => '87f25048967dae68214f080bacec76f0ee7e0368',
+  'timestamp' => '1405574609',
+  'nonce' => '1823288498',
+)
+[2014-07-17 13:23:10][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:23:10][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:23:10][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:23:10][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:23:10][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjpkYCJLuuGcUAN58-pWnazs]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405574590</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 现代文明与环境科学  良好
+☆ 现代交通概论  93
+☆ 振动理论基础  良好
+☆ 体育Ⅳ  88
+☆ 形势政策与省情教育II  合格
+☆ 工程力学(C)  69
+☆ 网络技术  优秀
+☆ 自动控制原理  79
+☆ 毛泽东思想和中国特色社会主义理论体系概论  76
+☆ 概率论与数理统计  中等
+☆ 国学智慧  良好
+☆ 大学英语Ⅳ  61
+你的平均分是: 78(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 13:23:10][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 13:23:10][20170][INFO]return successfully! | ***************************************
+[2014-07-17 13:23:10][20170][INFO]return successfully!
+[2014-07-17 13:23:10][20170][INFO]return successfully! | cost time:0.23002910614014 
+[2014-07-17 13:33:24][20241][INFO]return successfully!
+[2014-07-17 13:33:24][20241][INFO]return successfully! | ***************************************
+[2014-07-17 13:33:24][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 13:33:24][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjnwRcur-psh-8Y1D1BLQ_PM]]></FromUserName>
+<CreateTime>1405575223</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[考试成绩]]></Content>
+<MsgId>6036899615054142116</MsgId>
+</xml>
+[2014-07-17 13:33:24][20241][INFO]return successfully! | get:array (
+  'signature' => '89892eed084a74f53bb0ce2878540a63ac02a51a',
+  'timestamp' => '1405575223',
+  'nonce' => '1906158955',
+)
+[2014-07-17 13:33:24][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:33:24][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:33:24][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjnwRcur-psh-8Y1D1BLQ_PM]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405575204</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 13:33:24][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 13:33:24][20241][INFO]return successfully! | ***************************************
+[2014-07-17 13:33:24][20241][INFO]return successfully!
+[2014-07-17 13:33:24][20241][INFO]return successfully! | cost time:0.015992879867554 
+[2014-07-17 13:41:00][20169][INFO]return successfully!
+[2014-07-17 13:41:00][20169][INFO]return successfully! | ***************************************
+[2014-07-17 13:41:00][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 13:41:00][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpfta9MZVso91R9j7Pxl_zU]]></FromUserName>
+<CreateTime>1405575675</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036901556379359937</MsgId>
+</xml>
+[2014-07-17 13:41:00][20169][INFO]return successfully! | get:array (
+  'signature' => '8915832fa09abdaf9ce7061d063ff5506b6a1939',
+  'timestamp' => '1405575675',
+  'nonce' => '1724205334',
+)
+[2014-07-17 13:41:00][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:41:00][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:41:00][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 13:41:00][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 13:41:00][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjpfta9MZVso91R9j7Pxl_zU]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405575660</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 形势政策与省情教育III  合格
+☆ 高分子物理实验  优秀
+☆ 化工原理  69
+☆ 谱学导论  83
+☆ 计算方法  良好
+☆ 化工设备设计  73
+☆ 化工仪表及自动化  中等
+☆ 高分子物理  84
+☆ 材料科学与工程基础  80
+☆ 材料科学与工程基础实验  良好
+☆ 化工基础实验  合格
+☆ 化工原理课程设计  中等
+☆ 认识实习  良好
+☆ 《化工设备设计》课程设计  中等
+☆ 化工环境保护技术  良好
+☆ 化工安全生产技术  优秀
+你的平均分是: 78(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 13:41:00][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 13:41:00][20169][INFO]return successfully! | ***************************************
+[2014-07-17 13:41:00][20169][INFO]return successfully!
+[2014-07-17 13:41:00][20169][INFO]return successfully! | cost time:0.22616791725159 
+[2014-07-17 14:30:45][20175][INFO]return successfully!
+[2014-07-17 14:30:45][20175][INFO]return successfully! | ***************************************
+[2014-07-17 14:30:45][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 14:30:45][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjjPVGxEF7Fwb6w6ZYtWP7i0]]></FromUserName>
+<CreateTime>1405578664</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036914394036607813</MsgId>
+</xml>
+[2014-07-17 14:30:45][20175][INFO]return successfully! | get:array (
+  'signature' => 'b0b76807d71ac1a4166e6e8cffc5e461013012d8',
+  'timestamp' => '1405578664',
+  'nonce' => '1229855381',
+)
+[2014-07-17 14:30:45][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:30:45][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:30:45][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:30:45][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:30:45][20175][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjjPVGxEF7Fwb6w6ZYtWP7i0]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405578645</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 电力电子技术(C)   87
+☆ 电力系统分析  84
+☆ 编译原理（B）  88
+☆ Linux操作系统  优秀
+☆ 就业指导  85
+☆ 电力系统仿真（A）  优秀
+☆ 供变电技术  87
+☆ 高电压技术  优秀
+☆ 《供变电技术》课程设计  良好
+☆ 形势政策与省情教育III  合格
+你的平均分是: 86(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 14:30:45][20175][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 14:30:45][20175][INFO]return successfully! | ***************************************
+[2014-07-17 14:30:45][20175][INFO]return successfully!
+[2014-07-17 14:30:45][20175][INFO]return successfully! | cost time:0.20974087715149 
+[2014-07-17 14:36:17][20232][INFO]return successfully!
+[2014-07-17 14:36:17][20232][INFO]return successfully! | ***************************************
+[2014-07-17 14:36:17][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 14:36:17][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtmpUS9QZkBYHgI08H3BZhY]]></FromUserName>
+<CreateTime>1405578996</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036915819965750110</MsgId>
+</xml>
+[2014-07-17 14:36:17][20232][INFO]return successfully! | get:array (
+  'signature' => 'f25df05f4297aecb32cf8156553a92db96101bf1',
+  'timestamp' => '1405578996',
+  'nonce' => '1699665040',
+)
+[2014-07-17 14:36:17][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:36:17][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:36:17][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:36:17][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:36:17][20232][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtmpUS9QZkBYHgI08H3BZhY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405578977</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 认识实习  良好
+☆ 化工原理  87
+☆ 化工基础实验  及格
+☆ 谱学导论  90
+☆ 形势政策与省情教育III  合格
+☆ 仪器分析实验Ⅰ  良好
+☆ 计算方法  良好
+☆ 化工设备设计  85
+☆ 化工仪表及自动化  优秀
+☆ 无机化学  83
+☆ 无机化学实验  良好
+☆ 化工原理课程设计  良好
+☆ 《化工设备设计》课程设计  优秀
+☆ 化工环境保护技术  中等
+☆ 化工安全生产技术  中等
+你的平均分是: 80(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 14:36:17][20232][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 14:36:17][20232][INFO]return successfully! | ***************************************
+[2014-07-17 14:36:17][20232][INFO]return successfully!
+[2014-07-17 14:36:17][20232][INFO]return successfully! | cost time:0.26308798789978 
+[2014-07-17 14:41:47][20232][INFO]return successfully!
+[2014-07-17 14:41:47][20232][INFO]return successfully! | ***************************************
+[2014-07-17 14:41:47][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 14:41:47][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjq2VZbvxKTW9TIVxC_4N9e0]]></FromUserName>
+<CreateTime>1405579325</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036917233009990517</MsgId>
+</xml>
+[2014-07-17 14:41:47][20232][INFO]return successfully! | get:array (
+  'signature' => '8390f2e76eb3d3fe74bad585ca0f1da53cd77baf',
+  'timestamp' => '1405579325',
+  'nonce' => '1748705566',
+)
+[2014-07-17 14:41:47][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:41:47][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:41:47][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:41:47][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:41:47][20232][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjq2VZbvxKTW9TIVxC_4N9e0]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405579307</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 计算机通信网(B)  80
+☆ 现代交换原理(A)  92
+☆ 就业指导  90
+☆ 现代通信原理(A)  81
+☆ 形势政策与省情教育III  合格
+☆ 通信电子线路2  86
+☆ 现代通信原理实验  良好
+☆ 数字电视  良好
+☆ 软件无线电(B)  良好
+☆ DSP处理器及应用（C）  良好
+☆ 宽带接入技术  良好
+☆ DSP处理器及应用课程设计  良好
+☆ 现代通信原理课程设计(A)  优秀
+你的平均分是: 83(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 14:41:47][20232][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 14:41:47][20232][INFO]return successfully! | ***************************************
+[2014-07-17 14:41:47][20232][INFO]return successfully!
+[2014-07-17 14:41:47][20232][INFO]return successfully! | cost time:0.26398205757141 
+[2014-07-17 14:50:44][20664][INFO]return successfully!
+[2014-07-17 14:50:44][20664][INFO]return successfully! | ***************************************
+[2014-07-17 14:50:44][20664][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 14:50:44][20664][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjg9IOslJb3rHgRoIQ_yGX7U]]></FromUserName>
+<CreateTime>1405579863</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036919543702395780</MsgId>
+</xml>
+[2014-07-17 14:50:44][20664][INFO]return successfully! | get:array (
+  'signature' => 'b1fdb8d568e0c008c06a094a085c8bfd4a5f3971',
+  'timestamp' => '1405579863',
+  'nonce' => '637627491',
+)
+[2014-07-17 14:50:44][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:50:44][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:50:44][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:50:44][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:50:44][20664][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjg9IOslJb3rHgRoIQ_yGX7U]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405579844</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 计算机通信网(B)  87
+☆ 现代交换原理(A)  96
+☆ 就业指导  86
+☆ 现代通信原理(A)  95
+☆ 形势政策与省情教育III  合格
+☆ 通信电子线路2  79
+☆ 现代通信原理实验  良好
+☆ 数字电视  良好
+☆ 软件无线电(B)  良好
+☆ DSP处理器及应用（C）  良好
+☆ 宽带接入技术  良好
+☆ DSP处理器及应用课程设计  良好
+☆ 现代通信原理课程设计(A)  优秀
+你的平均分是: 84(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 14:50:44][20664][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 14:50:44][20664][INFO]return successfully! | ***************************************
+[2014-07-17 14:50:44][20664][INFO]return successfully!
+[2014-07-17 14:50:44][20664][INFO]return successfully! | cost time:0.33582305908203 
+[2014-07-17 14:55:08][20169][INFO]return successfully!
+[2014-07-17 14:55:08][20169][INFO]return successfully! | ***************************************
+[2014-07-17 14:55:08][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 14:55:08][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjgsnc7HZA407NIPtKgrH4ws]]></FromUserName>
+<CreateTime>1405580125</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036920668983827341</MsgId>
+</xml>
+[2014-07-17 14:55:08][20169][INFO]return successfully! | get:array (
+  'signature' => '347a16f583624b337dca319024c1d0640e20129b',
+  'timestamp' => '1405580127',
+  'nonce' => '2058163342',
+)
+[2014-07-17 14:55:08][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:55:08][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:55:08][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 14:55:08][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 14:55:08][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjgsnc7HZA407NIPtKgrH4ws]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405580108</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 大学生心理健康与调适  良好
+☆ 中国近现代史纲要  良好
+☆ 形势政策与省情教育II  合格
+☆ 财政学  86
+☆ 管理会计  良好
+☆ 公司战略与风险管理  86
+☆ 市场营销学（D）  85
+☆ 统计学原理(B)  90
+☆ 会计模拟实验  合格
+☆ 体育Ⅳ  84
+☆ 大学英语Ⅳ  86
+☆ 财务管理  70
+你的平均分是: 82(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 14:55:08][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 14:55:08][20169][INFO]return successfully! | ***************************************
+[2014-07-17 14:55:08][20169][INFO]return successfully!
+[2014-07-17 14:55:08][20169][INFO]return successfully! | cost time:0.2260730266571 
+[2014-07-17 15:01:47][20232][INFO]return successfully!
+[2014-07-17 15:01:47][20232][INFO]return successfully! | ***************************************
+[2014-07-17 15:01:47][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 15:01:47][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjiVdaf3vQKEHqcRMltHjCME]]></FromUserName>
+<CreateTime>1405580526</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036922391265713066</MsgId>
+</xml>
+[2014-07-17 15:01:47][20232][INFO]return successfully! | get:array (
+  'signature' => '0037326284fc1d20c0576daab038c928c4aaf513',
+  'timestamp' => '1405580527',
+  'nonce' => '1571139020',
+)
+[2014-07-17 15:01:47][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:01:47][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 15:01:47][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:01:47][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 15:01:48][20232][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjiVdaf3vQKEHqcRMltHjCME]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405580507</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 测试技术  80
+☆ 电力机车总体  81
+☆ 机车车辆认识实习  合格
+☆ 幸福心理学  85
+☆ 电力牵引控制系统  中等
+☆ 微机原理及应用课程设计  优秀
+☆ 形势政策与省情教育III  合格
+☆ 微机原理及应用(A)  71
+☆ 车辆工程  78
+☆ 可编程控制器及应用  优秀
+☆ 列车制动  73
+你的平均分是: 79(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 15:01:48][20232][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 15:01:48][20232][INFO]return successfully! | ***************************************
+[2014-07-17 15:01:48][20232][INFO]return successfully!
+[2014-07-17 15:01:48][20232][INFO]return successfully! | cost time:0.23499011993408 
+[2014-07-17 15:25:06][24094][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:25:06][24094][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 15:31:25][20664][INFO]return successfully!
+[2014-07-17 15:31:25][20664][INFO]return successfully! | ***************************************
+[2014-07-17 15:31:25][20664][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 15:31:25][20664][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjgaKTp8F7UPYstwhbrSj2KY]]></FromUserName>
+<CreateTime>1405582304</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036930027717565563</MsgId>
+</xml>
+[2014-07-17 15:31:25][20664][INFO]return successfully! | get:array (
+  'signature' => 'bf7f87b70b5bdc93928d913169845d4f309e9517',
+  'timestamp' => '1405582305',
+  'nonce' => '932531266',
+)
+[2014-07-17 15:31:25][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:31:25][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 15:31:25][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:31:25][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 15:31:26][20664][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjgaKTp8F7UPYstwhbrSj2KY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405582285</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 管理见习(寒假)  合格
+☆ 离散数学(D)  96
+☆ 统计学原理  95
+☆ 体育Ⅳ  96
+☆ 形势政策与省情教育II  合格
+☆ 管理信息系统(B)  80
+☆ 面向对象程序设计语言  84
+☆ 操作系统  89
+☆ 经济应用文写作(C)  优秀
+☆ 中国近现代史纲要  优秀
+☆ 财务软件应用  优秀
+☆ 大学英语Ⅳ  75
+你的平均分是: 88(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 15:31:26][20664][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 15:31:26][20664][INFO]return successfully! | ***************************************
+[2014-07-17 15:31:26][20664][INFO]return successfully!
+[2014-07-17 15:31:26][20664][INFO]return successfully! | cost time:0.13484907150269 
+[2014-07-17 15:38:40][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 15:38:40][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 16:32:51][20241][INFO]return successfully!
+[2014-07-17 16:32:51][20241][INFO]return successfully! | ***************************************
+[2014-07-17 16:32:51][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 16:32:51][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjh628U0CCp2Yt3AhXpU8KFE]]></FromUserName>
+<CreateTime>1405585990</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036945858967018868</MsgId>
+</xml>
+[2014-07-17 16:32:51][20241][INFO]return successfully! | get:array (
+  'signature' => '63df77d28d593d4ff62536ea5cf3d491ee51ab4a',
+  'timestamp' => '1405585990',
+  'nonce' => '1281777190',
+)
+[2014-07-17 16:32:51][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 16:32:51][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 16:32:51][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 16:32:51][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 16:32:51][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjh628U0CCp2Yt3AhXpU8KFE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405585971</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 微机原理及应用(A)  79
+☆ 金属切削原理  及格
+☆ 机械CAD/CAM(A)  中等
+☆ 机械制造学(A)  81
+☆ 机电传动与控制  中等
+☆ 有限元及ANSYS  中等
+☆ 测试技术  69
+☆ 《机械CAD/CAM》课程设计  及格
+☆ 机械装拆  中等
+☆ 形势政策与省情教育III  合格
+☆ 国学智慧  良好
+你的平均分是: 70(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 16:32:51][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 16:32:51][20241][INFO]return successfully! | ***************************************
+[2014-07-17 16:32:51][20241][INFO]return successfully!
+[2014-07-17 16:32:51][20241][INFO]return successfully! | cost time:0.24234485626221 
+[2014-07-17 16:36:16][20172][INFO]return successfully!
+[2014-07-17 16:36:16][20172][INFO]return successfully! | ***************************************
+[2014-07-17 16:36:16][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 16:36:16][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtv5UL9xKqj9AJgRVL1NcsY]]></FromUserName>
+<CreateTime>1405586194</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036946735140347269</MsgId>
+</xml>
+[2014-07-17 16:36:16][20172][INFO]return successfully! | get:array (
+  'signature' => 'a9d391a560b3c8784d51a8645104c23f9c47e1b8',
+  'timestamp' => '1405586194',
+  'nonce' => '681743933',
+)
+[2014-07-17 16:36:16][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 16:36:16][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 16:36:16][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 16:36:16][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 16:36:17][20172][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtv5UL9xKqj9AJgRVL1NcsY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405586176</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ Web2.0网页制作技术  中等
+☆ 体育II  76
+☆ 马克思主义基本原理  良好
+☆ 计算机绘图B  及格
+☆ 金工实习（A）  良好
+☆ 形势政策与省情教育I  合格
+☆ 数据库技术与应用  60
+☆ 军事理论  良好
+☆ Java程序设计  63
+☆ 高等数学(A)Ⅱ  32
+☆ 大学物理Ⅰ  60
+☆ 大学物理实验Ⅰ  良好
+☆ 大学英语Ⅱ  69
+你的平均分是: 67(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 16:36:17][20172][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 16:36:17][20172][INFO]return successfully! | ***************************************
+[2014-07-17 16:36:17][20172][INFO]return successfully!
+[2014-07-17 16:36:17][20172][INFO]return successfully! | cost time:0.21357202529907 
+[2014-07-17 16:38:55][30925][INFO]return successfully!
+[2014-07-17 16:38:55][30925][INFO]return successfully! | ***************************************
+[2014-07-17 16:38:55][30925][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 16:38:55][30925][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjo8ZQ-q1wVGf7Ej437mXmG8]]></FromUserName>
+<CreateTime>1405586354</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 16:38:55][30925][INFO]return successfully! | get:array (
+  'signature' => 'c5a432b81a214fdf2294e57f7e356265de1e9805',
+  'timestamp' => '1405586354',
+  'nonce' => '1986170002',
+)
+[2014-07-17 16:38:55][30925][INFO]return successfully! | response:
+[2014-07-17 16:38:55][30925][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 16:38:55][30925][INFO]return successfully! | ***************************************
+[2014-07-17 16:38:55][30925][INFO]return successfully!
+[2014-07-17 16:38:55][30925][INFO]return successfully! | cost time:0.01013708114624 
+[2014-07-17 17:19:09][20176][INFO]return successfully!
+[2014-07-17 17:19:09][20176][INFO]return successfully! | ***************************************
+[2014-07-17 17:19:09][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 17:19:09][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjgCEzXQoIDdR3xNFFU6Mkpk]]></FromUserName>
+<CreateTime>1405588768</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[xh20130310100212]]></Content>
+<MsgId>6036957790386167320</MsgId>
+</xml>
+[2014-07-17 17:19:09][20176][INFO]return successfully! | get:array (
+  'signature' => '789375bfcb1dabdd9b501f2d139bbba5db56aa60',
+  'timestamp' => '1405588768',
+  'nonce' => '2008338162',
+)
+[2014-07-17 17:19:09][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:19:09][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:19:09][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:19:09][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:19:09][20176][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjgCEzXQoIDdR3xNFFU6Mkpk]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405588749</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你的微信已经绑定了学号，直接回复 查成绩 可以查询你本学期的成绩了]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 17:19:09][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 17:19:09][20176][INFO]return successfully! | ***************************************
+[2014-07-17 17:19:09][20176][INFO]return successfully!
+[2014-07-17 17:19:09][20176][INFO]return successfully! | cost time:0.016902923583984 
+[2014-07-17 17:19:22][20175][INFO]return successfully!
+[2014-07-17 17:19:22][20175][INFO]return successfully! | ***************************************
+[2014-07-17 17:19:22][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 17:19:22][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjgCEzXQoIDdR3xNFFU6Mkpk]]></FromUserName>
+<CreateTime>1405588780</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036957841925774874</MsgId>
+</xml>
+[2014-07-17 17:19:22][20175][INFO]return successfully! | get:array (
+  'signature' => 'a494cb10d532ccd884dda1ef527efe978374115f',
+  'timestamp' => '1405588781',
+  'nonce' => '544175169',
+)
+[2014-07-17 17:19:22][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:19:22][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:19:22][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:19:22][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:19:22][20175][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjgCEzXQoIDdR3xNFFU6Mkpk]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405588762</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 金工实习（A）  良好
+☆ ISO14001环境管理体系  89
+☆ 马克思主义基本原理  中等
+☆ 形势政策与省情教育I  合格
+☆ 大学英语Ⅱ  76
+☆ 计算机绘图B  中等
+☆ 数据库技术与应用  88
+☆ 体育II  87
+☆ 军事理论  优秀
+☆ Java程序设计  89
+☆ 高等数学(A)Ⅱ  88
+☆ 大学物理Ⅰ  76
+☆ 大学物理实验Ⅰ  良好
+☆ 大学英语Ⅲ  80
+你的平均分是: 81(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 17:19:22][20175][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 17:19:22][20175][INFO]return successfully! | ***************************************
+[2014-07-17 17:19:22][20175][INFO]return successfully!
+[2014-07-17 17:19:22][20175][INFO]return successfully! | cost time:0.089123010635376 
+[2014-07-17 17:47:05][22121][INFO]return successfully!
+[2014-07-17 17:47:05][22121][INFO]return successfully! | ***************************************
+[2014-07-17 17:47:05][22121][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 17:47:05][22121][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtg_p_q-mncGSFl3uT1Tv3E]]></FromUserName>
+<CreateTime>1405590443</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6036964984456388221</MsgId>
+</xml>
+[2014-07-17 17:47:05][22121][INFO]return successfully! | get:array (
+  'signature' => '445aa6d676da3fee73f254403febaf9edd1574d1',
+  'timestamp' => '1405590442',
+  'nonce' => '107601805',
+)
+[2014-07-17 17:47:05][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:47:05][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:47:05][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:47:05][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:47:05][22121][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtg_p_q-mncGSFl3uT1Tv3E]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405590425</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 统计学原理(B)  75
+☆ 计算机综合应用  合格
+☆ 体育Ⅳ  81
+☆ 形势政策与省情教育II  合格
+☆ 生产与运作管理(C)  优秀
+☆ 市场营销学  91
+☆ 市场营销模拟实验  优秀
+☆ 中国近现代史纲要  良好
+☆ 经济法  良好
+☆ 人力资源管理  89
+☆ 劳动经济学  73
+☆ 大学英语Ⅳ  86
+你的平均分是: 83(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 17:47:05][22121][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 17:47:05][22121][INFO]return successfully! | ***************************************
+[2014-07-17 17:47:05][22121][INFO]return successfully!
+[2014-07-17 17:47:05][22121][INFO]return successfully! | cost time:0.30993986129761 
+[2014-07-17 17:52:53][20170][INFO]return successfully!
+[2014-07-17 17:52:53][20170][INFO]return successfully! | ***************************************
+[2014-07-17 17:52:53][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 17:52:53][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjjRpvjLlDyGpqqhlDJcaH-8]]></FromUserName>
+<CreateTime>1405590792</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036966483399974552</MsgId>
+</xml>
+[2014-07-17 17:52:53][20170][INFO]return successfully! | get:array (
+  'signature' => '79d9f00ffb8da2eaa6b99d810081a76f40051be9',
+  'timestamp' => '1405590792',
+  'nonce' => '1573476349',
+)
+[2014-07-17 17:52:53][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:52:53][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:52:53][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:52:53][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:52:53][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjjRpvjLlDyGpqqhlDJcaH-8]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405590773</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 工程力学(D)  86
+☆ 数字电子技术  70
+☆ 数字电子技术实验  中等
+☆ 体育Ⅳ  84
+☆ 科学技术史  优秀
+☆ 信号与系统(A)  21
+☆ 暖通空调  优秀
+☆ 《电子技术》课程设计（A）  及格
+☆ 毛泽东思想和中国特色社会主义理论体系概论  73
+☆ 形势政策与省情教育II  合格
+☆ 概率论与数理统计  80
+☆ 心理学与生活  77
+☆ 大学英语Ⅳ  73
+你的平均分是: 72(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 17:52:53][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 17:52:53][20170][INFO]return successfully! | ***************************************
+[2014-07-17 17:52:53][20170][INFO]return successfully!
+[2014-07-17 17:52:53][20170][INFO]return successfully! | cost time:0.198566198349 
+[2014-07-17 17:55:30][20171][INFO]return successfully!
+[2014-07-17 17:55:30][20171][INFO]return successfully! | ***************************************
+[2014-07-17 17:55:30][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 17:55:30][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjqiUTiIQDClaGC9YpKqYTnY]]></FromUserName>
+<CreateTime>1405590948</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036967153414872738</MsgId>
+</xml>
+[2014-07-17 17:55:30][20171][INFO]return successfully! | get:array (
+  'signature' => 'fe6d4a4fdf394d8933cc48e4902da604d92ec98c',
+  'timestamp' => '1405590949',
+  'nonce' => '160166772',
+)
+[2014-07-17 17:55:30][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:55:30][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:55:30][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 17:55:30][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 17:55:30][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjqiUTiIQDClaGC9YpKqYTnY]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405590930</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 社交礼仪  良好
+☆ 个人投资理财  中等
+☆ 思想道德修养与法律基础  良好
+☆ 体育II  75
+☆ 军事理论  优秀
+☆ 形势政策与省情教育I  合格
+☆ 微观经济学  82
+☆ VB语言程序设计  78
+☆ 微积分Ⅱ  93
+☆ 线性代数A  优秀
+☆ 大学英语Ⅱ  82
+你的平均分是: 82(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 17:55:30][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 17:55:30][20171][INFO]return successfully! | ***************************************
+[2014-07-17 17:55:30][20171][INFO]return successfully!
+[2014-07-17 17:55:30][20171][INFO]return successfully! | cost time:0.19268703460693 
+[2014-07-17 18:08:19][20172][INFO]return successfully!
+[2014-07-17 18:08:19][20172][INFO]return successfully! | ***************************************
+[2014-07-17 18:08:19][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 18:08:19][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjsckzRbq6NyMi0N9BOmpv6U]]></FromUserName>
+<CreateTime>1405591717</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 18:08:19][20172][INFO]return successfully! | get:array (
+  'signature' => 'b605775608a5a7efe1292d315b172eb957fa8792',
+  'timestamp' => '1405591717',
+  'nonce' => '2077055287',
+)
+[2014-07-17 18:08:19][20172][INFO]return successfully! | response:
+[2014-07-17 18:08:19][20172][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 18:08:19][20172][INFO]return successfully! | ***************************************
+[2014-07-17 18:08:19][20172][INFO]return successfully!
+[2014-07-17 18:08:19][20172][INFO]return successfully! | cost time:0.011473894119263 
+[2014-07-17 18:34:04][22121][INFO]return successfully!
+[2014-07-17 18:34:04][22121][INFO]return successfully! | ***************************************
+[2014-07-17 18:34:04][22121][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 18:34:04][22121][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjlOp9zDHVljM88fpZqZDFP8]]></FromUserName>
+<CreateTime>1405593262</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[差成绩]]></Content>
+<MsgId>6036977091969195792</MsgId>
+</xml>
+[2014-07-17 18:34:04][22121][INFO]return successfully! | get:array (
+  'signature' => '4ced9876918806ca8a2a9c3a7ff83c0a44a9b1e3',
+  'timestamp' => '1405593262',
+  'nonce' => '995456720',
+)
+[2014-07-17 18:34:04][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:34:04][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:34:04][22121][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjlOp9zDHVljM88fpZqZDFP8]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405593244</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 18:34:04][22121][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 18:34:04][22121][INFO]return successfully! | ***************************************
+[2014-07-17 18:34:04][22121][INFO]return successfully!
+[2014-07-17 18:34:04][22121][INFO]return successfully! | cost time:0.0140700340271 
+[2014-07-17 18:34:23][24094][INFO]return successfully!
+[2014-07-17 18:34:23][24094][INFO]return successfully! | ***************************************
+[2014-07-17 18:34:23][24094][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 18:34:23][24094][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjlOp9zDHVljM88fpZqZDFP8]]></FromUserName>
+<CreateTime>1405593281</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036977173573574417</MsgId>
+</xml>
+[2014-07-17 18:34:23][24094][INFO]return successfully! | get:array (
+  'signature' => '83e073da5849ee5a4e93ce1f2e7e4c51ec2fc53b',
+  'timestamp' => '1405593281',
+  'nonce' => '390886664',
+)
+[2014-07-17 18:34:23][24094][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:34:23][24094][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:34:23][24094][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:34:23][24094][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:34:23][24094][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjlOp9zDHVljM88fpZqZDFP8]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405593263</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育II  75
+☆ 工程制图 Ⅱ  优秀
+☆ 路桥专业认识实习  良好
+☆ 工程材料  60
+☆ 毛泽东思想和中国特色社会主义理论体系概论  及格
+☆ 形势教育与省情教育Ⅰ  合格
+☆ 高等数学(C)Ⅱ  60
+☆ 大学英语Ⅱ  84
+☆ 工程力学  56
+你的平均分是: 70(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 18:34:23][24094][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 18:34:23][24094][INFO]return successfully! | ***************************************
+[2014-07-17 18:34:23][24094][INFO]return successfully!
+[2014-07-17 18:34:23][24094][INFO]return successfully! | cost time:0.14217185974121 
+[2014-07-17 18:35:09][20190][INFO]return successfully!
+[2014-07-17 18:35:09][20190][INFO]return successfully! | ***************************************
+[2014-07-17 18:35:09][20190][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 18:35:09][20190][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjlD3Y0O9b6Df2mCmT-FS7GA]]></FromUserName>
+<CreateTime>1405593327</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036977371142070036</MsgId>
+</xml>
+[2014-07-17 18:35:09][20190][INFO]return successfully! | get:array (
+  'signature' => 'e0ead0c21293a65dcec50e9d1ba7c97efee0648f',
+  'timestamp' => '1405593327',
+  'nonce' => '1603985347',
+)
+[2014-07-17 18:35:09][20190][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:35:09][20190][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:35:09][20190][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:35:09][20190][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:35:09][20190][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjlD3Y0O9b6Df2mCmT-FS7GA]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405593309</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育II  80
+☆ 机加工实习  及格
+☆ 毛泽东思想和中国特色社会主义理论体系概论  及格
+☆ 形势教育与省情教育Ⅰ  合格
+☆ 高等数学(C)Ⅱ  12
+☆ 大学英语Ⅱ  79
+☆ 机械制图（B）Ⅱ  良好
+☆ 电工技术  良好
+☆ 机械制图大作业  中等
+☆ 电工实训  良好
+☆ 机械设计基础  73
+你的平均分是: 67(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 18:35:09][20190][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 18:35:09][20190][INFO]return successfully! | ***************************************
+[2014-07-17 18:35:09][20190][INFO]return successfully!
+[2014-07-17 18:35:09][20190][INFO]return successfully! | cost time:0.21862816810608 
+[2014-07-17 18:59:48][20241][INFO]return successfully!
+[2014-07-17 18:59:48][20241][INFO]return successfully! | ***************************************
+[2014-07-17 18:59:48][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 18:59:48][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjvznI-X93WuBpUcyxb7P8Js]]></FromUserName>
+<CreateTime>1405594805</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036983719103733666</MsgId>
+</xml>
+[2014-07-17 18:59:48][20241][INFO]return successfully! | get:array (
+  'signature' => 'd8b597a8dc048de30565c8ec77333c28b35be8f7',
+  'timestamp' => '1405594807',
+  'nonce' => '1875710657',
+)
+[2014-07-17 18:59:48][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:59:48][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:59:48][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 18:59:48][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 18:59:48][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjvznI-X93WuBpUcyxb7P8Js]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405594788</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 财务管理学  85
+☆ 审计学  79
+☆ 编译原理（B）  83
+☆ 经济应用文写作  78
+☆ 就业指导  91
+☆ 会计信息系统  优秀
+☆ 审计模拟实验  中等
+☆ 财务管理模拟实验  合格
+☆ 形势政策与省情教育III  合格
+☆ .NET Web程序设计（B）  优秀
+☆ .NET Web程序设计课程设计  良好
+你的平均分是: 82(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 18:59:48][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 18:59:48][20241][INFO]return successfully! | ***************************************
+[2014-07-17 18:59:48][20241][INFO]return successfully!
+[2014-07-17 18:59:48][20241][INFO]return successfully! | cost time:0.24032688140869 
+[2014-07-17 19:14:56][20241][INFO]return successfully!
+[2014-07-17 19:14:56][20241][INFO]return successfully! | ***************************************
+[2014-07-17 19:14:56][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 19:14:56][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjp_gpsTJ7EIxard-0_-q5jM]]></FromUserName>
+<CreateTime>1405595714</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[xh20130110090207]]></Content>
+<MsgId>6036987623229005801</MsgId>
+</xml>
+[2014-07-17 19:14:56][20241][INFO]return successfully! | get:array (
+  'signature' => '50cd132acd4d31184720545d62a88988f911f06e',
+  'timestamp' => '1405595714',
+  'nonce' => '902919946',
+)
+[2014-07-17 19:14:56][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:14:56][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:14:56][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:14:56][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:14:56][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjp_gpsTJ7EIxard-0_-q5jM]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405595696</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你的微信已经绑定了学号，直接回复 查成绩 可以查询你本学期的成绩了]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 19:14:56][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 19:14:56][20241][INFO]return successfully! | ***************************************
+[2014-07-17 19:14:56][20241][INFO]return successfully!
+[2014-07-17 19:14:56][20241][INFO]return successfully! | cost time:0.024995803833008 
+[2014-07-17 19:15:30][20241][INFO]return successfully!
+[2014-07-17 19:15:30][20241][INFO]return successfully! | ***************************************
+[2014-07-17 19:15:30][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 19:15:30][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjp_gpsTJ7EIxard-0_-q5jM]]></FromUserName>
+<CreateTime>1405595748</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036987769257893868</MsgId>
+</xml>
+[2014-07-17 19:15:30][20241][INFO]return successfully! | get:array (
+  'signature' => '2af7525b9a9608ff850d5f89460dbb94d5621495',
+  'timestamp' => '1405595748',
+  'nonce' => '1607113601',
+)
+[2014-07-17 19:15:30][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:15:30][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:15:30][20241][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:15:30][20241][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:15:30][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjp_gpsTJ7EIxard-0_-q5jM]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405595730</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育II  92
+☆ 形势政策与省情教育I  合格
+☆ 运动医学  优秀
+☆ 军事理论  良好
+☆ VB语言程序设计  82
+☆ VB程序设计课程设计  良好
+☆ 思想道德修养与法律基础  优秀
+☆ 高等数学(A)Ⅱ  91
+☆ 大学物理Ⅰ  96
+☆ 大学物理实验Ⅰ  优秀
+☆ 土木工程制图Ⅱ  优秀
+☆ 计算机绘图实习  合格
+☆ 大学英语Ⅱ  77
+你的平均分是: 87(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 19:15:30][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 19:15:30][20241][INFO]return successfully! | ***************************************
+[2014-07-17 19:15:30][20241][INFO]return successfully!
+[2014-07-17 19:15:30][20241][INFO]return successfully! | cost time:0.12213587760925 
+[2014-07-17 19:36:53][20172][INFO]return successfully!
+[2014-07-17 19:36:53][20172][INFO]return successfully! | ***************************************
+[2014-07-17 19:36:53][20172][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 19:36:53][20172][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjhh07T67vIEplb_0lmYuuhc]]></FromUserName>
+<CreateTime>1405597032</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036993283995902018</MsgId>
+</xml>
+[2014-07-17 19:36:53][20172][INFO]return successfully! | get:array (
+  'signature' => '1ceea54da56a512d467236e47753a0598e92a747',
+  'timestamp' => '1405597032',
+  'nonce' => '1234841797',
+)
+[2014-07-17 19:36:53][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:36:53][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:36:53][20172][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:36:53][20172][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:36:53][20172][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjhh07T67vIEplb_0lmYuuhc]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405597013</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 就业指导  90
+☆ 会计电算化  良好
+☆ 统计软件应用(spss)  83
+☆ 跨国公司经营与管理  71
+☆ 管理运筹学  86
+☆ 国际贸易  90
+☆ 会计理论  94
+☆ 形势政策与省情教育III  合格
+☆ 审计学  84
+☆ 审计模拟实验  良好
+你的平均分是: 84(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 19:36:53][20172][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 19:36:53][20172][INFO]return successfully! | ***************************************
+[2014-07-17 19:36:53][20172][INFO]return successfully!
+[2014-07-17 19:36:53][20172][INFO]return successfully! | cost time:0.26974201202393 
+[2014-07-17 19:59:06][22121][INFO]return successfully!
+[2014-07-17 19:59:06][22121][INFO]return successfully! | ***************************************
+[2014-07-17 19:59:06][22121][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 19:59:06][22121][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjsVGVKxvH2suKxwFvlsocCo]]></FromUserName>
+<CreateTime>1405598364</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6036999004892340355</MsgId>
+</xml>
+[2014-07-17 19:59:06][22121][INFO]return successfully! | get:array (
+  'signature' => '3fff189fa976cc13d2e816e75f87a011683e1cd1',
+  'timestamp' => '1405598365',
+  'nonce' => '662162588',
+)
+[2014-07-17 19:59:06][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:59:06][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:59:06][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 19:59:06][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 19:59:06][22121][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjsVGVKxvH2suKxwFvlsocCo]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405598346</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 体育II  72
+☆ 机械制图(C)  良好
+☆ 模拟电子课程设计  中等
+☆ 金工实习  及格
+☆ 毛泽东思想和中国特色社会主义理论体系概论  及格
+☆ 形势教育与省情教育Ⅰ  合格
+☆ 高等数学(C)Ⅱ  90
+☆ 大学英语Ⅱ  67
+☆ C语言程序设计  中等
+☆ 模拟电子技术  74
+☆ C语言程序设计大作业(B)  中等
+你的平均分是: 71(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 19:59:06][22121][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 19:59:06][22121][INFO]return successfully! | ***************************************
+[2014-07-17 19:59:06][22121][INFO]return successfully!
+[2014-07-17 19:59:06][22121][INFO]return successfully! | cost time:0.098837852478027 
+[2014-07-17 20:05:27][30925][INFO]return successfully!
+[2014-07-17 20:05:27][30925][INFO]return successfully! | ***************************************
+[2014-07-17 20:05:27][30925][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:05:27][30925][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjvGPuZRooA2bul2VCkWfaYs]]></FromUserName>
+<CreateTime>1405598746</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[补考信息查询]]></Content>
+<MsgId>6037000645569847438</MsgId>
+</xml>
+[2014-07-17 20:05:27][30925][INFO]return successfully! | get:array (
+  'signature' => 'b98d9b5112d8f413d6cf21af29f65e2e8aaa702f',
+  'timestamp' => '1405598746',
+  'nonce' => '1713991422',
+)
+[2014-07-17 20:05:27][30925][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:05:27][30925][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:05:27][30925][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjvGPuZRooA2bul2VCkWfaYs]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405598727</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:05:27][30925][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:05:27][30925][INFO]return successfully! | ***************************************
+[2014-07-17 20:05:27][30925][INFO]return successfully!
+[2014-07-17 20:05:27][30925][INFO]return successfully! | cost time:0.020598173141479 
+[2014-07-17 20:05:53][20169][INFO]return successfully!
+[2014-07-17 20:05:53][20169][INFO]return successfully! | ***************************************
+[2014-07-17 20:05:53][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:05:53][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjvGPuZRooA2bul2VCkWfaYs]]></FromUserName>
+<CreateTime>1405598771</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[补考信息查询]]></Content>
+<MsgId>6037000752944029841</MsgId>
+</xml>
+[2014-07-17 20:05:53][20169][INFO]return successfully! | get:array (
+  'signature' => '174c15a5746ef43614bd9e83eab7e3777d792fe9',
+  'timestamp' => '1405598771',
+  'nonce' => '12294594',
+)
+[2014-07-17 20:05:53][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:05:53][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:05:53][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjvGPuZRooA2bul2VCkWfaYs]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405598753</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:05:53][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:05:53][20169][INFO]return successfully! | ***************************************
+[2014-07-17 20:05:53][20169][INFO]return successfully!
+[2014-07-17 20:05:53][20169][INFO]return successfully! | cost time:0.011039018630981 
+[2014-07-17 20:18:42][20241][INFO]return successfully!
+[2014-07-17 20:18:42][20241][INFO]return successfully! | ***************************************
+[2014-07-17 20:18:42][20241][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:18:42][20241][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjrVzoKapOPbqG0_n_bLwlHk]]></FromUserName>
+<CreateTime>1405599540</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[2014-07-17 20:18:42][20241][INFO]return successfully! | get:array (
+  'signature' => '866cb3fca6c34ffa550fdc321b708c2ea1e81709',
+  'timestamp' => '1405599540',
+  'nonce' => '1780431926',
+)
+[2014-07-17 20:18:42][20241][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjrVzoKapOPbqG0_n_bLwlHk]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405599522</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[又有一个新朋友了，小新很开心呢！/可爱
+日小新微信公众平台，微信号：rixinwx
+日小新，用心为你打造贴心实用的花椒微信家园~
+你可以试着回复以下关键字来使用日小新：
+
+
+				/可爱回复“目录”---- 本菜单
+				/可爱回复“小新快递“--- 交大最新消息
+				/可爱回复“交大影院“--- 本周南区影院电影
+				/可爱回复“微杂志”---- 美文欣赏
+				/可爱回复“孔目湖讲坛”---- 每期孔目湖讲坛预告
+				/可爱回复“微动漫”----- 动漫迷的福音
+				/可爱回复“微童话”----找寻遗失的童年
+				/可爱回复“外卖”-----  校周边外卖电话
+				/可爱回复“日新卡”---- 日新卡可以打折的商家
+				/可爱回复“微音乐”----来自小新的音乐推荐
+				/可爱回复“小新说”----小新跟你说晚安
+				/可爱回复“微科技”----好玩的DIY制作或科技
+				/可爱回复“查课表”----绑定学号后可以查哦~
+				/可爱回复“查成绩”----童鞋你懂的~
+
+				（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:18:42][20241][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:18:42][20241][INFO]return successfully! | ***************************************
+[2014-07-17 20:18:42][20241][INFO]return successfully!
+[2014-07-17 20:18:42][20241][INFO]return successfully! | cost time:0.0096349716186523 
+[2014-07-17 20:19:10][20176][INFO]return successfully!
+[2014-07-17 20:19:10][20176][INFO]return successfully! | ***************************************
+[2014-07-17 20:19:10][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:19:10][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjrVzoKapOPbqG0_n_bLwlHk]]></FromUserName>
+<CreateTime>1405599568</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[目录]]></Content>
+<MsgId>6037004176032964812</MsgId>
+</xml>
+[2014-07-17 20:19:10][20176][INFO]return successfully! | get:array (
+  'signature' => '2485157594f63b1f5cb81071bcfb2ebaa356823b',
+  'timestamp' => '1405599568',
+  'nonce' => '1800300389',
+)
+[2014-07-17 20:19:10][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:19:10][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:19:10][20176][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjrVzoKapOPbqG0_n_bLwlHk]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405599550</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:19:10][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:19:10][20176][INFO]return successfully! | ***************************************
+[2014-07-17 20:19:10][20176][INFO]return successfully!
+[2014-07-17 20:19:10][20176][INFO]return successfully! | cost time:0.021832942962646 
+[2014-07-17 20:27:36][30925][INFO]return successfully!
+[2014-07-17 20:27:36][30925][INFO]return successfully! | ***************************************
+[2014-07-17 20:27:36][30925][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:27:36][30925][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjpFDfhizs_Pa19g-vHloupE]]></FromUserName>
+<CreateTime>1405600074</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037006349286416633</MsgId>
+</xml>
+[2014-07-17 20:27:36][30925][INFO]return successfully! | get:array (
+  'signature' => 'da242f215b8b75dcc059c3ed2652135682d32705',
+  'timestamp' => '1405600075',
+  'nonce' => '1137319820',
+)
+[2014-07-17 20:27:36][30925][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:27:36][30925][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:27:36][30925][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:27:36][30925][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:27:36][30925][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjpFDfhizs_Pa19g-vHloupE]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405600056</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 三维CAD造型  良好
+☆ 机械原理(A)  80
+☆ 概率论  中等
+☆ 形势政策与省情教育II  合格
+☆ 营养与健康  中等
+☆ 电工电子学Ⅰ  76
+☆ 工程经济分析(B)  良好
+☆ 《机械原理》课程设计  中等
+☆ 体育Ⅳ  91
+☆ 毛泽东思想和中国特色社会主义理论体系概论  72
+☆ 工程热力学及传热学  87
+☆ 大学英语Ⅳ  70
+你的平均分是: 76(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:27:36][30925][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:27:36][30925][INFO]return successfully! | ***************************************
+[2014-07-17 20:27:36][30925][INFO]return successfully!
+[2014-07-17 20:27:36][30925][INFO]return successfully! | cost time:0.27508187294006 
+[2014-07-17 20:32:59][20190][INFO]return successfully!
+[2014-07-17 20:32:59][20190][INFO]return successfully! | ***************************************
+[2014-07-17 20:32:59][20190][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:32:59][20190][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjkOmCH0xK-VP88zMjqDpKeo]]></FromUserName>
+<CreateTime>1405600397</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037007736560853258</MsgId>
+</xml>
+[2014-07-17 20:32:59][20190][INFO]return successfully! | get:array (
+  'signature' => '2f6b3ff3d4faa2481780b0327618a68c372b79f7',
+  'timestamp' => '1405600398',
+  'nonce' => '1871305059',
+)
+[2014-07-17 20:32:59][20190][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:32:59][20190][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:32:59][20190][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:32:59][20190][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:32:59][20190][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjkOmCH0xK-VP88zMjqDpKeo]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405600379</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 电气工程导论  中等
+☆ 体育Ⅳ  75
+☆ Matlab语言及其应用  优秀
+☆ 模拟电子技术(F)  87
+☆ Matlab语言及应用课程设计  良好
+☆ 金工实习(B)  中等
+☆ 毛泽东思想和中国特色社会主义理论体系概论  66
+☆ 形势政策与省情教育II  合格
+☆ 软件工程  中等
+☆ 数据库系统原理（B）  76
+☆ 计算方法  中等
+☆ 大学英语Ⅳ  72
+你的平均分是: 75(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:32:59][20190][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:32:59][20190][INFO]return successfully! | ***************************************
+[2014-07-17 20:32:59][20190][INFO]return successfully!
+[2014-07-17 20:32:59][20190][INFO]return successfully! | cost time:0.13958382606506 
+[2014-07-17 20:33:47][21301][INFO]return successfully!
+[2014-07-17 20:33:47][21301][INFO]return successfully! | ***************************************
+[2014-07-17 20:33:47][21301][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:33:47][21301][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjs1Z--XRu-lV42H_TOFhX5Y]]></FromUserName>
+<CreateTime>1405600446</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6037007947014250765</MsgId>
+</xml>
+[2014-07-17 20:33:47][21301][INFO]return successfully! | get:array (
+  'signature' => 'c61c6123f3183eceafeb0b55580d37db7e2161df',
+  'timestamp' => '1405600446',
+  'nonce' => '1621689835',
+)
+[2014-07-17 20:33:47][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:33:47][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:33:47][21301][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:33:47][21301][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:33:47][21301][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjs1Z--XRu-lV42H_TOFhX5Y]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405600427</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 设计色彩  74
+☆ 写生实习  良好
+☆ 计算机实用软件课程设计  及格
+☆ 设计素描  82
+☆ 计算机实用软件  中等
+☆ 思想道德修养与法律基础  良好
+☆ 当代世界经济与政治  中等
+☆ 体育II  83
+☆ 形势政策与省情教育I  合格
+☆ 大学英语Ⅱ  60
+☆ 三大构成Ⅱ  76
+☆ 画法几何与阴影透视  66
+☆ 中国书画  79
+你的平均分是: 73(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:33:47][21301][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:33:47][21301][INFO]return successfully! | ***************************************
+[2014-07-17 20:33:47][21301][INFO]return successfully!
+[2014-07-17 20:33:47][21301][INFO]return successfully! | cost time:0.15369915962219 
+[2014-07-17 20:39:51][20169][INFO]return successfully!
+[2014-07-17 20:39:51][20169][INFO]return successfully! | ***************************************
+[2014-07-17 20:39:51][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 20:39:51][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjjbJNvpamRYjHBpXp6OYy0M]]></FromUserName>
+<CreateTime>1405600809</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6037009506087379226</MsgId>
+</xml>
+[2014-07-17 20:39:51][20169][INFO]return successfully! | get:array (
+  'signature' => '5889df5470025b672c2f9b8ae72919e0f2e58697',
+  'timestamp' => '1405600810',
+  'nonce' => '183852896',
+)
+[2014-07-17 20:39:51][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:39:51][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:39:51][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 20:39:51][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 20:39:51][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjjbJNvpamRYjHBpXp6OYy0M]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405600791</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 线性代数A  75
+☆ 体育II  82
+☆ 商务英语写作  80
+☆ 社会心理学  中等
+☆ 思想道德修养与法律基础  优秀
+☆ 英语口语Ⅱ  87
+☆ 宏观经济学  70
+☆ VB语言程序设计  77
+☆ VB程序设计课程设计  良好
+☆ 形势政策与省情教育I  合格
+☆ 微积分Ⅱ  83
+☆ 大学英语Ⅱ  83
+☆ 财务会计（C02）上  70
+你的平均分是: 78(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 20:39:51][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 20:39:51][20169][INFO]return successfully! | ***************************************
+[2014-07-17 20:39:51][20169][INFO]return successfully!
+[2014-07-17 20:39:51][20169][INFO]return successfully! | cost time:0.11020803451538 
+[2014-07-17 21:18:18][20169][INFO]return successfully!
+[2014-07-17 21:18:18][20169][INFO]return successfully! | ***************************************
+[2014-07-17 21:18:18][20169][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 21:18:18][20169][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjn1xcWJrvKqOuI2xysJRNxQ]]></FromUserName>
+<CreateTime>1405603116</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037019414576931231</MsgId>
+</xml>
+[2014-07-17 21:18:18][20169][INFO]return successfully! | get:array (
+  'signature' => 'd9b91eabfbd29367c124bfbce69efa9f71ffb2c2',
+  'timestamp' => '1405603116',
+  'nonce' => '2098642292',
+)
+[2014-07-17 21:18:18][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:18:18][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:18:18][20169][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:18:18][20169][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:18:18][20169][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjn1xcWJrvKqOuI2xysJRNxQ]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405603098</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 认识实习  优秀
+☆ 化工原理  79
+☆ 化工基础实验  优秀
+☆ 谱学导论  90
+☆ 形势政策与省情教育III  合格
+☆ 仪器分析实验Ⅰ  优秀
+☆ 计算方法  优秀
+☆ 化工设备设计  86
+☆ 化工仪表及自动化  良好
+☆ 无机化学  89
+☆ 无机化学实验  良好
+☆ 化工原理课程设计  优秀
+☆ 《化工设备设计》课程设计  良好
+☆ 化工环境保护技术  优秀
+☆ 化工安全生产技术  良好
+你的平均分是: 86(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 21:18:18][20169][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 21:18:18][20169][INFO]return successfully! | ***************************************
+[2014-07-17 21:18:18][20169][INFO]return successfully!
+[2014-07-17 21:18:18][20169][INFO]return successfully! | cost time:0.23606014251709 
+[2014-07-17 21:25:10][20232][INFO]return successfully!
+[2014-07-17 21:25:10][20232][INFO]return successfully! | ***************************************
+[2014-07-17 21:25:10][20232][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 21:25:10][20232][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjngHAoos1fNPGEr9saQZTXQ]]></FromUserName>
+<CreateTime>1405603528</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037021184103457212</MsgId>
+</xml>
+[2014-07-17 21:25:10][20232][INFO]return successfully! | get:array (
+  'signature' => '7b04050ad13a8a100bb8426836ed866c6719df0b',
+  'timestamp' => '1405603528',
+  'nonce' => '908378723',
+)
+[2014-07-17 21:25:10][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:25:10][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:25:10][20232][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:25:10][20232][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:25:10][20232][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjngHAoos1fNPGEr9saQZTXQ]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405603510</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 工程地质与地基基础  76
+☆ 中国近现代史纲要  及格
+☆ 形势政策与省情教育II  合格
+☆ 概率论  95
+☆ 工程经济学  中等
+☆ 工程经济学课程设计  中等
+☆ 体育Ⅳ  89
+☆ 礼仪与社交  优秀
+☆ 运筹学（双语）  66
+☆ 工程结构  66
+☆ 工程结构课程设计  及格
+☆ 大学英语Ⅳ  69
+你的平均分是: 73(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 21:25:10][20232][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 21:25:10][20232][INFO]return successfully! | ***************************************
+[2014-07-17 21:25:10][20232][INFO]return successfully!
+[2014-07-17 21:25:10][20232][INFO]return successfully! | cost time:0.23622584342957 
+[2014-07-17 21:57:00][30925][INFO]return successfully!
+[2014-07-17 21:57:00][30925][INFO]return successfully! | ***************************************
+[2014-07-17 21:57:00][30925][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 21:57:00][30925][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjuQ-TCkPXzrqxwmmdWNdAFU]]></FromUserName>
+<CreateTime>1405605438</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩 ]]></Content>
+<MsgId>6037029387490992701</MsgId>
+</xml>
+[2014-07-17 21:57:00][30925][INFO]return successfully! | get:array (
+  'signature' => '2818068317f22d27873740409b421ed310b351f1',
+  'timestamp' => '1405605439',
+  'nonce' => '555710871',
+)
+[2014-07-17 21:57:00][30925][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:57:00][30925][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:57:00][30925][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 21:57:00][30925][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 21:57:00][30925][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjuQ-TCkPXzrqxwmmdWNdAFU]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405605420</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 个人投资理财  中等
+☆ 电路基础  72
+☆ 形势政策与省情教育I  合格
+☆ 体育II  77
+☆ 军事理论  优秀
+☆ C语言程序设计（B）  74
+☆ 马克思主义基本原理  良好
+☆ 高等数学(A)Ⅱ  76
+☆ 大学物理Ⅰ  69
+☆ 大学物理实验Ⅰ  良好
+☆ 大学英语Ⅱ  63
+你的平均分是: 75(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 21:57:00][30925][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 21:57:00][30925][INFO]return successfully! | ***************************************
+[2014-07-17 21:57:00][30925][INFO]return successfully!
+[2014-07-17 21:57:00][30925][INFO]return successfully! | cost time:0.1848931312561 
+[2014-07-17 22:31:02][22121][INFO]return successfully!
+[2014-07-17 22:31:02][22121][INFO]return successfully! | ***************************************
+[2014-07-17 22:31:02][22121][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 22:31:02][22121][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjn_-LxWoliYW9edO67_1bC8]]></FromUserName>
+<CreateTime>1405607480</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037038157814211242</MsgId>
+</xml>
+[2014-07-17 22:31:02][22121][INFO]return successfully! | get:array (
+  'signature' => '687822b4e79de7b87728feba13a5fbd6d62211ef',
+  'timestamp' => '1405607481',
+  'nonce' => '1317810758',
+)
+[2014-07-17 22:31:02][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:31:02][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:31:02][22121][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:31:02][22121][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:31:02][22121][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjn_-LxWoliYW9edO67_1bC8]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405607462</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 形体与身韵  及格
+☆ 大学英语Ⅱ  46
+☆ 中国古典小说巅峰-四大名著鉴赏  优秀
+☆ 体育II  0
+☆ 计算机实用软件  合格
+☆ 计算机实用软件课程设计  中等
+☆ 马克思主义基本原理  中等
+☆ 形势政策与省情教育I  合格
+☆ 钢琴基础 Ⅱ  78
+☆ 视唱练耳Ⅱ  50
+☆ 基础和声I  61
+☆ 综合艺术I  75
+☆ 声乐、器乐（小组课）Ⅱ  78
+☆ 专业社会实践II  合格
+你的平均分是: 61(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 22:31:02][22121][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 22:31:02][22121][INFO]return successfully! | ***************************************
+[2014-07-17 22:31:02][22121][INFO]return successfully!
+[2014-07-17 22:31:02][22121][INFO]return successfully! | cost time:0.15220904350281 
+[2014-07-17 22:39:03][20175][INFO]return successfully!
+[2014-07-17 22:39:03][20175][INFO]return successfully! | ***************************************
+[2014-07-17 22:39:03][20175][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 22:39:03][20175][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yji3Gp_0Bd4f0jrVLo4xOeK0]]></FromUserName>
+<CreateTime>1405607961</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037040223693480647</MsgId>
+</xml>
+[2014-07-17 22:39:03][20175][INFO]return successfully! | get:array (
+  'signature' => '13e6f28a1f46915c80f7347027467c425cea0c90',
+  'timestamp' => '1405607961',
+  'nonce' => '1528539749',
+)
+[2014-07-17 22:39:03][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:39:03][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:39:03][20175][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:39:03][20175][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:39:03][20175][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yji3Gp_0Bd4f0jrVLo4xOeK0]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405607943</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 钳工实习  中等
+☆ 体育II  75
+☆ 毛泽东思想和中国特色社会主义理论体系概论  中等
+☆ 形势教育与省情教育Ⅰ  合格
+☆ 高等数学(C)Ⅱ  70
+☆ 大学英语Ⅱ  82
+☆ 机械制图（B）Ⅱ  良好
+☆ 电工技术  75
+☆ 机械设计基础  68
+☆ 机械制图大作业  及格
+☆ 电工实训  中等
+你的平均分是: 72(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 22:39:03][20175][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 22:39:03][20175][INFO]return successfully! | ***************************************
+[2014-07-17 22:39:03][20175][INFO]return successfully!
+[2014-07-17 22:39:03][20175][INFO]return successfully! | cost time:0.14077496528625 
+[2014-07-17 22:45:18][20176][INFO]return successfully!
+[2014-07-17 22:45:18][20176][INFO]return successfully! | ***************************************
+[2014-07-17 22:45:18][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 22:45:18][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjrUK_d433aNEeZmgR27YARw]]></FromUserName>
+<CreateTime>1405608336</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037041834306216677</MsgId>
+</xml>
+[2014-07-17 22:45:18][20176][INFO]return successfully! | get:array (
+  'signature' => 'ef7a70327ebd83a010abc9f5bd4ede72d32e777d',
+  'timestamp' => '1405608336',
+  'nonce' => '1992891913',
+)
+[2014-07-17 22:45:18][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:45:18][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:45:18][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:45:18][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:45:18][20176][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjrUK_d433aNEeZmgR27YARw]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405608318</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 电力机车电机Ⅱ  81
+☆ 单片机基础  76
+☆ 电力机车电子技术  72
+☆ Visual Basic程序设计(A)  及格
+☆ 电力机车制动机  74
+☆ 电力机车电器  及格
+☆ 制动技术实训（A）  中等
+☆ 电子技能实训  优秀
+☆ 形势教育与省情教育Ⅱ   合格
+☆ 电路辅助设计大作业  及格
+☆ AutoCAD实训  中等
+你的平均分是: 71(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 22:45:18][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 22:45:18][20176][INFO]return successfully! | ***************************************
+[2014-07-17 22:45:18][20176][INFO]return successfully!
+[2014-07-17 22:45:18][20176][INFO]return successfully! | cost time:0.23151803016663 
+[2014-07-17 22:47:46][20664][INFO]return successfully!
+[2014-07-17 22:47:46][20664][INFO]return successfully! | ***************************************
+[2014-07-17 22:47:46][20664][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 22:47:46][20664][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtjt_U8I17vu4GntGBhRmbw]]></FromUserName>
+<CreateTime>1405608484</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成]]></Content>
+<MsgId>6037042469961376490</MsgId>
+</xml>
+[2014-07-17 22:47:46][20664][INFO]return successfully! | get:array (
+  'signature' => '26f51496d67e20d3a08c75d6cacf31987793fe2b',
+  'timestamp' => '1405608484',
+  'nonce' => '1044022628',
+)
+[2014-07-17 22:47:46][20664][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:47:46][20664][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:47:46][20664][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtjt_U8I17vu4GntGBhRmbw]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405608466</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 22:47:46][20664][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 22:47:46][20664][INFO]return successfully! | ***************************************
+[2014-07-17 22:47:46][20664][INFO]return successfully!
+[2014-07-17 22:47:46][20664][INFO]return successfully! | cost time:0.014567136764526 
+[2014-07-17 22:47:52][20171][INFO]return successfully!
+[2014-07-17 22:47:52][20171][INFO]return successfully! | ***************************************
+[2014-07-17 22:47:52][20171][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 22:47:52][20171][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtjt_U8I17vu4GntGBhRmbw]]></FromUserName>
+<CreateTime>1405608490</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[查成绩]]></Content>
+<MsgId>6037042495731180267</MsgId>
+</xml>
+[2014-07-17 22:47:52][20171][INFO]return successfully! | get:array (
+  'signature' => '3bff90690d7c780439c38cb87a4a867ac4c5ee01',
+  'timestamp' => '1405608491',
+  'nonce' => '1833176510',
+)
+[2014-07-17 22:47:52][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:47:52][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:47:52][20171][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 22:47:52][20171][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 22:47:53][20171][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtjt_U8I17vu4GntGBhRmbw]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405608472</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 结构稳定与振动(A)  60
+☆ 房屋混凝土及砌体结构设计  中等
+☆ 基础工程(A)  77
+☆ 预应力混凝土结构设计  中等
+☆ 施工技术(A)  66
+☆ 结构矩阵分析及程序设计  及格
+☆ 基础工程(A)课程设计  及格
+☆ 钢结构设计原理  64
+☆ 房屋混凝土及砌体结构设计课程设计  中等
+☆ 形势政策与省情教育III  合格
+你的平均分是: 66(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 22:47:53][20171][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 22:47:53][20171][INFO]return successfully! | ***************************************
+[2014-07-17 22:47:53][20171][INFO]return successfully!
+[2014-07-17 22:47:53][20171][INFO]return successfully! | cost time:0.15202188491821 
+[2014-07-17 23:02:22][20170][INFO]return successfully!
+[2014-07-17 23:02:22][20170][INFO]return successfully! | ***************************************
+[2014-07-17 23:02:22][20170][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 23:02:22][20170][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjlciWzpcDCbIQNgh-kQRSHA]]></FromUserName>
+<CreateTime>1405609360</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[成绩]]></Content>
+<MsgId>6037046232352727852</MsgId>
+</xml>
+[2014-07-17 23:02:22][20170][INFO]return successfully! | get:array (
+  'signature' => 'd6ca9365d29b444602a832585b3d40dc8f1a69fa',
+  'timestamp' => '1405609360',
+  'nonce' => '1283681533',
+)
+[2014-07-17 23:02:22][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 23:02:22][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 23:02:22][20170][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 23:02:22][20170][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 23:02:22][20170][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjlciWzpcDCbIQNgh-kQRSHA]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405609342</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[你本学期的成绩是：
+☆ 形体与身韵  优秀
+☆ 大学英语Ⅱ  73
+☆ 体育II  83
+☆ 西洋器乐鉴赏  优秀
+☆ 唐诗经典与中国文化传统  优秀
+☆ 计算机实用软件  合格
+☆ 计算机实用软件课程设计  中等
+☆ 马克思主义基本原理  中等
+☆ 形势政策与省情教育I  合格
+☆ 钢琴基础 Ⅱ  75
+☆ 视唱练耳Ⅱ  85
+☆ 基础和声I  81
+☆ 综合艺术I  83
+☆ 声乐、器乐（小组课）Ⅱ  76
+☆ 专业社会实践II  合格
+你的平均分是: 80(参考)]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 23:02:22][20170][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 23:02:22][20170][INFO]return successfully! | ***************************************
+[2014-07-17 23:02:22][20170][INFO]return successfully!
+[2014-07-17 23:02:22][20170][INFO]return successfully! | cost time:0.16567897796631 
+[2014-07-17 23:40:34][20176][INFO]return successfully!
+[2014-07-17 23:40:34][20176][INFO]return successfully! | ***************************************
+[2014-07-17 23:40:34][20176][INFO]return successfully! | *接口回复开始(interface response start)*
+[2014-07-17 23:40:34][20176][INFO]return successfully! | request:<xml><ToUserName><![CDATA[gh_19638fd46215]]></ToUserName>
+<FromUserName><![CDATA[oQI2yjtvS6P1Q5fjVjWsHtBz3dDc]]></FromUserName>
+<CreateTime>1405611651</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[小新你好]]></Content>
+<MsgId>6037056072122803257</MsgId>
+</xml>
+[2014-07-17 23:40:34][20176][INFO]return successfully! | get:array (
+  'signature' => '3528ea53eedbb7a07fe89806e90c50c7732b48c8',
+  'timestamp' => '1405611652',
+  'nonce' => '501618658',
+)
+[2014-07-17 23:40:34][20176][INFO]return successfully! | SQL[SET NAMES utf8]
+[2014-07-17 23:40:34][20176][INFO]return successfully! | excute time:0(ms) SQL[SET NAMES utf8]
+[2014-07-17 23:40:34][20176][INFO]return successfully! | response:<xml>
+  <ToUserName><![CDATA[oQI2yjtvS6P1Q5fjVjWsHtBz3dDc]]></ToUserName>
+  <FromUserName><![CDATA[gh_19638fd46215]]></FromUserName>
+  <CreateTime>1405611634</CreateTime>
+  <MsgType><![CDATA[text]]></MsgType>
+  <Content><![CDATA[]]></Content>
+  <FuncFlag>0</FuncFlag>
+</xml>
+
+[2014-07-17 23:40:34][20176][INFO]return successfully! | *接口回复结束(interface  response  end)*
+[2014-07-17 23:40:34][20176][INFO]return successfully! | ***************************************
+[2014-07-17 23:40:34][20176][INFO]return successfully!
+[2014-07-17 23:40:34][20176][INFO]return successfully! | cost time:0.01679801940918 

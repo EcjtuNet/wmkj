@@ -1,0 +1,45 @@
+[2014-07-17 10:19:40][20664][interface.php][main][78][ERROR][0] return successfully! | error input!
+[2014-07-17 10:20:31][20241][interface.php][main][77][ERROR][0] return successfully! | error input!
+[2014-07-17 10:20:33][20173][interface.php][main][77][ERROR][0] return successfully! | error input!
+[2014-07-17 10:21:01][20171][interface.php][main][78][ERROR][0] return successfully! | error input!
+[2014-07-17 10:21:29][20241][interface.php][main][79][ERROR][0] return successfully! | error input!
+[2014-07-17 10:24:37][20170][interface.php][main][78][ERROR][0] return successfully! | error input!
+[2014-07-17 10:26:56][20176][interface.php][main][78][ERROR][0] return successfully! | error input!
+[2014-07-17 10:29:48][20169][rxl.php][getRule][33][ERROR][1100] DB operation exception! | query db error查询失败:No database selected
+[2014-07-17 10:31:33][20170][rxl.php][getRule][33][ERROR][1100] DB operation exception! | query db error查询失败:No database selected
+[2014-07-17 10:36:38][20241][rxl.php][getRule][33][ERROR][1100] DB operation exception! | query db error查询失败:No database selectedarray (
+  'DB' => 
+  array (
+    'HOST' => 'localhost',
+    'DBNAME' => '',
+    'USER' => 'root',
+    'PASSWD' => 'EcjtuNet7#214_51',
+    'PORT' => 3306,
+  ),
+  'CLASS' => 
+  array (
+    'HOST' => 'localhost',
+    'DBNAME' => '',
+    'USER' => '',
+    'PASSWD' => '',
+    'PORT' => 3306,
+  ),
+  'SCORE' => 
+  array (
+    'HOST' => 'localhost',
+    'DBNAME' => '',
+    'USER' => '',
+    'PASSWD' => '',
+    'PORT' => 3306,
+  ),
+  'WX' => 
+  array (
+    'HOST' => 'localhost',
+    'DBNAME' => '',
+    'USER' => '',
+    'PASSWD' => '',
+    'PORT' => 3306,
+  ),
+)
+[2014-07-17 10:49:57][21301][kaoshiquery.php][init][21][ERROR][1100] DB operation exception! | query db errorconnect to db fail: localhost:3306  :  
+[2014-07-17 10:59:37][20169][interface.php][main][78][ERROR][0] return successfully! | error input!

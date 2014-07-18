@@ -1,0 +1,4 @@
+[2014-07-18 12:21:24][20172][WeChatCallBack.php][getSID][257][ERROR][1100] DB operation exception! | 学号未绑定。
+[2014-07-18 12:21:24][20172][WeChatCallBack.php][getSID][257][ERROR][1100] DB operation exception! | 学号未绑定。
+[2014-07-18 12:21:24][20172][WeChatCallBack.php][process][179][ERROR][0] return successfully! | 未获取到学号。您是第一次使用小新附加查询功能,请先绑定你的学号,输入 xh你的学号，例如：xh20122010010000
+绑定成功后,你可以实现查询成绩等功能。

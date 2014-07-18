@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户登入</title>
+<style type="text/css">
+	form{margin:0 auto; margin-top:100px; width:269px; height:88px;}
+		lable{width:60px; float:left;}
+	span{margin-left:45px; width:114px; height:22px;}
+	legend{font-size:24px;}
+</style>
+</head>
+
+<body>
+ <form action="bglogin.php"; method="post" id="form" name="login" onsubmit="return chenck();">
+ 	<fieldset>
+	<legend>登入验证</legend>
+            <lable>用户名:</lable><input id="usename" type="text" name="usename"/><br />
+            <lable>密码:</lable><input id="password" type="password" name="password" /><br />
+            <input id="login" type="submit" value="登入" name="login" />
+            <input id="reset" type="reset" value="重置" />
+            <?php if(isset($error)) echo $error;?>
+    </fieldset>
+          </form>
+ <script type="text/javascript">
+	function chenck()
+	{
+		if(login.usename.value=="")
+			{
+				alert("用户名不得为空");
+				login.usename.focus();
+				return false;
+			}
+		if(login.password.value=="")
+		{
+			alert("密码不得为空");
+			login.password.focus();
+			return false;
+		}
+	}
+</script>         
+</body>
+</html>
+
