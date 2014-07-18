@@ -6,6 +6,7 @@ wechat消息处理框架
 ##文件框架
 
    wmkj
+   
     |--wechatphp
     
     |	|-class
