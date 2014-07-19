@@ -30,7 +30,13 @@
 						 <span class="help-block"></span>
 					   </div>
 					   <div class="control-group access">
-						<select name="cloum">
+					   	<select class="access" name="access">
+							<option value="0">权限</option>
+							<option value="5">信息发布</option>
+							<option value="7">栏目管理</option>
+							<option value="10">admin</option>
+						</select>
+						<select class="cloum hidden" name="cloum">
 								<option value="0">栏目</option>
                                 <option value="1">小新快递</option>
                                 <option value="2">微科技</option>
@@ -41,12 +47,7 @@
                                 <option value="7">博约课堂</option>
                                 <option value="8">微电台</option>
                             </select>
-						<select name="access" >
-							<option value="0">权限</option>
-							<option value="5">信息发布</option>
-							<option value="7">栏目管理</option>
-							<option value="10">admin</option>
-					</select>
+					
 						<span class="help-block"></span>
 					</div>
 						<button class="btn btn-large btn-primary" type="submit" name="submit">提交</button>
