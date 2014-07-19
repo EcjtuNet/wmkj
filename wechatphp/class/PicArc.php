@@ -17,7 +17,11 @@ class PicArc
 	public function loginChenck($loginN,$loginP)
 	{
 		$db = DbFactory::getInstance('DB');
-		$sql = "select `access` from admin_user where name="."'$loginN'"."AND password="."'$loginP'";
+		$sql = "select `access` from admin_user where name="."'$loginN'";
+		if(isset($loginP))
+		{
+			$sql = $sql."AND password="."'$loginP'";
+		}
 		$rs = $db->query($sql);
 		$row = $db->fetch($rs);
 		return $row['access'];
