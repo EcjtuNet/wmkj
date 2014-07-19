@@ -40,7 +40,7 @@ $(".password input").blur(function(){
 		$(".password .help-block").text("密码长度不得低于6位");
 		$(".password input").focus();
 		return false;
-	}else removeClass("warning");
+	}else $(".password").removeClass("warning");
 })
 $(".department input").blur(function(){
 	var passW = $(".department input").val();
@@ -49,7 +49,7 @@ $(".department input").blur(function(){
 		$(".department .help-block").text("部门不得为空");
 		$(".department input").focus();
 		return false;
-	}else removeClass("warning")
+	}else $(".department").removeClass("warning")
 })
 
 function isnull(q){
@@ -57,10 +57,14 @@ function isnull(q){
 	else return false;
 }
 
+$(".access").change(function(){
+	var ace = $(".access").val();
+	if(ace === "0")
+})
+
 function chenck(){
 	$(".department input").blur();
 	$(".password input").blur();
 	$(".name input").blur();
-	if
 	return false;
 }
