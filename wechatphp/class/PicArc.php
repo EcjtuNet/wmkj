@@ -16,15 +16,30 @@ class PicArc
 	
 	public function loginChenck($loginN,$loginP)
 	{
-		$db = DbFactory::getInstance('DB');
-		$sql = "select `access` from admin_user where name="."'$loginN'";
-		if(isset($loginP))
-		{
-			$sql = $sql."AND password="."'$loginP'";
+		try{
+			$db = DbFactory::getInstance('DB');
+			$sql = "select `access` from admin_user where name="."'$loginN'";
+			if(isset($loginP))
+			{
+				$sql = $sql."AND password="."'$loginP'";
+			}
+			$rs = $db->query($sql);
+			$row = $db->fetch($rs);
+		}catch(DB_Exception $e){
+			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error in login" . $e->getMessage());
 		}
-		$rs = $db->query($sql);
-		$row = $db->fetch($rs);
 		return $row['access'];
+	}
+	public function addUser($uName,$passW,$acc,$depart,$cloum)
+	{
+		try{
+			$db = DbFactory::getInstance('DB');
+			$sql = "INSERT INTO admin_user VALUES('',"."'$uName'".","."'$passW'".","."'$acc'".","."'$cloum'".","."'$depart'".")";
+			interface_log(DEBUG, 0, "sql: ".$sql);
+			if($db->insert($sql)) return true;
+		}catch(DB_Exception $e){
+			interface_log(ERROR, EC_DB_OP_EXCEPTION, "db error in apply".$e->getMessage());
+		}
 	}
 	public function addContent($arr)
 	{
