@@ -1,3 +1,9 @@
+<?php
+	if($_SESSION['access'] == NULL){
+		 header("Location: http://wx.ecjtu.net/wmkj/index.php"); 
+		 exit(0);
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>

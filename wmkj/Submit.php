@@ -22,21 +22,14 @@ if(@$_POST['name']=="关键词管理"){
 }
 if(@$_POST['name']=="栏目内容管理"){
 if(isset($_POST['content'])){
-<<<<<<< HEAD
 		//var_dump($_POST['content']);
-=======
->>>>>>> 9da44a0e8cc1991dfb4b2b2b5e497102a2704fa8
 		$title = $_POST['content']['0'];
 		$desc = $_POST['content']['1'];
 		$picurl = $_POST['content']['2'];
 		$url = $_POST['content']['3'];
 		$colum = $_POST['content']['4'];
 		$publishman = $_POST['content']['5'];
-<<<<<<< HEAD
-		$insertarr = array('title'=>$title,'descr'=>$desc,'piurl'=>$url,'arurl'=>$picurl,'colum'=>$colum,'publishman'=>$publishman);
-=======
 		$insertarr = array('title'=>$title,'descr'=>$desc,'piurl'=>$picurl,'arurl'=>$url,'colum'=>$colum,'publishman'=>$publishman);
->>>>>>> 9da44a0e8cc1991dfb4b2b2b5e497102a2704fa8
 		$key = new PicArc();
 		$key->addContent($insertarr);
 		$arr = array('status'=>"success");
