@@ -25,7 +25,7 @@
             <h1>
                 <image src="./image/logo.png" alt=" ^.^ "/><span>日小新内容发布系统</span>
             </h1>
-            <div class="loginName"><span>用户名:<?php echo $usename?></span><?php if($_SESSION['access']['access'] == "10") echo '<span><a href="./login_new.htm">  添加用户</a></span>'?><span><a href="bglogin.php?quit=out">退出</a></span><span>实时绑定人数：<?php echo $bdcount['count(wxh)']?></span><span class="label"><a href="#publish">内容发布</a></span></div>
+            <div class="loginName"><span id="usrName">用户名:<?php echo $usename?></span><?php if($_SESSION['access']['access'] == "10") echo '<span><a href="./login_new.htm">  添加用户</a></span>'?><span><a href="bglogin.php?quit=out">退出</a></span><span>实时绑定人数：<?php echo $bdcount['count(wxh)']?></span><span class="label"><a href="#publish">内容发布</a></span></div>
 
             <hr/>
             <div class="tabbable" id="tabs-957518">
@@ -160,7 +160,7 @@
                             ?>
                         </td>
                         <td>
-                            <?=$value['pulishMan']?>
+                            <?php echo $value['pulishMan']?>
                         </td>
                         <td>
                              <span class="label badge-important" >删除</span>
@@ -244,7 +244,7 @@
             </div>
         </div>
     </div>
-    <div class="footer"><p class="support">技术支持 <a name="publish" href="http://www.ecjtu.net"><img src="./image/logo_icon.png" alt="^_^">日新网技术研发中心</a></p></div>
+    <div class="footer"><a name="publish"></a><p class="support">技术支持<a href="http://www.ecjtu.net"><img src="./image/logo_icon.png" alt="^_^">日新网技术研发中心</a></p></div>
 </div>
 <script src="http://cdn.bootcss.com/jquery/1.7.2/jquery.min.js"></script>
 <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -355,6 +355,8 @@
         function res(data, arr, dlt) {
             var d = $.parseJSON(data);
             if(d['status'] == "success") {
+            	arr.pop();
+            	arr.pop();
                 arr.push(dlt);
                 writeDom($("div.active table tbody"), arr);
             } else {
@@ -387,7 +389,7 @@
             ,   arc   = inputArcUrl.val()
             ,   pic   = inputPicUrl.val()
             ,   theme = inputTheme.val()
-            ,   writer= "human"
+            ,   writer= $("#usrName").text().slice(4)
             ,   dlt   = "删除"
             ,   arr   = [];
             if(!(title && des && arc && pic)){
