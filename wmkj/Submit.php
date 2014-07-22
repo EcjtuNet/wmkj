@@ -1,6 +1,6 @@
 <?php
-require_once dirname(__FILE__) . '/common/Common.php';
-require_once dirname(__FILE__) . '/class/PicArc.php';
+require_once dirname(dirname(__FILE__)) . '/wechatphp/common/Define.php';
+require_once dirname(dirname(__FILE__)) . '/wechatphp/class/PicArc.php';
 /**
 *@desc 发布处理
 *@version 0.0.1
