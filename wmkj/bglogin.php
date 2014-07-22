@@ -3,6 +3,7 @@ header("Content-type: text/html; charset=utf-8");
 /*
 登入，注册页面处理模块
 */
+
 session_start();
 require_once dirname(dirname(__FILE__)) . '/wechatphp/common/Define.php';
 require_once dirname(dirname(__FILE__)) . '/wechatphp/class/PicArc.php';
@@ -12,33 +13,26 @@ if (isset($_POST['sign'])){
 		$login 	  = new PicArc();
 		if(isset($usename)&&isset($password)){
 			$access   = $login->loginChenck($usename,$password);
-			$keyW     = $login->getKeyW();
 			$cloum    = $login->getAccess($usename, $password);
-			$bdcount  = $login->getCount();
 			$_SESSION['access']['uName'] = $usename;
+			$_SESSION['access']['cloum'] = $cloum['cloum'];
 		}
 		$status   = "wrong";
 		switch($access){
 			case '10': {
-				$content = getContent($login, "10", $cloum['cloum']);
 				$_SESSION['access']['access']="10";
-				include("wx.php");
+				header("Location: ./page.php");
 				break;
 				}
 			case '7':{
-				$content = getContent($login, "10", $cloum['cloum']);
 				$_SESSION['access']['access']="7";
-				include("wx.php");
+				header("Location: ./page.php");
 				break;
 			}
 			case '5': {
-				if($cloum['cloum'] == '8'){
-					include("submit_gbz.html");
-				}else{
-					$content = getContent($login, "10", $cloum['cloum']);
-					$_SESSION['access']['access']="5";
-					include("wx.php");
-				}
+				include("submit_gbz.html");
+				$_SESSION['access']['access']="5";
+				header("Location: ./page.php");
 				break;
 			}
 			default : echo "<message style='display:none'>$status</message>"; include("sign_new.htm"); break;
@@ -76,22 +70,27 @@ if (isset($_POST['sign'])){
 		header("Location: http://wx.ecjtu.net/wmkj/index.php");
 		exit();
 	}elseif(isset($_GET['dele'])){
-		if($_SESSION['access']['access']<5){
-			echo "";
+		if($_SESSION['access']['access']<5||!isset($_GET['type'])){
+			$_SESSION['error'] = "403 fail by access";
+			header("Location: ./page.php");
+			exit();
+		}else{
+			$type = $_GET['type'];
+			$ID   = $_GET['dele'];
+			$deleobj = new PicArc();
+			//var_dump($deleobj->deleById($type,$ID));
+			if($deleobj->deleById($type,$ID)){
+				header("Location: ./page.php");
+			}else{
+				$_SESSION['error'] = "数据库错误";
+				header("Location: ./page.php");
+				exit();
+			}
 		}
 	}else{
 		echo "you haven't login, please login again~! <a href='http://wx.ecjtu.net/wmkj/index.php'>click me~!</a>";
 	}
-function getContent($obj, $access, $cloum)
-{
-	switch($access){
-		case '10': $cloum = "*";
-		case '7' : $cloum = $cloum;
-		case '5' : $cloum = $cloum;
-	}
-	$res = $obj->getContent($cloum, "10");
-	return $res;
-}
+
 	
 /////////////////////////////////////////the end of php
 /////////////////////////////////////////power by homker

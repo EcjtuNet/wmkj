@@ -137,6 +137,22 @@ class PicArc
 		$result = $db->fetch($rs);
 		return $result;
 	}
+	/**
+	*函数用来删除关键字和文章列表。根据id来进行删除判断
+	*@param $type 类别，删除的内容属性   keyw  content
+	*/
+	public function deleById($type, $ID)
+	{
+		$db = DbFactory::getInstance("DB");
+		if($type == "keyW"){
+			$dbname = "keyword";
+		}elseif($type == "content"){
+			$dbname = "picarc";
+		}
+		$sql = "DELETE FROM ".$dbname." WHERE ID = ".$ID;
+		if($db->delete($sql)) return true;
+		else return false;
+	}
 
 	protected function changeColum($colum)
 	{
