@@ -5,16 +5,15 @@ wechat消息处理框架
 	/wechatphp/interface.php
 ##文件框架
 
-   wmkj
-   
+wmkj
+
     |--wechatphp
-
+    
     |	|-class
-
     |	|-common
-
     |   |-log
-
     |   |-bin
-
     |--wmkj
+        |-submit.php
+        |-wx.html
+        |-mp3
