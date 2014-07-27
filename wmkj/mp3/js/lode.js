@@ -1,4 +1,29 @@
-var browser = function () {
+function lode(){
+	//var urlpc = "http://wx.ecjtu.net/wmkj/css/pc.css";
+	var dynamicLoading = {
+    	css: function(path){
+			if(!path || path.length === 0){
+				throw new Error('argument "path" is required !');
+			}
+			var head = document.getElementsByTagName('head')[0];
+        	var link = document.createElement('link');
+        	link.href = path;
+        	link.rel = 'stylesheet';
+        	link.type = 'text/css';
+        	head.appendChild(link);
+    	},
+    	js: function(path){
+			if(!path || path.length === 0){
+				throw new Error('argument "path" is required !');
+			}
+			var head = document.getElementsByTagName('head')[0];
+    	    var script = document.createElement('script');
+    	    script.src = path;
+   	    	script.type = 'text/javascript';
+   	    	head.appendChild(script);
+   	 	}
+	}
+	var browser = function () {
         var w = window,ver = w.opera ? (opera.version().replace(/\d$/, "") - 0)
             : parseFloat((/(?:IE |fox\/|ome\/|ion\/)(\d+\.\d)/.
                 exec(navigator.userAgent) || [,0])[1]);
@@ -20,4 +45,12 @@ var browser = function () {
                 isPhone: isIphone || isAndroid
             }
     }
+    var is = browser();
+    if(!is['isPone']){
+    	dynamicLoading("./css/style.css");
+    }
+    
+}
+
+HTMLElement.prototype.addEventListener.apply(window.document, ['lode', lode, false]);
   
