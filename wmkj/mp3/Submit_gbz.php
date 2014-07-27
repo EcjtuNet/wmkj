@@ -5,7 +5,6 @@ require_once dirname(__FILE__) . '/class/PicArc.php';
 *@desc 发布处理
 *@version 0.0.1
 */
-<<<<<<< HEAD
 //var_dump($_POST);
 if(@$_POST['submit']){
 	if($_FILES['file']['error']=='0'){
@@ -49,18 +48,5 @@ if(@$_POST['submit']){
 	echo "success:".$piurl;
 	include("./submit_gbz.html");
 }
-=======
-if(@$_POST['submit']){
-	if(isset($_POST['title'])&&isset($_POST['title'])&&isset($_POST['piurl'])&&isset($_POST['arurl'])&&isset($_POST['colum'])){
-	$arr = array('title'=>$_POST['title'],'descr'=>$_POST['descr'],'piurl'=>$_POST['piurl'],'arurl'=>$_POST['arurl'],'colum'=>$_POST['colum']);
-	}
-	
-	$picarc = new PicArc();
-	$picarc->addContent($arr);
-	echo "success~!";
-	include("./submit_gbz.html");
-}
 
-
->>>>>>> 9da44a0e8cc1991dfb4b2b2b5e497102a2704fa8
 ?>
