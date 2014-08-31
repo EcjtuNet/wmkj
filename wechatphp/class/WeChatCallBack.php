@@ -109,7 +109,7 @@ class WeChatCallBack {
 					interface_log(DEBUG , 0, "class works");
 				}
 
-				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'&&$_this->_EventKey != 'KEBIAO'){
+				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'&&$this->_EventKey != 'KEBIAO'){
 					//$count = ($this->_EventKey=='KUAIDI')? 4 : 1;
 					$count = 5;
 					$arr = $picObj->getContent($this->_EventKey,$count);
