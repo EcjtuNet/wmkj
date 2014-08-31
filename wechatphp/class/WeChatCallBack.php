@@ -131,7 +131,7 @@ class WeChatCallBack {
 					}
 					interface_log(DEBUG, 0, $model);
 					$queryObj = $this->modelMatch($model);
-					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
+					interface_log(DEBUG, 0, "class1:".var_export($queryObj,TRUE));
 					if(!$queryObj){
 						if($StudentID = $this->getSID($this->_fromUserName)){
 							$queryObj = $this->modelMatch_xh($model);
@@ -141,8 +141,10 @@ class WeChatCallBack {
 						}
 						interface_log(DEBUG,0,"学号是：".$StudentID);
 					}
+					interface_log(DEBUG, 0, "class2:".var_export($queryObj,TRUE));
 					$queryObj->init($StudentID);
 					$out = $queryObj->progress();
+					interface_log(DEBUG, 0, "content:".var_export($out,TRUE));
 					if(is_array($out)){
 						return $this->makeMus($out);
 					}else{	

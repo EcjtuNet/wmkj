@@ -13,10 +13,11 @@ class classquery extends AbstractQuery
 {
 	public function init($StudentID){
 		//使用Redis统计查询次数
-
-		require 'predis-0.8/autoload.php';
-		$redis = new Predis\Client();
-		$redis->rpush('class:count',time());
+		interface_log(DEBUG, 0, "classquery works~!");
+		//require 'predis-0.8/autoload.php';
+		//interface_log(DEBUG, 0, "classquery1 works~!");
+		//$redis = new Predis\Client();
+		//$redis->rpush('class:count',time());
 		//by wtbhk
 	 	$this->_StudentID = $StudentID; 
 	 	try{
