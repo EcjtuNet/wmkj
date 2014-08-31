@@ -158,13 +158,14 @@ class PicArc
 	{
 		switch($colum)
 		{   
-			case 'KUAIDI'  : $flag = 1; break;
+			case 'KUAIDI'  : $flag = 1; break;  //小新快递
 			case 'KEJI'    : $flag = 2; break;
-			case 'JIANGTAN': $flag = 3; break;
-			case 'YINYUE'  : $flag = 4; break;
+			case 'JIANGTAN': $flag = 3; break;  //孔目湖讲坛
+			case 'YINYUE'  : $flag = 4; break;  // 音乐
 			case 'ZAIZHI'  : $flag = 5; break;
 			case 'TONGHUA' : $flag = 6; break;
 			case 'DONGMAN' : $flag = 7; break;
+			case 'DIANTAI' : $flag = 8; break;  //电台
 		}
 		return $flag;
 	}

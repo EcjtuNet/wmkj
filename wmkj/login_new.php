@@ -1,5 +1,7 @@
 <?php
+	session_start();
 	if($_SESSION['access'] == NULL){
+		 //var_dump($_SESSION);
 		 header("Location: http://wx.ecjtu.net/wmkj/index.php"); 
 		 exit(0);
 	}

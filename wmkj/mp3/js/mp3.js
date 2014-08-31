@@ -24,6 +24,14 @@
 			var audioElement = document.createElement( 'audio' );
 			return !!( audioElement.canPlayType && audioElement.canPlayType( 'audio/' + file.split( '.' ).pop().toLowerCase() + ';' ).replace( /no/, '' ) );
 		};
+		
+		geturl = function(id){
+			var content = {"ID":id};
+			$.post("./index.php",content,function(data){
+				//console.log(data.url);
+				audioplay(data.url);
+			},'json');		
+		}
 
 	$.fn.audioPlayer = function( params )
 	{
@@ -67,6 +75,7 @@
 				$this.find( 'source' ).each( function()
 				{
 					audioFile = $( this ).attr( 'src' );
+					//console.log(audioFile);
 					if( typeof audioFile !== 'undefined' && canPlayType( audioFile ) )
 					{
 						isSupport = true;
@@ -78,12 +87,11 @@
 
 			var thePlayer = $( '<div class="' + params.classPrefix + '">' + ( isSupport ? $( '<div>' ).append( $this.eq( 0 ).clone() ).html() : '<embed src="' + audioFile + '" width="0" height="0" volume="100" autostart="' + isAutoPlay.toString() +'" loop="' + isLoop.toString() + '" />' ) + '<div class="' + cssClass.playPause + '" title="' + params.strPlay + '"><a href="#">' + params.strPlay + '</a></div></div>' ),
 				theAudio  = isSupport ? thePlayer.find( 'audio' ) : thePlayer.find( 'embed' ), theAudio = theAudio.get( 0 );
-
 			if( isSupport )
 			{
 				thePlayer.find( 'audio' ).css( { 'width': 0, 'height': 0, 'visibility': 'hidden' } );
 				thePlayer.append( '<div class="' + cssClass.time + ' ' + cssClass.timeCurrent + '"></div><div class="' + cssClass.bar + '"><div class="' + cssClass.barLoaded + '"></div><div class="' + cssClass.barPlayed + '"></div></div><div class="' + cssClass.time + ' ' + cssClass.timeDuration + '"></div><div class="' + cssClass.volume + '"><div class="' + cssClass.volumeButton + '" title="' + params.strVolume + '"><a href="#">' + params.strVolume + '</a></div><div class="' + cssClass.volumeAdjust + '"><div><div></div></div></div></div>' );
-
+				//console.log(thePlayer);
 				var theBar			  = thePlayer.find( '.' + cssClass.bar ),
 					barPlayed	 	  = thePlayer.find( '.' + cssClass.barPlayed ),
 					barLoaded	 	  = thePlayer.find( '.' + cssClass.barLoaded ),
@@ -130,6 +138,7 @@
 				theAudio.addEventListener( 'timeupdate', function()
 				{
 					timeCurrent.html( secondsToTime( theAudio.currentTime ) );
+					//console.log(theAudio.currentTime);
 					barPlayed.width( ( theAudio.currentTime / theAudio.duration ) * 100 + '%' );
 				});
 
@@ -184,7 +193,24 @@
 			else thePlayer.addClass( cssClass.mini );
 
 			thePlayer.addClass( isAutoPlay ? cssClass.playing : cssClass.stopped );
-
+			
+			$("#list li").click(function(e){
+					$("#list li").css("background","#F1F1F1");
+					$(this).css("background","#FF7F00");
+					var ID = $(this).attr("data-id");
+					var url = geturl(ID);
+					//console.log(url);
+					
+				});
+			audioplay = function (url){
+				thePlayer.removeClass( cssClass.playing ).addClass( cssClass.stopped );
+				theAudio.currentTime="0";
+				theAudio.stop;
+				thePlayer.find('.source').attr("src",url);
+				theAudio.load();
+				$(".audioplayer-playpause ").click();
+			}
+			
 			thePlayer.find( '.' + cssClass.playPause ).on( 'click', function()
 			{
 				if( thePlayer.hasClass( cssClass.playing ) )

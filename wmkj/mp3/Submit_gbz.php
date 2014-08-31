@@ -1,52 +1,25 @@
 <?php
-require_once dirname(__FILE__) . '/common/Common.php';
-require_once dirname(__FILE__) . '/class/PicArc.php';
+require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/common/Define.php';
+require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/PicArc.php'; 
 /**
 *@desc 发布处理
 *@version 0.0.1
 */
 //var_dump($_POST);
-if(@$_POST['submit']){
-	if($_FILES['file']['error']=='0'){
-		$filename = $_FILES['file']['name'];
-		$name = explode('.',$filename);
-		$filetype = $_FILES['file']['type'];
-		$filesize = $_FILES['file']['size'];
-		if($filetype=="audio/mpeg"||$filetype == "audio/x-ms-wma"||$filetype == "audio/wav"||$filetype== "audio/mp3"){
-			if($filesize > 8388608){
-				echo "The file is too large, please upload the audio smaller than 8M~!";
-				include("./submit_gbz.html");
-				exit(0);
-			}
-			$Time = time();
-			$audioname = $Time.".".$name['1']; //!!!!!!!!!
-			$uplodefile = "./mp3/".$audioname;
-			if(move_uploaded_file($_FILES['file']['tmp_name'],$uplodefile)){
-				$piurl = $arurl = "http://wx.ecjtu.net/wmkj/mp3/".$audioname;	
-			}else{
-				echo "wrong,sorry";
-				var_dump($_FILES['file']['tmp_name']);
-				var_dump($uplodefile);
-				include("./submit_gbz.html");
-				exit(0);
-			}
-		}else{
-			echo "File format error, please use .mp3/.wma/.wav";
-			
-			exit(0);
-		}
-	}
-	//var_dump($_FILES);
-	//echo $_FILES['file']['error'];
-	if(isset($_POST['title'])&&isset($_POST['title'])&&isset($piurl)&&isset($arurl)&&isset($_POST['colum'])){
-	$arr = array('title'=>$_POST['title'],'descr'=>$_POST['descr'],'piurl'=>$piurl,'arurl'=>$arurl,'colum'=>$_POST['colum']);
+//var_dump($_FILES['files']);
+session_start();
+if(isset($_POST['submit'])){
+	$uname = $_SESSION['access']['uName'];
+	if(isset($_POST['title'])&&isset($_POST['desc'])&&isset($_POST['aurl'])&&isset($_POST['colum'])&&isset($uname)){
+	$arr = array('title'=>$_POST['title'],'descr'=>$_POST['desc'],'piurl'=>$_POST['aurl'],'arurl'=>$_POST['aurl'],'colum'=>$_POST['colum'],'publishman'=>$uname);
 	}
 	
 	$picarc = new PicArc();
 //	var_dump($arr);
 	$picarc->addContent($arr);
-	echo "success:".$piurl;
-	include("./submit_gbz.html");
+	$res = array("status"=>"200","message"=>"ok");
+	echo json_encode($res);
+	//echo "success:".$piurl;
+	//include("./submit_gbz.html");
 }
-
 ?>
