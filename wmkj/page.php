@@ -15,7 +15,7 @@ if(isset($_SESSION['access'])){
 	$cloum    = $_SESSION['access']['cloum'];
 	$usename  = $_SESSION['access']['uName'];
 	$content  = getContent($page, $access, $cloum);
-	//var_dump($content);
+	//var_dump($cloum);
 	if(isset($_SESSION['error'])) echo "<message style='display:none'>".$_SESSION['error']."</message>";
 	include_once("wx.php");
 }else{

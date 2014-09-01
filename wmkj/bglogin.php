@@ -78,7 +78,7 @@ if (isset($_POST['sign'])){
 			$type = $_GET['type'];
 			$ID   = $_GET['dele'];
 			$deleobj = new PicArc();
-			//var_dump($deleobj->deleById($type,$ID));
+			var_dump($deleobj->deleById($type,$ID));
 			if($deleobj->deleById($type,$ID)){
 				header("Location: ./page.php");
 			}else{
