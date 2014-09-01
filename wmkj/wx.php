@@ -25,7 +25,7 @@
             <h1>
                 <image src="./image/logo.png" alt=" ^.^ "/><span>日小新内容发布系统</span>
             </h1>
-            <div class="loginName"><span id="usrName">用户名:<?php echo $usename?></span><?php if($_SESSION['access']['access'] == "10") echo '<span><a href="./login_new.htm">  添加用户</a></span>'?><span><a href="bglogin.php?quit=out">退出</a></span><span>实时绑定人数：<?php echo $bdcount['count(wxh)']?></span><span class="label"><a href="#publish">内容发布</a></span></div>
+            <div class="loginName"><span id="usrName">用户名:<?php echo $usename?></span><?php if($_SESSION['access']['access'] == "10") echo '<span><a href="./login_new.php">  添加用户</a></span>'?><span><a href="bglogin.php?quit=out">退出</a></span><span>实时绑定人数：<?php echo $bdcount['count(wxh)']?></span><span class="label"><a href="#publish">内容发布</a></span></div>
 
             <hr/>
             <div class="tabbable" id="tabs-957518">

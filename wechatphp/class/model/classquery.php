@@ -13,10 +13,11 @@ class classquery extends AbstractQuery
 {
 	public function init($StudentID){
 		//使用Redis统计查询次数
-
-		require 'predis-0.8/autoload.php';
-		$redis = new Predis\Client();
-		$redis->rpush('class:count',time());
+		interface_log(DEBUG, 0, "classquery works~!");
+		//require 'predis-0.8/autoload.php';
+		//interface_log(DEBUG, 0, "classquery1 works~!");
+		//$redis = new Predis\Client();
+		//$redis->rpush('class:count',time());
 		//by wtbhk
 	 	$this->_StudentID = $StudentID; 
 	 	try{
@@ -36,7 +37,7 @@ class classquery extends AbstractQuery
 		if($this->chenck($this->_ClassID)){
 			try {
 				$db = DbFactory::getInstance('CLASS');
-				$sql = "SELECT course FROM class WHERE cid='$this->_ClassID' AND term="."'2013.2'";
+				$sql = "SELECT course FROM class WHERE cid='$this->_ClassID' AND term="."'2014.1'";
 				//$sql = "insert into userinput (userId, input) values(\"" . $this->_fromUserName . "\", \"" . $this->_postObject->Content . "\")";
 				interface_log(DEBUG, 0, "sql:" . $sql);			
 				$rs = $db->query($sql);

@@ -109,7 +109,7 @@ class WeChatCallBack {
 					interface_log(DEBUG , 0, "class works");
 				}
 
-				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'){
+				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'&&$this->_EventKey != 'KEBIAO'){
 					//$count = ($this->_EventKey=='KUAIDI')? 4 : 1;
 					$count = 5;
 					$arr = $picObj->getContent($this->_EventKey,$count);
@@ -127,10 +127,11 @@ class WeChatCallBack {
 						case 'KAOSHI' : $model = "model_KS"    ; break;
 						case 'CHENGJI': $model = "model_CJ"    ; break;
 						case 'YKT'    : $model = "model_YKT"   ; break;
+						case 'KEBIAO' : $model = "model_KEBIAO"; break;
 					}
 					interface_log(DEBUG, 0, $model);
 					$queryObj = $this->modelMatch($model);
-					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
+					interface_log(DEBUG, 0, "class1:".var_export($queryObj,TRUE));
 					if(!$queryObj){
 						if($StudentID = $this->getSID($this->_fromUserName)){
 							$queryObj = $this->modelMatch_xh($model);
@@ -140,8 +141,10 @@ class WeChatCallBack {
 						}
 						interface_log(DEBUG,0,"学号是：".$StudentID);
 					}
+					interface_log(DEBUG, 0, "class2:".var_export($queryObj,TRUE));
 					$queryObj->init($StudentID);
 					$out = $queryObj->progress();
+					interface_log(DEBUG, 0, "content:".var_export($out,TRUE));
 					if(is_array($out)){
 						return $this->makeMus($out);
 					}else{	

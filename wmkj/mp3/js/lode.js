@@ -1,4 +1,4 @@
-function lode(){
+function lode() {
 	//var urlpc = "http://wx.ecjtu.net/wmkj/css/pc.css";
 	var dynamicLoading = {
     	css: function(path){
@@ -10,6 +10,7 @@ function lode(){
         	link.href = path;
         	link.rel = 'stylesheet';
         	link.type = 'text/css';
+        	//console.log(link);
         	head.appendChild(link);
     	},
     	js: function(path){
@@ -42,15 +43,19 @@ function lode(){
                 isIphone: /iPhone/i.test( navigator.userAgent ),
                 isIpad: /iPad/i.test( navigator.userAgent ),
                 isAndroid: /android/i.test( navigator.userAgent ),
-                isPhone: isIphone || isAndroid
+                //isPhone: isIphone || isAndroid
             }
     }
     var is = browser();
-    if(!is['isPone']){
-    	dynamicLoading("./css/style.css");
+    //console.log(is);
+    if(!is['isIpone']&&!is['isAndroid']){
+    	dynamicLoading.css("./css/pc.css");
     }
     
 }
 
-HTMLElement.prototype.addEventListener.apply(window.document, ['lode', lode, false]);
+HTMLElement.prototype.addEventListener.apply(window.document, ['DOMContentLoaded', lode, false]);
+
+
+
   

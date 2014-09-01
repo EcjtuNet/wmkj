@@ -107,9 +107,23 @@
         function res(data, arr, dlt) {
             var d = $.parseJSON(data);
             if(d['status'] == "success") {
-            	arr.pop();
-            	arr.pop();
+            	//arr.pop();
+            	//arr.pop();
                 arr.push(dlt);
+                //console.log(arr);
+                writeDom($("div.active table tbody"), arr);
+            } else {
+                alert('error');
+            }
+        }
+        function resc(data, arr, dlt) {
+            var d = $.parseJSON(data);
+            if(d['status'] == "success") {
+            	theme = themeChange(arr[4]);
+            	arr.splice(2,3,theme);
+                arr.push(dlt);
+                arr.push(0);
+                console.log(arr);
                 writeDom($("div.active table tbody"), arr);
             } else {
                 alert('error');
@@ -117,13 +131,15 @@
         }
         
         function kwsSub(name) {
+        	//console.log(inputEmail.next().children());
             var items = inputEmail.next().children()
             ,   kws   = ''
             ,   cont  = $(".controls textarea").val()
             ,   rank  = '10'
             ,   dlt   = '删除关键字';
+            //console.log(items);
             $.each(items, function(index, item) {
-                kws += '(' + item.innerText + '),';
+                kws += '(' + item.textContent + '),';
             });
             if(!(kws&&cont)){
                 alert("怎么不填内容呢？看看关键字有没有确认吧");
@@ -149,7 +165,19 @@
             }
             arr = [title,des, arc, pic, theme, writer];
             $.post("Submit.php", {name : name, content : arr}, function (data) {
-                res(data, arr, dlt);
+                resc(data, arr, dlt);
             });
+        }
+        function themeChange(theme) {
+        	switch(theme){
+        		case '1': return "小新快递"  ; break;
+        		case '2': return "微科技"    ; break;
+        		case '3': return "孔目湖讲坛"; break;
+        		case '4': return "微音乐"    ; break;
+        		case '5': return "微杂志"    ; break;
+        		case '6': return "微通话"    ; break;
+        		case '7': return "微动漫"    ; break;
+        		case '8': return "微电台"    ; break; 
+        	}
         }
     });

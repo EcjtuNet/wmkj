@@ -26,13 +26,13 @@ if (isset($_POST['sign'])){
 				}
 			case '7':{
 				$_SESSION['access']['access']="7";
-				header("Location: ./page.php");
+				$cloum['cloum'] == "8" ? header("Location:./mp3/submit.php") : header("Location: ./page.php");
 				break;
 			}
 			case '5': {
-				include("submit_gbz.html");
+				//include("submit_gbz.html");
 				$_SESSION['access']['access']="5";
-				header("Location: ./page.php");
+				$cloum['cloum'] == "8" ? header("Location:./mp3/submit.php") : header("Location: ./page.php");
 				break;
 			}
 			default : echo "<message style='display:none'>$status</message>"; include("sign_new.htm"); break;
@@ -78,7 +78,7 @@ if (isset($_POST['sign'])){
 			$type = $_GET['type'];
 			$ID   = $_GET['dele'];
 			$deleobj = new PicArc();
-			//var_dump($deleobj->deleById($type,$ID));
+			var_dump($deleobj->deleById($type,$ID));
 			if($deleobj->deleById($type,$ID)){
 				header("Location: ./page.php");
 			}else{
