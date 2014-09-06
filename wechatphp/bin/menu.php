@@ -27,6 +27,36 @@ $menuData = array(
 $menuData = array(
 	'button'=>array(
 		array(
+			'name' => "新生专题",
+			'sub_button' => array(
+				array(
+					'type' => 'view',
+					'name' => '日新微店',
+					'url'  => 'http://wd.koudai.com/s/163327932'
+				),
+				array(
+					'type' => 'view',
+					'name' => '交大微电台',
+					'url' => 'http://wx.ecjtu.net/wmkj/mp3/'
+				),
+				array(
+					'type' => 'view',
+					'name' => '新生指南',
+					'url' => 'http://www.ecjtu.net/zhuanti/html/xinsheng/check-in.html'
+				),
+				array(
+					'type' => 'click',
+					'name' => '博约课堂',
+					'key' => 'DONGMAN'
+				),
+				array(
+					'type' => 'click',
+					'name' => '新生专题',
+					'key' => 'JIANGTAN'
+				),
+			)
+		),
+		array(
 			'name' => '花椒助手',
 			'sub_button' => array(
 				array(
@@ -53,36 +83,6 @@ $menuData = array(
 					'type' => 'click',
 					'name' => '查成绩',
 					'key'  => 'CHENGJI'
-				),
-			)
-		),
-		array(
-			'name' => "微生活",
-			'sub_button' => array(
-				array(
-					'type' => 'view',
-					'name' => '日新微店',
-					'url'  => 'http://wd.koudai.com/s/163327932'
-				),
-				array(
-					'type' => 'view',
-					'name' => '交大微电台',
-					'url' => 'http://wx.ecjtu.net/wmkj/mp3/'
-				),
-				array(
-					'type' => 'view',
-					'name' => '微电台社区',
-					'url' => 'http://wx.wsq.qq.com/236192005'
-				),
-				array(
-					'type' => 'click',
-					'name' => '博约课堂',
-					'key' => 'DONGMAN'
-				),
-				array(
-					'type' => 'click',
-					'name' => '孔目湖讲坛',
-					'key' => 'JIANGTAN'
 				),
 			)
 		),
