@@ -41,8 +41,8 @@ $menuData = array(
 				),
 				array(
 					'type' => 'view',
-					'name' => '新生指南',
-					'url' => 'http://www.ecjtu.net/zhuanti/html/xinsheng/check-in.html'
+					'name' => '吃月饼大赛',
+					'url' => 'http://wx.ecjtu.net/wmkj/game/yuebing2/index.htm'
 				),
 				array(
 					'type' => 'click',
