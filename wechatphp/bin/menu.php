@@ -27,7 +27,7 @@ $menuData = array(
 $menuData = array(
 	'button'=>array(
 		array(
-			'name' => "新生专题",
+			'name' => "日新招新",
 			'sub_button' => array(
 				array(
 					'type' => 'view',
@@ -41,8 +41,8 @@ $menuData = array(
 				),
 				array(
 					'type' => 'view',
-					'name' => '吃月饼大赛',
-					'url' => 'http://wx.ecjtu.net/wmkj/game/yuebing2/index.htm'
+					'name' => '日新招新',
+					'url' => 'http://hr.ecjtu.net/m/'
 				),
 				array(
 					'type' => 'click',
