@@ -69,15 +69,16 @@
         });
         $('.thumbs').click(function(e){
         	var id = $(this).children(".ID").text();
+		var thumbs = $(this);
         	console.log(id);
         	$.post("./index.php",{"wechatID":id},function(data){
         		//console.log(data.error == "exists");
         		if(data.error != "exists"){
-        			$(this).children(".badge").text(data.zan);
-        			$(this).children(".ups").text("已投");
+        			thumbs.children(".badge").text(data.zan);
+        			thumbs.children(".ups").text("已投");
         		}else{
-        			console.log($('.thumbs',this).children(".ups"));
-        			$('.thumbs',this).children(".ups").text("已投");
+        			//console.log(thumbs.children(".ups").text());
+        			thumbs.children(".ups").text("已投");
         		}
         	},"json")
         });
