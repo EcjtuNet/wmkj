@@ -77,15 +77,23 @@ $(function(){
 	
 		var title = $(".title input").val();
 		var desc  = $(".desc input").val();
-		var aurl = $("input[name='audio']:checked").val();
-		console.log(aurl);
-		if(isnull(aurl)){
+		$("input[name='audio']:checked").each(function(){
+			if($(this).attr("checked") == true){
+				var type = $(this).val().split(".");
+				if(type[1] == "mp3"){
+					var url = $(this).val();
+				}else{
+					var picurl = $(this).val();
+				}
+			}
+		});
+		if(isnull(url)||isnull(picurl)){
 			$(".file").addClass("warning");
 			$(".file .help-block").text("请选择你要使用的音频文件");
 		}else{
 			$(".file").removeClass("warning");
 			$(".file .help-block").text("");
-			var content = {"submit":"submit","title":title,"desc":desc,"aurl":aurl,"colum":"8"};
+			var content = {"submit":"submit","title":title,"desc":desc,"url":url,"picurl":picurl,"colum":"8"};
 			$.post("Submit_gbz.php",content,function(data){
 				console.log(data);
 				if(data.status=="200"){
