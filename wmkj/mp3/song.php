@@ -71,13 +71,13 @@
         	var id = $(this).children(".ID").text();
         	console.log(id);
         	$.post("./index.php",{"wechatID":id},function(data){
-        		console.log(data.error == "exists");
+        		//console.log(data.error == "exists");
         		if(data.error != "exists"){
         			$(this).children(".badge").text(data.zan);
         			$(this).children(".ups").text("已投");
         		}else{
-        			console.log($(this).children(".ups"));
-        			$(this).children(".ups").text("已投");
+        			console.log($('.thumbs',this).children(".ups"));
+        			$('.thumbs',this).children(".ups").text("已投");
         		}
         	},"json")
         });
