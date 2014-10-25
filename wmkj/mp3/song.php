@@ -71,7 +71,12 @@
         	var id = $(this).children(".ID").text();
         	console.log(id);
         	$.post("./index.php",{"wechatID":id},function(data){
-        		$(".badge").text(data.zan);
+        		if(data.error == undefined){
+        			$(this).children(".badge").text(data.zan);
+        			$(this).text("已投");
+        		}else{
+        			$(this).text("已投");
+        		}
         	},"json")
         });
         
