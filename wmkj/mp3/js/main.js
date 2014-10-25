@@ -78,6 +78,7 @@ $(function(){
 		var title = $(".title input").val();
 		var desc  = $(".desc input").val();
 		$("input[name='audio']:checked").each(function(){
+			console.log($(this).val());
 			if($(this).attr("checked") == true){
 				var type = $(this).val().split(".");
 				if(type[1] == "mp3"){
