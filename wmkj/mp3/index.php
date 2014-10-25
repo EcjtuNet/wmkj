@@ -21,7 +21,7 @@ if(isset($_GET['wechatID'])){
 			}else {
 				$zan = 0;
 			}
-			$add = array("ID"=>$value['ID'],"title"=>$value['title'],"picurl"=>$value['picurl'],"arcurl"=>$value['arcurl'],"zan"=>$zan);
+			$add = array("ID"=>$value['ID'],"title"=>$value['title'],"picurl"=>$value['picurl'],"arcurl"=>$value['url'],"zan"=>$zan);
 			array_push($resback,$add);
 		}
 		//$res = array("content"=>$content,"zan"=>$zan);
