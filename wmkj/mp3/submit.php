@@ -150,7 +150,7 @@
         <td>
             <p class="name">
                 {% if (file.url) { %}
-                	<input name="audio" class="audio" type="radio" value="{%=file.url%}"/>
+                	<input name="audio" class="audio" type="checkbox" value="{%=file.url%}"/>
                     <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}{% if(file.pre_name){ %}({%=file.pre_name%}){% } %}</a>
                 {% } else { %}
                     <span>{%=file.name%}</span>

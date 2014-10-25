@@ -91,7 +91,7 @@
       <div class="row">
       <div class="">
         <div class="page-header">
-          <h1>日新网 <small>华交微电台</small></h1>
+          <h1>因爱而声<small>青歌赛（网投）</small></h1>
         </div>
         <div class="player">
           <audio class="player" preload></audio>

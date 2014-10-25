@@ -78,7 +78,7 @@ $(function(){
 		var title = $(".title input").val();
 		var desc  = $(".desc input").val();
 		var aurl = $("input[name='audio']:checked").val();
-		//console.log(isnull(aurl));
+		console.log(aurl);
 		if(isnull(aurl)){
 			$(".file").addClass("warning");
 			$(".file .help-block").text("请选择你要使用的音频文件");
