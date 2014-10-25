@@ -81,22 +81,16 @@
           <audio class="player" preload></audio>
         </div>
         <ol>
+        <?php foreach($resback as $value){?>
           <li>
-            <img src="./image.jpeg" width="40px"; height="40px;" alt="..." class="img-circle">
-            <a class="" href="javascript:;" data-src="http://kolber.github.io/audiojs/demos/mp3/01-dead-wrong-intro.mp3">dead wrong intro</a>
+            <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle">
+            <a class="" href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
             <button type="button" class="btn btn-info thumbs">
-                <span class="glyphicon glyphicon-thumbs-up"></span> 投一票<span class="badge">4</span>
+                <span class="glyphicon glyphicon-thumbs-up"></span> 投一票<span class="badge"><?php echo $value['zan']?></span>
             </button>
           </li>
           <hr/>
-          <li><a href="javascript:;" data-src="http://kolber.github.io/audiojs/demos/mp3/02-juicy-r.mp3">juicy-r</a></li>
-          <hr/>
-          <li><a href="javascript:;" data-src="http://kolber.github.io/audiojs/demos/mp3/03-its-all-about-the-crystalizabeths.mp3">it's all about the crystalizabeths</a></li>
-          <hr/>
-          <li><a href="javascript:;" data-src="http://kolber.github.io/audiojs/demos/mp3/04-islands-is-the-limit.mp3">islands is the limit</a></li>
-          <hr/>
-          <li><a href="javascript:;" data-src="http://kolber.github.io/audiojs/demos/mp3/05-one-more-chance-for-a-heart-to-skip-a-beat.mp3">one more chance for a heart to skip a beat</a></li>
-          <hr/>
+         <?php } ?>
         </ol>
         </div>
       </div>
