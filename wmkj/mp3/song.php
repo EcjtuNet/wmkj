@@ -81,10 +81,10 @@
           <audio class="player" preload></audio>
         </div>
         <ol>
-        <?php foreach($resback as $value){?>
+        <?php foreach($resback as $value){ var_dump($value) ?>
           <li>
-            <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle">
-            <a class="" href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
+            <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle"/>
+            <a href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
             <button type="button" class="btn btn-info thumbs">
                 <span class="glyphicon glyphicon-thumbs-up"></span> 投一票<span class="badge"><?php echo $value['zan']?></span>
             </button>
