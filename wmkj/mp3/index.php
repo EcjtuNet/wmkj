@@ -38,6 +38,7 @@ if(strlen($_POST['wechatID']) == 31){
 		$id = substr($wechats,28,31);
 		if($redis->exists($wechat)){
 			echo $callback = json_encode(array("error"=>"exists"));
+			exit(0);
 		}else{
 			//var_dump($id);
 			if($id<200||$id>400){
