@@ -99,7 +99,7 @@
             <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle"/>
             <a href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
             <button type="button" class="btn btn-info thumbs">
-                <span class="glyphicon glyphicon-thumbs-up"></span> <span class="up">投一票<span><span class="badge"><?php echo $value['zan']?></span>
+                <span class="glyphicon glyphicon-thumbs-up"></span> <span class="up">投一票</span><span class="badge"><?php echo $value['zan']?></span>
                 <span class="ID" style="display:none"><?php echo $wechat.$value['ID']?></span>
             </button>
           </li>
