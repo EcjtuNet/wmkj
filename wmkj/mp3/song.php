@@ -87,7 +87,7 @@
         <ol>
         <?php foreach($resback as $value){ ?>
           <li>
-          	<span class="ID" style="dispaly:hidden"><?php echo $value['ID']?></span>
+          	<span class="ID" style="display:none"><?php echo $value['ID']?></span>
             <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle"/>
             <a href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
             <button type="button" class="btn btn-info thumbs">
