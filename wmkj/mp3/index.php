@@ -38,8 +38,8 @@ if(strlen($_POST['wechatID']) == 31){
 			echo $callback = json_encode(array("error"=>"exists"));
 		}else{
 			$wechat = substr($wechats, 0,28);
-			$id = substr($wechats,29,31);
-			var_dump($id);
+			$id = substr($wechats,28,31);
+			//var_dump($id);
 			if($id<200||$id>400){
 				echo "青歌赛期间，小新微电台暂停服务。";
 				exit(0);
