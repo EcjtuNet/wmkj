@@ -69,6 +69,7 @@
         });
         $('.thumbs').click(function(e){
         	var id = $('.ID').val();
+        	console.log(id);
         	$.post("./index.php",{"wechatID":id},function(data){
         		console.log(data);
         	},"json")
