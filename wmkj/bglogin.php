@@ -16,6 +16,7 @@ if (isset($_POST['sign'])){
 			$cloum    = $login->getAccess($usename, $password);
 			$_SESSION['access']['uName'] = $usename;
 			$_SESSION['access']['cloum'] = $cloum['cloum'];
+			var_dump($_SESSION['access']['cloum']);
 		}
 		$status   = "wrong";
 		switch($access){

@@ -15,9 +15,9 @@ if(isset($_SESSION['access'])){
 	$cloum    = $_SESSION['access']['cloum'];
 	$usename  = $_SESSION['access']['uName'];
 	$content  = getContent($page, $access, $cloum);
-	//var_dump($cloum);
+	var_dump($_SESSION['access']['uName']);
 	if(isset($_SESSION['error'])) echo "<message style='display:none'>".$_SESSION['error']."</message>";
-	include_once("wx.php");
+	//include_once("wx.php");
 }else{
 	header("Location: http://wx.ecjtu.net/wmkj/index.php");
 	exit(0);
