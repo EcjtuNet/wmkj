@@ -76,7 +76,7 @@
         			$(this).children(".badge").text(data.zan);
         			$(this).children(".ups").text("已投");
         		}else{
-        			console.log($(this).children(".ups").text());
+        			console.log($(this).children(".ups"));
         			$(this).children(".ups").text("已投");
         		}
         	},"json")
