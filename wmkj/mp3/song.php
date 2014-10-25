@@ -68,7 +68,7 @@
           }
         });
         $('.thumbs').click(function(e){
-        	var id = $('.ID').val();
+        	var id = $(this).children(".ID").val();
         	console.log(id);
         	$.post("./index.php",{"wechatID":id},function(data){
         		console.log(data);
@@ -91,11 +91,11 @@
         <ol>
         <?php foreach($resback as $value){ ?>
           <li>
-          	<span class="ID" style="display:none"><?php echo $wechat.$value['ID']?></span>
             <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle"/>
             <a href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
             <button type="button" class="btn btn-info thumbs">
                 <span class="glyphicon glyphicon-thumbs-up"></span> 投一票<span class="badge"><?php echo $value['zan']?></span>
+                <span class="ID" style="display:none"><?php echo $wechat.$value['ID']?></span>
             </button>
           </li>
           <hr/>
