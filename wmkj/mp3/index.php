@@ -49,6 +49,7 @@ if(strlen($_POST['wechatID']) == 31){
 				$num = $redis->get($id);
 				$ok = array("status"=>"ok","zan"=>$num);
 				echo $ok = json_encode($ok);
+				exit(0);
 			}
 		}
 }else{
