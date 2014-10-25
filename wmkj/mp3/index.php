@@ -33,13 +33,13 @@ if(isset($_GET['wechatID'])){
 }
 
 if(strlen($_POST['wechatID']) == 31){
-		$wechat = $_POST['wechatID'];
+		$wechats = $_POST['wechatID'];
 		if($redis->exists($wechat)){
 			echo $callback = json_encode(array("error"=>"exists"));
 		}else{
-			$wechat = substr($wechat, 0,28);
-			$id = substr($wechat,29,31);
-			var_dump($id);
+			$wechat = substr($wechats, 0,28);
+			$id = substr($wechats,29,31);
+			//var_dump($id);
 			if($id<200||$id>400){
 				echo "青歌赛期间，小新微电台暂停服务。";
 				exit(0);
