@@ -93,6 +93,10 @@ class WeChatCallBack {
 				if($picObj = new PicArc()){
 					interface_log(DEBUG , 0, "class works");
 				}
+				if($this->_EventKey == 'QGS'){
+					$out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+					return $this->makeHint($out);
+				}
 
 				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'&&$this->_EventKey != 'KEBIAO'){
 					//$count = ($this->_EventKey=='KUAIDI')? 4 : 1;
@@ -258,6 +262,11 @@ class WeChatCallBack {
 		}                
      }
 	private function bdcheck($content){
+
+	        if($this->_postObject->Content == '投票'||strstr($this->_postObject->Content,'电台')||strstr($this->_postObject->Content,'青歌赛')){
+                        $out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+                	return $out;
+                }
 		$aword = substr($content,0,2);
 		$zword = substr($content,2,14);
 		$wxh   =$this->_fromUserName;

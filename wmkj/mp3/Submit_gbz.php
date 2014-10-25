@@ -10,8 +10,8 @@ require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/PicArc.php'
 session_start();
 if(isset($_POST['submit'])){
 	$uname = $_SESSION['access']['uName'];
-	if(isset($_POST['title'])&&isset($_POST['desc'])&&isset($_POST['aurl'])&&isset($_POST['colum'])&&isset($uname)){
-	$arr = array('title'=>$_POST['title'],'descr'=>$_POST['desc'],'piurl'=>$_POST['aurl'],'arurl'=>$_POST['aurl'],'colum'=>$_POST['colum'],'publishman'=>$uname);
+	if(isset($_POST['title'])&&isset($_POST['desc'])&&isset($_POST['url'])&&isset($_POST['colum'])&&isset($uname)){
+	$arr = array('title'=>$_POST['title'],'descr'=>$_POST['desc'],'piurl'=>$_POST['picurl'],'arurl'=>$_POST['url'],'colum'=>$_POST['colum'],'publishman'=>$uname);
 	}
 	
 	$picarc = new PicArc();

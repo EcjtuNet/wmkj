@@ -74,20 +74,21 @@ $(function(){
 	$(".submit").click(function(){
 		$(".title input").blur();
 		$(".desc input").blur();
-	
+		var url;
+		var picurl;	
 		var title = $(".title input").val();
 		var desc  = $(".desc input").val();
 		$("input[name='audio']:checked").each(function(){
-			console.log($(this).val());
-			if($(this).attr("checked") == true){
-				var type = $(this).val().split(".");
-				if(type[1] == "mp3"){
-					var url = $(this).val();
-				}else{
-					var picurl = $(this).val();
-				}
+			//console.log($(this).val());
+			var type = $(this).val().split(".");
+			//console.log(type[3]);
+			if(type[3] == "mp3"){	
+				url = $(this).val();
+			}else{
+				picurl = $(this).val();
 			}
 		});
+	//	console.log("hehe"+url);
 		if(isnull(url)||isnull(picurl)){
 			$(".file").addClass("warning");
 			$(".file .help-block").text("请选择你要使用的音频文件");
