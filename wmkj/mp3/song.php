@@ -18,7 +18,7 @@
         padding-left: 10px;
         list-style: none;
       }
-      ol li a{ font-size:16px; margin-left:20px; width:50%;height:40px; line-height:40px; display:inline-block;}
+      ol li a{ font-size:16px; margin-left:20px; width:auto;height:40px; line-height:40px; display:inline-block;}
       .thumbs{ float:right; margin-right:20px;}
     </style>
     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
