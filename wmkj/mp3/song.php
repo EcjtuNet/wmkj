@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <style type="text/css">
-      .audiojs{ position: fixed; bottom: 0px; left: 0px; }
+      .audiojs{ position: fixed; bottom: 0px; left: 0px; z-index:100;}
       hr{ margin:10px 0; }
       ol{padding: 0;}
       ol li{
