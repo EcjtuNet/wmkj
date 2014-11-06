@@ -150,7 +150,7 @@ class WeChatCallBack {
 					$out = $this->bdcheck($this->_postObject->Content);
 					require_once dirname(__FILE__) .'/model/lucky.php';
             		$luky =  new choujiang();
-            		$luky->init($this->FromUserName);
+            		$luky->init($this->_fromUserName);
             		$luky->progress();
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
 					return $this->makeHint($out);
