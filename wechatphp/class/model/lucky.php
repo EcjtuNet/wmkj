@@ -17,7 +17,7 @@ class choujiang extends AbstractQuery
 				$day = date('d',time());
 				$hour = date('h',time());
 				$hour = (int)$hour;
-				if ($day == '06' && $hour>=18 ) {
+				if ($day == '06' && $hour>=13 ) {
 					$select_sql = " SELECT * FROM luck WHERE Wechat_name=".$wechat_name;
 					$select_query = mysql_query($select_sql);
 					if (mysql_num_rows($select_query) == 0) {
