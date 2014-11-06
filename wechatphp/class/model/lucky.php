@@ -14,6 +14,7 @@ class choujiang extends AbstractQuery
 		$this->_WeChatID = $openID;//getWechatID($this->_StudentID); 
 	}
 	public function progress(){
+				interface_log(DEBUG, 0, "openID：".$this->_WeChatID);
 				$wechat_name = GetNickName($this->_WeChatID);
 				interface_log(DEBUG, 0, "名字：".$wechat_name);
 				$day = date('d',time());
