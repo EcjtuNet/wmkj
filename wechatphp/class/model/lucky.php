@@ -21,6 +21,7 @@ class choujiang extends AbstractQuery
 				if ($day == '06' && $hour>=13 ) {
 					doSql($WeChatID,$wechat_name,$time);
 			}
+			return $out = null;
 	}
 	private function doSql($WeChatID,$wechat_name, $time){
 		try{

@@ -145,6 +145,7 @@ class WeChatCallBack {
 			$rb = new rxl();
 			$rb->init($this->_postObject->Content);
 			$model = $rb->progress($this->FromUserName);
+			interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
 				if (!isset($model)) {
 					$out = $this->bdcheck($this->_postObject->Content);
 					require_once dirname(__FILE__) .'/model/lucky.php';
