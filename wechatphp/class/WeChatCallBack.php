@@ -150,7 +150,8 @@ class WeChatCallBack {
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
 					return $this->makeHint($out);
 				}
-				if(strstr($model, 'model')){
+				if(true){
+				//if(strstr($model, 'model')){
 					$queryObj = $this->modelMatch($model);
 
 					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
