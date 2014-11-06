@@ -9,13 +9,14 @@ date_default_timezone_set('PRC');
 
 class choujiang extends AbstractQuery
 {
-	public function init($openID){
-		$this->_StudentID = $StudentID;
+	public function init($openID,$studenID){
+		$this->_StudentID = $studenID;
 		$this->_WeChatID = $openID;//getWechatID($this->_StudentID); 
 	}
 	public function progress(){
 				interface_log(DEBUG, 0, "openID：".$this->_WeChatID);
-				$wechat_name = GetNickName($this->_WeChatID);
+				//$wechat_name = GetNickName($this->_WeChatID);
+				$wechat_name = "000"
 				interface_log(DEBUG, 0, "名字：".$wechat_name);
 				$day = date('d',time());
 				$hour = date('h',time());
@@ -37,6 +38,18 @@ class choujiang extends AbstractQuery
 		}catch(DB_Exception $e){
 			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
 		}
+	}
+	private function getName(){
+		try{
+	 		$dbs = DbFactory::getInstance('SCORE');
+	 		$sql = "SELECT Name FROM `StudentInfo` WHERE `StudentID` LIKE"."'$this->_StudentID'";
+	 		interface_log(DEBUG, 0, "sql:" . $sql);		
+	 		$rs  = $dbs->query($sql);
+	 		$res = $dbs->fetch($rs);
+	 	} catch (DB_Exception $e){
+	 		interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+	 	}
+	 	return $name = $res['NAme']; 
 	}
 	private function getWechatID($StudentID){
 		try{
