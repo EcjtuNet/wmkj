@@ -18,14 +18,20 @@ class choujiang extends AbstractQuery
 				$hour = date('h',time());
 				$hour = (int)$hour;
 				if ($day == '06' && $hour>=13 ) {
-					$select_sql = " SELECT * FROM luck WHERE Wechat_name=".$wechat_name;
-					$select_query = mysql_query($select_sql);
-					if (mysql_num_rows($select_query) == 0) {
-						$time = time();
-						$sql = "INSERT INTO  `luck` VALUES ('','$wechat_name','$time')";
-						mysql_query($sql);
-				}
+					doSql($WeChatID,$wechat_name,$time);
 			}
+	}
+	private function doSql($WeChatID,$wechat_name, $time){
+		try{
+			$db = DbFactory::getallheaders("DB");
+			$select_sql = "INSERT INTO  `luck` VALUES ('','$WeChatID','$wechat_name','$time')";
+			$rs = $db->insert($select_sql);
+			if(!$rs){
+				return null;
+			}
+		}catch(DB_Exception $e){
+			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
 		}
-	}				
+	} 
+}				
 ?>

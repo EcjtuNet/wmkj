@@ -227,7 +227,8 @@ class WeChatCallBack {
             return new getup();
 		}
 		else{
-			return $model;
+			require_once dirname(__FILE__) .'/model/lucky.php';
+            return new choujiang();
 		}
 	}
 	private function getSID($openID){

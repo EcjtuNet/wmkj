@@ -5,10 +5,10 @@
  * @author homker
  *
  */
-require_once dirname(dirname(__FILE__)) . '/common/Common.php';
-//require_once dirname(dirname(__FILE__)) .'/common/GlobalDefine.php';
-//require_once dirname(dirname(__FILE__)) .'/common/GlobalFunctions.php';
-//require_once dirname(dirname(__FILE__)) .'/common/DbFactory.php';
+//require_once dirname(dirname(__FILE__)) . '/common/Common.php';
+require_once dirname(dirname(__FILE__)) .'/common/Define.php';
+require_once dirname(dirname(__FILE__)) .'/common/GlobalFunctions.php';
+require_once dirname(dirname(__FILE__)) .'/common/DbFactory.php';
 require_once dirname(__FILE__) .'/PicArc.php';
 require_once dirname(__FILE__) .'/model/rxl.php';
 require_once dirname(__FILE__) .'/model/predis-0.8/autoload.php';
@@ -88,28 +88,17 @@ class WeChatCallBack {
 		if($this->_msgType == 'event'){
 			interface_log(DEBUG, 0, "进入事件，事件是".$this->_event);
 			if($this->_event == 'subscribe'){
-				return $this->makeHint("又有一个新朋友了，小新很开心呢！/可爱\n日小新微信公众平台，微信号：rixinwx\n日小新，用心为你打造贴心实用的花椒微信家园~\n你可以试着回复以下关键字来使用日小新：\n\n
-				/可爱回复“目录”---- 本菜单
-				/可爱回复“小新快递“--- 交大最新消息
-				/可爱回复“交大影院“--- 本周南区影院电影
-				/可爱回复“微杂志”---- 美文欣赏
-				/可爱回复“孔目湖讲坛”---- 每期孔目湖讲坛预告
-				/可爱回复“微动漫”----- 动漫迷的福音
-				/可爱回复“微童话”----找寻遗失的童年
-				/可爱回复“外卖”-----  校周边外卖电话
-				/可爱回复“日新卡”---- 日新卡可以打折的商家
-				/可爱回复“微音乐”----来自小新的音乐推荐
-				/可爱回复“小新说”----小新跟你说晚安
-				/可爱回复“微科技”----好玩的DIY制作或科技
-				/可爱回复“查课表”----绑定学号后可以查哦~
-				/可爱回复“查成绩”----童鞋你懂的~\n
-				（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）");
+				return $this->makeHint("啦啦啦，啦啦啦，我是缺爱的小新啊！看到你来了，小新才不哭了呢。日小新微信公众平台，微信号：rixinwx\n日小新“花椒助手”助你将最新成绩，课表等校园信息统统收入掌内！小新愿意成为大家萌萌哒小白，为你们打造贴心的“交大之家”。\nOK！亲爱的们，你可以回复一下关键词来获得你想要得内容！\n\n[微店]：有需求随意购哦~亲..........mua!!/亲亲\n\n[交大微电台]：聆听交大的另一个声音.........pia！！/害羞\n\n[新生指南]：只有你想不到的，没有我们不知道的..xu！让小新吹一下牛逼/阴险)\n\n[博约课堂]：汪立夏浅谈大学那一二三点事.........../鼓掌\n\n[新生专题]：小花椒，点它，你就赢了半个交大！/坏笑\n\n[小新快递]：交大最新消息尽在你的掌握之中....../可爱\n\n[跳蚤市场]：居家好男人女人的首选，你值得拥有！/酷\n\n[一卡通]：查询余额~食堂虽好，可不要贪吃哦！/憨笑\n\n[查课表]：绑定学号即可查询~做个爱学习的好孩子/奋斗\n\n[查成绩]：绑定学号即可查询~\n\n[日新社区]：畅言人生，爱情，梦想........\n（本条信息自动发送，如果小新有时间就会在线回复大家的留言哟~）");
 			}elseif($this->_event == 'CLICK'){
 				if($picObj = new PicArc()){
 					interface_log(DEBUG , 0, "class works");
 				}
+				if($this->_EventKey == 'QGS'){
+					$out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+					return $this->makeHint($out);
+				}
 
-				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'){
+				if($this->_EventKey != 'KAOSHI'&&$this->_EventKey != 'CHENGJI'&&$this->_EventKey != 'YKT'&&$this->_EventKey != 'DIANTAI'&&$this->_EventKey != 'KEBIAO'){
 					//$count = ($this->_EventKey=='KUAIDI')? 4 : 1;
 					$count = 5;
 					$arr = $picObj->getContent($this->_EventKey,$count);
@@ -127,10 +116,11 @@ class WeChatCallBack {
 						case 'KAOSHI' : $model = "model_KS"    ; break;
 						case 'CHENGJI': $model = "model_CJ"    ; break;
 						case 'YKT'    : $model = "model_YKT"   ; break;
+						case 'KEBIAO' : $model = "model_KEBIAO"; break;
 					}
 					interface_log(DEBUG, 0, $model);
 					$queryObj = $this->modelMatch($model);
-					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
+					interface_log(DEBUG, 0, "class1:".var_export($queryObj,TRUE));
 					if(!$queryObj){
 						if($StudentID = $this->getSID($this->_fromUserName)){
 							$queryObj = $this->modelMatch_xh($model);
@@ -140,8 +130,10 @@ class WeChatCallBack {
 						}
 						interface_log(DEBUG,0,"学号是：".$StudentID);
 					}
+					interface_log(DEBUG, 0, "class2:".var_export($queryObj,TRUE));
 					$queryObj->init($StudentID);
 					$out = $queryObj->progress();
+					interface_log(DEBUG, 0, "content:".var_export($out,TRUE));
 					if(is_array($out)){
 						return $this->makeMus($out);
 					}else{	
@@ -172,9 +164,9 @@ class WeChatCallBack {
 					if(!is_object($queryobj)){
 					interface_log(DEBUG, 0,"所属模块".$model);
 						if($StudentID = $this->getSID($this->_fromUserName)){
-							interface_log(DEBUG, 0,"所属模块".$model);
+							//interface_log(DEBUG, 0,"所属模块".$model);
 							$queryObj = $this->modelMatch_xh($model);
-							//interface_log(DEBUG, 0,"所属模块".$queryObj);
+							interface_log(DEBUG, 0,"所属模块".var_export($queryObj,TRUE));
 						}else{
 							interface_log('ERROR', 0,"未获取到学号。".NO_BD);
 							return $this->makeHint(NO_BD);
@@ -235,7 +227,8 @@ class WeChatCallBack {
             return new getup();
 		}
 		else{
-			return $model;
+			require_once dirname(__FILE__) .'/model/lucky.php';
+            return new choujiang();
 		}
 	}
 	private function getSID($openID){
@@ -246,7 +239,7 @@ class WeChatCallBack {
 			interface_log(DEBUG, 0, "sql:" . $sql);			
 			$rs = $db->query($sql);	
 			if($row = $db->fetch($rs)){
-				interface_log(DEBUG, 0,"数据库读取正常，读取数据为：".$row);
+				interface_log(DEBUG, 0,"数据库读取正常，读取数据为：".var_export($row,TRUE));
 				if($row['bd'] == 1){
 					return $StudentID = $row['xh'];
 				}else{
@@ -270,6 +263,11 @@ class WeChatCallBack {
 		}                
      }
 	private function bdcheck($content){
+
+	        if($this->_postObject->Content == '投票'||strstr($this->_postObject->Content,'电台')||strstr($this->_postObject->Content,'青歌赛')){
+                        $out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+                	return $out;
+                }
 		$aword = substr($content,0,2);
 		$zword = substr($content,2,14);
 		$wxh   =$this->_fromUserName;
