@@ -9,8 +9,9 @@ date_default_timezone_set('PRC');
 
 class choujiang extends AbstractQuery
 {
-	public function init($WeChatID){
-		$this->_WeChatID = $WeChatID; 
+	public function init($StudentID){
+		$this->_StudentID = $StudentID;
+		$this->_WeChatID = getWechatID($this->_StudentID); 
 	}
 	public function process(){
 				$wechat_name = GetNickName($this->_WeChatID);
@@ -32,6 +33,16 @@ class choujiang extends AbstractQuery
 		}catch(DB_Exception $e){
 			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
 		}
-	} 
+	}
+	private function getWechatID($StudentID){
+		try{
+                   	 	$db     = DbFactory::getInstance('WX');
+                    		$sql    = $db->query("SELECT wxh FROM `user` WHERE wx = '$StudentID'";
+			$sql    = $db->fetch($sql); 
+			return $sql['wxh'];
+		}catch(DB_Exception $e){
+			interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+		}
+	}
 }				
 ?>
