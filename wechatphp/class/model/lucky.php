@@ -25,7 +25,7 @@ class choujiang extends AbstractQuery
 	private function doSql($WeChatID,$wechat_name, $time){
 		try{
 			$db = DbFactory::getallheaders("DB");
-			$select_sql = "INSERT INTO  `luck` VALUES ('','$WeChatID','$wechat_name','$time')";
+			$select_sql = "INSERT INTO  `lucky` VALUES ('','$WeChatID','$wechat_name','$time')";
 			$rs = $db->insert($select_sql);
 			if(!$rs){
 				return null;

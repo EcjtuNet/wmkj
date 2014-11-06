@@ -28,7 +28,7 @@ $type = $_GET['type'];
 			try {
 				$db = DbFactory::getallheaders("DB");
 				if(!$rand){
-					$sql = "SELECT * FROM `luck` WHERE 1";
+					$sql = "SELECT * FROM `lucky` WHERE 1";
 				}else{
 					$sql = $sql ." order by rand() limit 3";
 				}

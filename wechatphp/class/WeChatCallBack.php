@@ -94,7 +94,7 @@ class WeChatCallBack {
 					interface_log(DEBUG , 0, "class works");
 				}
 				if($this->_EventKey == 'QGS'){
-					$out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+					$out = "投票结束，谢谢";
 					return $this->makeHint($out);
 				}
 
@@ -147,13 +147,18 @@ class WeChatCallBack {
 			$model = $rb->progress($this->FromUserName);
 				if (!isset($model)) {
 					$out = $this->bdcheck($this->_postObject->Content);
+					if($out == null){
+						require_once dirname(__FILE__) .'/model/lucky.php';
+            			$luky = new choujiang();
+            			$luky->init($this->FromUserName);
+            			$luky->grogress();
+					}
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
 					return $this->makeHint($out);
 				}
-				if(true){
-				//if(strstr($model, 'model')){
+				//if($model){
+				if(strstr($model, 'model')){
 					$queryObj = $this->modelMatch($model);
-
 					interface_log(DEBUG, 0, var_export($queryObj,TRUE));
 					if(!$queryObj){
 						if($StudentID = $this->getSID($this->_fromUserName)){
@@ -228,8 +233,7 @@ class WeChatCallBack {
             return new getup();
 		}
 		else{
-			require_once dirname(__FILE__) .'/model/lucky.php';
-            return new choujiang();
+			return $model
 		}
 	}
 	private function getSID($openID){
@@ -265,10 +269,7 @@ class WeChatCallBack {
      }
 	private function bdcheck($content){
 
-	        if($this->_postObject->Content == '投票'||strstr($this->_postObject->Content,'电台')||strstr($this->_postObject->Content,'青歌赛')){
-                        $out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
-                	return $out;
-                }
+
 		$aword = substr($content,0,2);
 		$zword = substr($content,2,14);
 		$wxh   =$this->_fromUserName;
