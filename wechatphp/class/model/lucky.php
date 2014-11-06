@@ -15,8 +15,10 @@ class choujiang extends AbstractQuery
 	}
 	public function progress(){
 				$wechat_name = GetNickName($this->_WeChatID);
+				interface_log(DEBUG, 0, "名字：".$wechat_name);
 				$day = date('d',time());
 				$hour = date('h',time());
+				$time = time();
 				$hour = (int)$hour;
 				if ($day == '06' && $hour>=13 ) {
 					doSql($WeChatID,$wechat_name,$time);
