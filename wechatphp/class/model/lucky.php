@@ -13,7 +13,7 @@ class choujiang extends AbstractQuery
 		$this->_StudentID = $StudentID;
 		$this->_WeChatID = $openID;//getWechatID($this->_StudentID); 
 	}
-	public function process(){
+	public function progress(){
 				$wechat_name = GetNickName($this->_WeChatID);
 				$day = date('d',time());
 				$hour = date('h',time());
@@ -38,7 +38,7 @@ class choujiang extends AbstractQuery
 	private function getWechatID($StudentID){
 		try{
                    	 	$db     = DbFactory::getInstance('WX');
-                    		$sql    = $db->query("SELECT wxh FROM `user` WHERE wx = '$StudentID'";
+                    		$sql    = $db->query("SELECT wxh FROM `user` WHERE wx = '$StudentID'");
 			$sql    = $db->fetch($sql); 
 			return $sql['wxh'];
 		}catch(DB_Exception $e){
