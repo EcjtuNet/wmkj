@@ -5,9 +5,8 @@ require_once dirname(__FILE__) .'../wechatphp/common/DbFactory.php';
 
 $type = $_GET['type'];
 		function display(){
-			$sql = "SELECT * FROM `luck` WHERE 1";
-			$query = mysql_query($sql);
-			while ($rows = mysql_fetch_array($query)) {
+			$arrays = doSql();
+			foreach ($arrays as $rows) {
 				$id = $rows['id'];
 				$wechat_id= $rows['Wechat_name'];
 				$time = $rows['time'];
@@ -16,16 +15,28 @@ $type = $_GET['type'];
 		echo json_encode($array);
 	}
 		function luck(){
-			$sql = "SELECT * FROM `luck` order by rand() limit 3";
-			$query = mysql_query($sql);
-			while($rows = mysql_fetch_array($query))
-			{
+			$arrays = doSql(true);
+			foreach ($arrays as  $rows) {
 			$id = $rows['id'];
 			$wechat_id= $rows['Wechat_id'];
 			$time = $rows['time'];
 			$array["$id"] = array("NickName"=>"$wechat_id","time"=>"$time");
 			}
 			echo json_encode($array);
+		}
+		function doSql($rand = false){
+			try {
+				$db = DbFactory::getallheaders("DB");
+				if(!$rand){
+					$sql = "SELECT * FROM `luck` WHERE 1";
+				}else{
+					$sql = $sql ." order by rand() limit 3";
+				}
+				$array = $db->getAll($sql);
+				return $array;
+			} catch (Exception $e) {
+				interface_log(ERROR, EC_DB_OP_EXCEPTION, "query db error" . $e->getMessage());
+			}
 		}
 		switch ($type) {
 			case 'display':
