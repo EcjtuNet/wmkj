@@ -9,9 +9,9 @@ date_default_timezone_set('PRC');
 
 class choujiang extends AbstractQuery
 {
-	public function init($StudentID){
+	public function init($openID){
 		$this->_StudentID = $StudentID;
-		$this->_WeChatID = getWechatID($this->_StudentID); 
+		$this->_WeChatID = $openID;//getWechatID($this->_StudentID); 
 	}
 	public function process(){
 				$wechat_name = GetNickName($this->_WeChatID);
