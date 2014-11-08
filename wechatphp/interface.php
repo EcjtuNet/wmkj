@@ -1,89 +1,109 @@
 <?php
-/**
-  * wechat php test
-  */
+//echo "hello word";
+$startTime = microtime(true);
+require_once dirname(__FILE__) .'/common/Define.php';
+require_once dirname(__FILE__) .'/common/GlobalFunctions.php';
 
-//define your token
-define("TOKEN", "EcjtuNet");
-$wechatObj = new wechatCallbackapiTest();
-$wechatObj->valid();
-
-class wechatCallbackapiTest
+function checkSignature()
 {
-	public function valid()
-    {
-        $echoStr = $_GET["echostr"];
+	$signature = $_GET["signature"];
+	$timestamp = $_GET["timestamp"];
+	$nonce = $_GET["nonce"];
 
-        //valid signature , option
-        if($this->checkSignature()){
-        	echo $echoStr;
-        	exit;
-        }
-    }
+	/*//interface_log(DEBUG,EC_OK,"some of ".var_export($_GET,TRUE));
+	$token = "weixin_token";
+	$tmpArr = array($token, $timestamp, $nonce);
+	sort($tmpArr,SORT_STRING);
+	$tmpStr = implode( $tmpArr );
+	$tmpStr = sha1( $tmpStr );
+	//interface_log(DEBUG,EC_OK,$tmpStr);*/
 
-    public function responseMsg()
-    {
-		//get post data, May be due to the different environments
-		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
 
-      	//extract post data
-		if (!empty($postStr)){
-                /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
-                   the best way is to check the validity of xml by yourself */
-                libxml_disable_entity_loader(true);
-              	$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-                $fromUsername = $postObj->FromUserName;
-                $toUsername = $postObj->ToUserName;
-                $keyword = trim($postObj->Content);
-                $time = time();
-                $textTpl = "<xml>
-							<ToUserName><![CDATA[%s]]></ToUserName>
-							<FromUserName><![CDATA[%s]]></FromUserName>
-							<CreateTime>%s</CreateTime>
-							<MsgType><![CDATA[%s]]></MsgType>
-							<Content><![CDATA[%s]]></Content>
-							<FuncFlag>0</FuncFlag>
-							</xml>";             
-				if(!empty( $keyword ))
-                {
-              		$msgType = "text";
-                	$contentStr = "Welcome to wechat world!";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
-                	echo $resultStr;
-                }else{
-                	echo "Input something...";
-                }
+	$token = WEIXIN_TOKEN;
+	$tmpArr = array($token, $timestamp, $nonce);
+	sort($tmpArr);
+	$tmpStr = implode( $tmpArr );
+	$tmpStr = sha1( $tmpStr );
 
-        }else {
-        	echo "";
-        	exit;
-        }
-    }
-		
-	private function checkSignature()
-	{
-        // you must define TOKEN by yourself
-        if (!defined("TOKEN")) {
-            throw new Exception('TOKEN is not defined!');
-        }
-        
-        $signature = $_GET["signature"];
-        $timestamp = $_GET["timestamp"];
-        $nonce = $_GET["nonce"];
-        		
-		$token = TOKEN;
-		$tmpArr = array($token, $timestamp, $nonce);
-        // use SORT_STRING rule
-		sort($tmpArr, SORT_STRING);
-		$tmpStr = implode( $tmpArr );
-		$tmpStr = sha1( $tmpStr );
-		
-		if( $tmpStr == $signature ){
-			return true;
-		}else{
-			return false;
-		}
+	if( $tmpStr == $signature ){
+		return true;
+	}else{
+		return false;
 	}
 }
+
+if(checkSignature()) {
+	if($_GET["echostr"]) {
+		echo $_GET["echostr"];
+
+		interface_log(DEBUG,EC_OK,$_GET["echostr"]);
+	exit;
+
+		exit(0);
+
+	}
+}/*
+else {
+	//恶意请求：获取来来源ip，并写日志
+	$ip = getIp();
+	interface_log(ERROR, EC_OTHER, '攻击者: ' . $ip);
+	exit(0);
+	
+}*/
+
+function exitErrorInput(){//由于错误的信息输入导致程序强行退出。
+	
+	interface_log(INFO, EC_OK, "*接口回复结束(interface  response  end)*");
+	interface_log(INFO, EC_OK, "***************************************");
+	interface_log(INFO, EC_OK, "");
+	exit ( 0 );
+}
+
+function getWeChatObj() {
+	require_once dirname(__FILE__) . '/class/WeChatCallBack.php';
+	return new WeChatCallBack();
+}
+
+
+
+$postStr = file_get_contents ( "php://input" );
+
+interface_log(INFO, EC_OK, "");
+interface_log(INFO, EC_OK, "***************************************");
+interface_log(INFO, EC_OK, "*接口回复开始(interface response start)*");
+interface_log(INFO, EC_OK, 'request:' . $postStr);
+interface_log(INFO, EC_OK, 'get:' . var_export($_GET, true));
+
+if (empty ( $postStr )) {
+	interface_log( ERROR, EC_OK, "error input!" );
+	exitErrorInput();
+}
+// 获取参数
+$postObj = simplexml_load_string ( $postStr, 'SimpleXMLElement', LIBXML_NOCDATA );
+if(NULL == $postObj) {
+	interface_log(ERROR, 0, "错误信息无法解析～！");	
+	exit(0);
+}
+interface_log( DEBUG, EC_OK, '所得类型:'.$postObj->MsgType);
+if($wechatObj = getWeChatObj ())
+{
+	$useTime = microtime(true) - $startTime;
+	interface_log( DEBUG, EC_OK ,"类正常加载,耗时：".$useTime);
+}
+$ret = $wechatObj->init ( $postObj );
+if (! $ret) {
+	interface_log ( ERROR, EC_OK, "error input!" );
+	exitErrorInput();
+}
+$retStr = $wechatObj->process ();
+interface_log ( INFO, EC_OK, "response:" . $retStr );
+echo $retStr;
+
+
+interface_log(INFO, EC_OK, "*接口回复结束(interface  response  end)*");
+interface_log(INFO, EC_OK, "***************************************");
+interface_log(INFO, EC_OK, "");
+$useTime = microtime(true) - $startTime;
+interface_log ( INFO, EC_OK, "cost time:" . $useTime . " " . ($useTime > 4 ? "warning" : "") );
 
 ?>
