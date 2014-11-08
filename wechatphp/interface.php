@@ -10,13 +10,13 @@ function checkSignature()
 	$timestamp = $_GET["timestamp"];
 	$nonce = $_GET["nonce"];
 
-	//interface_log(DEBUG,EC_OK,"some of ".var_export($_GET,TRUE));
+	/*//interface_log(DEBUG,EC_OK,"some of ".var_export($_GET,TRUE));
 	$token = "weixin_token";
 	$tmpArr = array($token, $timestamp, $nonce);
 	sort($tmpArr,SORT_STRING);
 	$tmpStr = implode( $tmpArr );
 	$tmpStr = sha1( $tmpStr );
-	//interface_log(DEBUG,EC_OK,$tmpStr);	
+	//interface_log(DEBUG,EC_OK,$tmpStr);*/
 
 
 	$token = WEIXIN_TOKEN;
