@@ -10,7 +10,7 @@ require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/PicArc.php'
 require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/model/predis-0.8/autoload.php';
 
 $redis = new Predis\Client();
-$resback = array();
+/*$resback = array();
 if(isset($_GET['wechatID'])){
 	$wechat = $_GET['wechatID'];
 	if(strlen($wechat)==28){
@@ -57,7 +57,7 @@ if(strlen($_POST['wechatID']) == 31){
 	echo "青歌赛期间，小新微电台暂停服务。";
 	exit(0);
 }
-	
+	*/
 
 if(isset($_POST['ID'])){
 	$ID = $_POST['ID'];
@@ -71,8 +71,8 @@ if(isset($_POST['ID'])){
 	
 }else{
 	$content = getMP3();
-	echo "青歌赛期间，小新微电台暂停服务。";
-	//include("player.php");
+	//echo "青歌赛期间，小新微电台暂停服务。";
+	include("player.php");
 }
 function getMP3($count){
 
