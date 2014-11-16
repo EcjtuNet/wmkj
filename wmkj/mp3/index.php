@@ -72,6 +72,7 @@ if(isset($_POST['ID'])){
 }else{
 	$content = getMP3();
 	//echo "青歌赛期间，小新微电台暂停服务。";
+	var_dump($content);
 	include("player.php");
 }
 function getMP3($count){
