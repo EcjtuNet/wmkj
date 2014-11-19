@@ -5,7 +5,7 @@ require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/PicArc.php'
 *@desc 发布处理
 *@version 0.0.1
 */
-//var_dump($_POST);
+var_dump($_POST);
 //var_dump($_FILES['files']);
 session_start();
 if(isset($_POST['submit'])){
