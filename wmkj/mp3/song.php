@@ -91,13 +91,13 @@
       <div class="row">
       <div class="">
         <div class="page-header">
-          <h1>因爱而声<small>青歌赛（网投）</small></h1>
+          <h1>“英杰杯”<small>中文演讲大赛</small></h1>
         </div>
-        <div class="player">
+        <!-- <div class="player">
           <audio class="player" preload></audio>
-        </div>
+        </div> -->
         <ol>
-        <?php foreach($resback as $value){ ?>
+         <?php foreach($resback as $value){ ?> 
           <li>
             <img src="<?php echo $value['picurl']?>" width="40px"; height="40px;" alt="..." class="img-circle"/>
             <a href="javascript:;" data-src="<?php echo $value['arcurl']?>"><?php echo $value['title']?></a>
