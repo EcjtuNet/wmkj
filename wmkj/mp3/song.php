@@ -93,9 +93,9 @@
         <div class="page-header">
           <h1>因爱而声<small>青歌赛（网投）</small></h1>
         </div>
-        <div class="player">
+        <!-- <div class="player">
           <audio class="player" preload></audio>
-        </div>
+        </div> -->
         <ol>
         <?php foreach($resback as $value){ ?>
           <li>
