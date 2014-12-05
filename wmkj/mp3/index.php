@@ -10,11 +10,11 @@ require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/PicArc.php'
 require_once dirname(dirname(dirname(__FILE__))) . '/wechatphp/class/model/predis-0.8/autoload.php';
 
 $redis = new Predis\Client();
-/*$resback = array();
+$resback = array();
 if(isset($_GET['wechatID'])){
 	$wechat = $_GET['wechatID'];
 	if(strlen($wechat)==28){
-		$content = getMP3("18");
+		$content = getMP3("10");
 		foreach($content as $value){
 			if($redis->exists($value['ID'])){
 				$zan = $redis->get($value['ID']);
@@ -26,6 +26,7 @@ if(isset($_GET['wechatID'])){
 		}
 		//$res = array("content"=>$content,"zan"=>$zan);
 		include("./song.php");
+		exit(0);
 	}else{
 		echo "青歌赛期间，小新微电台暂停服务。";
 		exit(0);
@@ -35,6 +36,7 @@ if(isset($_GET['wechatID'])){
 if(strlen($_POST['wechatID']) == 31){
 		$wechats = $_POST['wechatID'];
 		$wechat = substr($wechats, 0,28);
+		$wechat = "XJ_".$wechat;
 		$id = substr($wechats,28,31);
 		if($redis->exists($wechat)){
 			echo $callback = json_encode(array("error"=>"exists"));
@@ -57,7 +59,7 @@ if(strlen($_POST['wechatID']) == 31){
 	echo "青歌赛期间，小新微电台暂停服务。";
 	exit(0);
 }
-	*/
+	
 
 if(isset($_POST['ID'])){
 	$ID = $_POST['ID'];

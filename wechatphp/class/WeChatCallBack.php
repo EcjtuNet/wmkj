@@ -93,8 +93,8 @@ class WeChatCallBack {
 				if($picObj = new PicArc()){
 					interface_log(DEBUG , 0, "class works");
 				}
-				if($this->_EventKey == 'QGS'){
-					$out = "投票结束，谢谢：）";
+				if($this->_EventKey == 'VOTE'){
+					$out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
 					return $this->makeHint($out);
 				}
 
@@ -264,8 +264,8 @@ class WeChatCallBack {
      }
 	private function bdcheck($content){
 
-	        if($this->_postObject->Content == '投票'||strstr($this->_postObject->Content,'电台')||strstr($this->_postObject->Content,'青歌赛')){
-                        $out = "投票结束，谢谢：）";
+	        if($this->_postObject->Content == '投票'){
+                        $out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
                 	return $out;
                 }
 		$aword = substr($content,0,2);
