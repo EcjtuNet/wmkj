@@ -183,7 +183,7 @@
 </div>
 						<button class="btn btn-large btn-primary submit" type="submit" name="apply" value="apply">提交</button><span class="submit-help"></span><a class="submit-help-a" href='http://wx.ecjtu.net/wmkj/mp3/'></a>						
 				</div>
-			<p class="support">技术支持 <a href="http://www.ecjtu.net"><img src="../image/logo_icon.png" alt="^_^">日新网技术研发中心</a></p>
+			<p class="support">技术支持 <a href="http://www.ecjtu.net"><img src="./image/logo_icon.png" alt="^_^">日新网技术研发中心</a></p>
 		</div>
 	</div>
 </div>
