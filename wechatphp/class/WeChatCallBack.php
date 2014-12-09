@@ -94,7 +94,7 @@ class WeChatCallBack {
 					interface_log(DEBUG , 0, "class works");
 				}
 				if($this->_EventKey == 'VOTE'){
-					$out = "<a href='http://wx.ecjtu.net/wechatphp/class/model/vote/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
+					$out = "<a href='http://wx.ecjtu.net/wmkj/mp3/index.php?wechatID=".$this->_fromUserName."'>戳我投票</a>";
 					return $this->makeHint($out);
 				}
 

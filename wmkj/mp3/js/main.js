@@ -82,7 +82,7 @@ $(function(){
 			//console.log($(this).val());
 			var type = $(this).val().split(".");
 			//console.log(type[3]);
-			if(type[3] == "mp3"){	
+			if(type[1] == "mp3"){	
 				url = $(this).val();
 			}else{
 				picurl = $(this).val();
