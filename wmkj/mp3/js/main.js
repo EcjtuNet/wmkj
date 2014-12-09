@@ -89,8 +89,7 @@ $(function(){
 			}
 		});
 	//	console.log("hehe"+url);
-		url = picurl;// should be dele
-		if(isnull(picurl)){
+		if(isnull(url)){
 			$(".file").addClass("warning");
 			$(".file .help-block").text("请选择你要使用的音频文件");
 		}else{

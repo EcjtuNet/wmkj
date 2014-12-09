@@ -14,7 +14,7 @@ $resback = array();
 if(isset($_GET['wechatID'])){
 	$wechat = $_GET['wechatID'];
 	if(strlen($wechat)==28){
-		$content = getMP3("10");
+		$content = getMP3("11");
 		foreach($content as $value){
 			if($redis->exists($value['ID'])){
 				$zan = $redis->get($value['ID']);

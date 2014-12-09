@@ -26,7 +26,7 @@
     <script>
       $(function() { 
         // Setup the player to autoplay the next track
-        /*var a = audiojs.createAll({
+        var a = audiojs.createAll({
           trackEnded: function() {
             var next = $('ol li.playing').next();
             if (!next.length) next = $('ol li').first();
@@ -66,7 +66,7 @@
           } else if (unicode == 32) {
             audio.playPause();
           }
-        });*/
+        });
         $('.thumbs').click(function(e){
         	var id = $(this).children(".ID").text();
 		var thumbs = $(this);
@@ -91,11 +91,11 @@
       <div class="row">
       <div class="">
         <div class="page-header">
-          <h1>英杰杯<small>演讲大赛（网投）</small></h1>
+          <h1>节能随手行<small>之节电大赛（网投）</small></h1>
         </div>
-        <!-- <div class="player">
+         <div class="player">
           <audio class="player" preload></audio>
-        </div> -->
+        </div> 
         <ol>
         <?php foreach($resback as $value){ ?>
           <li>
