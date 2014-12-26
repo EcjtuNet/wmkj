@@ -18,8 +18,8 @@ class scorequery extends AbstractQuery
 	public function progress(){
 		$curl_errno = 0;//getScore();
 		//$output = $this->_output;
-		$output = getScoreFromPython();
-		return $out="heh";
+		$output = $this->getScoreFromPython();
+		//return $out = $output;
 		interface_log(DEBUG, 0, var_export($output,true));
 		$total = 0;
 		$tmp .= $bk;		
@@ -37,6 +37,8 @@ class scorequery extends AbstractQuery
 				$bk2 = '';
 				foreach($output as $cj)
 				{
+					$cj = (array) $cj;
+					interface_log(DEBUG, 0, var_export($cj,true));
 					if($cj['Term']=='2014.1' || $cj['Term']=='2014.2') {								
 						$tmp .= "☆ ".$cj['Course']."  ".$cj['Score']."\n";
 						
@@ -90,10 +92,10 @@ class scorequery extends AbstractQuery
 	}
 	public function getScoreFromPython()
 	{
-		$a = "python ./scoreforwx.py".$this->_StudentID."";
-		$output = json_encode(exec("python ./scoreforwx.py '$this->_StudentID'"),true);
-		interface_log(DEBUG, 0, var_export($output,true));
-		return $output;
+		//$a = "python ./scoreforwx.py".$this->_StudentID."";
+		$output = exec("python /home/data/www/wx_ecjtu_net/wechatphp/class/model/scoreforwx.py $this->_StudentID");
+		interface_log(DEBUG, 0, var_export("python ./scoreforwx.py $this->_StudentID",true));
+		return json_decode($output);
 	}
 	
 	public function changecj($cj)

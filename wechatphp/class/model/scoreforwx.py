@@ -7,6 +7,7 @@ import re
 import thread
 import time
 import json
+import sys
 
 cookie = cookielib.CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
@@ -57,6 +58,6 @@ def urlGet(url,data):
 	return upage
 
 def start():
-	studID = input()
+	studID = sys.argv[1]
 	print reback(GetPage(studID))
 start()
