@@ -44,7 +44,7 @@ class scorequery extends AbstractQuery
 				$bk2 = '';
 				foreach($output as $cj)
 				{
-					if($cj['Term']=='2013.2' || $cj['Term']=='2014.1') {								
+					if($cj['Term']=='2014.1' || $cj['Term']=='2014.2') {								
 						$tmp .= "☆ ".$cj['Course']."  ".$cj['Score']."\n";
 						
 						if($cj['Score']!='合格'&&$cj['Score']!='不合格')
