@@ -27,7 +27,7 @@ class yktquery extends AbstractQuery
 					return $out = $tmp;
 				}else{
 				
-					return $out = "抱歉，程序出错了，请稍后重试。";
+					return $out = "抱歉，程序出错了，请稍后重试.";
 				}
 			}else
 			{	

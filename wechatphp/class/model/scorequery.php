@@ -11,12 +11,16 @@ require_once dirname(__FILE__) . '/AbstractQuery.php';
 
 class scorequery extends AbstractQuery
 {
+	protected $_output;
 	public function init($studentID){
 		$this->_StudentID = $studentID;
 	}
 	public function progress(){
-		$output = getScore();
-		getScoreFromPython();
+		$curl_errno = 0;//getScore();
+		//$output = $this->_output;
+		$output = getScoreFromPython();
+		return $out="heh";
+		interface_log(DEBUG, 0, var_export($output,true));
 		$total = 0;
 		$tmp .= $bk;		
 		$tmp .= $bk;		
@@ -67,7 +71,7 @@ class scorequery extends AbstractQuery
 
 			}
 	}
-	private function getScore()
+	public function getScore()
 	{
 		interface_log(DEBUG, 0, "访问地址：api.ecjtu.net/score.php?view=wx&s=".$this->_StudentID);
 		$url = "http://127.0.0.1/score.php?view=wx&s=".$this->_StudentID;
@@ -77,22 +81,22 @@ class scorequery extends AbstractQuery
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 		
 		curl_setopt($curl, CURLOPT_TIMEOUT, 4);
 		curl_setopt($curl, CURLOPT_HTTPHEADER, array("Host:api.ecjtu.net"));
-		$output = json_decode(curl_exec($curl),True);
+		$this->_output = json_decode(curl_exec($curl),True);
 		$info = curl_getinfo($curl);
 		interface_log(DEBUG,0,"所得内容：".$output."\n#总耗时：".$info['total_time']."#Dns查询耗时：".$info['namelookup_time']."#等待连接耗时：".$info['connect_time']."#传输前准备耗时：".$info['pretransfer_time']."#上下行速度：".$info['speed_upload']."/".$info['speed_download']."#重定向耗时：".$info['redirect_time']);
 		$curl_errno = curl_errno($curl);
 		curl_close($curl);
-		return $output;
+		return $curl_errno;
 	}
-	private function getScoreFromPython()
+	public function getScoreFromPython()
 	{
 		$a = "python ./scoreforwx.py".$this->_StudentID."";
-		$output = json_encode(shell_exec($a),true);
+		$output = json_encode(exec("python ./scoreforwx.py '$this->_StudentID'"),true);
 		interface_log(DEBUG, 0, var_export($output,true));
-		//return $output
+		return $output;
 	}
 	
-	private function changecj($cj)
+	public function changecj($cj)
     {
 		switch($cj)
 		{
