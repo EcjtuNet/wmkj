@@ -15,19 +15,8 @@ class scorequery extends AbstractQuery
 		$this->_StudentID = $studentID;
 	}
 	public function progress(){
-		interface_log(DEBUG, 0, "访问地址：api.ecjtu.net/score.php?view=wx&s=".$this->_StudentID);
-		$url = "http://127.0.0.1/score.php?view=wx&s=".$this->_StudentID;
-		$curl = curl_init(); 
-		curl_setopt($curl, CURLOPT_HEADER, 0);
-        	curl_setopt($curl, CURLOPT_URL, $url); 
-        	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 		
-		curl_setopt($curl, CURLOPT_TIMEOUT, 4);
-		curl_setopt($curl, CURLOPT_HTTPHEADER, array("Host:api.ecjtu.net"));
-		$output = json_decode(curl_exec($curl),True);
-		$info = curl_getinfo($curl);
-		interface_log(DEBUG,0,"所得内容：".$output."\n#总耗时：".$info['total_time']."#Dns查询耗时：".$info['namelookup_time']."#等待连接耗时：".$info['connect_time']."#传输前准备耗时：".$info['pretransfer_time']."#上下行速度：".$info['speed_upload']."/".$info['speed_download']."#重定向耗时：".$info['redirect_time']);
-		$curl_errno = curl_errno($curl);
-		curl_close($curl);
+		$output = getScore();
+		getScoreFromPython();
 		$total = 0;
 		$tmp .= $bk;		
 		$tmp .= $bk;		
@@ -78,7 +67,32 @@ class scorequery extends AbstractQuery
 
 			}
 	}
-	public function changecj($cj)
+	private function getScore()
+	{
+		interface_log(DEBUG, 0, "访问地址：api.ecjtu.net/score.php?view=wx&s=".$this->_StudentID);
+		$url = "http://127.0.0.1/score.php?view=wx&s=".$this->_StudentID;
+		$curl = curl_init(); 
+		curl_setopt($curl, CURLOPT_HEADER, 0);
+        curl_setopt($curl, CURLOPT_URL, $url); 
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); 		
+		curl_setopt($curl, CURLOPT_TIMEOUT, 4);
+		curl_setopt($curl, CURLOPT_HTTPHEADER, array("Host:api.ecjtu.net"));
+		$output = json_decode(curl_exec($curl),True);
+		$info = curl_getinfo($curl);
+		interface_log(DEBUG,0,"所得内容：".$output."\n#总耗时：".$info['total_time']."#Dns查询耗时：".$info['namelookup_time']."#等待连接耗时：".$info['connect_time']."#传输前准备耗时：".$info['pretransfer_time']."#上下行速度：".$info['speed_upload']."/".$info['speed_download']."#重定向耗时：".$info['redirect_time']);
+		$curl_errno = curl_errno($curl);
+		curl_close($curl);
+		return $output;
+	}
+	private function getScoreFromPython()
+	{
+		$a = "python ./scoreforwx.py".$this->_StudentID."";
+		$output = json_encode(shell_exec($a),true);
+		interface_log(DEBUG, 0, var_export($output,true));
+		//return $output
+	}
+	
+	private function changecj($cj)
     {
 		switch($cj)
 		{
