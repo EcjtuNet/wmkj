@@ -16,9 +16,9 @@ class scorequery extends AbstractQuery
 		$this->_StudentID = $studentID;
 	}
 	public function progress(){
-		$curl_errno = 0;//getScore();
+		$curl_errno = $this->getScore();
 		//$output = $this->_output;
-		$output = $this->getScoreFromPython();
+		$output = $this->_output;//$this->getScoreFromPython();
 		//return $out = $output;
 		interface_log(DEBUG, 0, var_export($output,true));
 		$total = 0;
