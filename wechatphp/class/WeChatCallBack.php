@@ -5,7 +5,7 @@
  * @author homker
  *
  */
-//require_once dirname(dirname(__FILE__)) . '/common/Common.php';
+//require_once dirname(dirname(__FILE__)) .'/common/Common.php';
 require_once dirname(dirname(__FILE__)) .'/common/Define.php';
 require_once dirname(dirname(__FILE__)) .'/common/GlobalFunctions.php';
 require_once dirname(dirname(__FILE__)) .'/common/DbFactory.php';
@@ -153,7 +153,8 @@ class WeChatCallBack {
 				if (!isset($model)) {
 					$out = $this->bdcheck($this->_postObject->Content);
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
-					return $this->makeHint($out);
+					if($out != null ) return $this->makeHint($out);
+					else return $this->makeHint($this->tuLing($this->_postObject->Content));
 				}
 				if(strstr($model, 'model')){
 					$queryObj = $this->modelMatch($model);
@@ -266,6 +267,17 @@ class WeChatCallBack {
 			return TRUE;
 		}                
      }
+	private function tuLing($content)
+	{
+		$url = "http://www.tuling123.com/openapi/api";
+		$array = array('key'=>'9e110e9087c945a8c6ccc31e802ac039','info'=>( string )$this->_postObject->Content);
+		( array ) $tuling = json_decode(doCurlGetRequest($url,$array),true);
+		interface_log(LDEBUG, EC_OK, "get:".var_export($array,true)."tuling 返回值：".var_export($tuling,true));
+		if($tuling['code']==100000){
+			return $tuling['text'];
+		}
+		
+	}
 	private function bdcheck($content){
 
 	        if($this->_postObject->Content == '投票'||strstr($this->_postObject->Content,'电台')||strstr($this->_postObject->Content,'青歌赛')){
