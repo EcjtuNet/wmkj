@@ -22,6 +22,7 @@ class WeChatCallBack {
 	protected $_msgId;
 	protected $_event;
 	protected $_EventKey;
+	protected $_Recognition;
 	protected $_time;
 	
     public function getToUserName() {
@@ -67,6 +68,7 @@ class WeChatCallBack {
 		$this->_EventKey = ( string ) trim ( $this->_postObject->EventKey);
 		$this->_createTime = ( int ) trim ( $this->_postObject->CreateTime );
 		$this->_msgId = ( int ) trim ( $this->_postObject->MsgId );
+		$this->_Recognition = ( string )trim( $this->_postObject->Recognition );
 		$this->_time = time ();
 		if(!($this->_fromUserName && $this->_toUserName && $this->_msgType)) {
 			return false;
@@ -141,11 +143,13 @@ class WeChatCallBack {
 					}
 				}
 			}
-		}if($this->_msgType == 'text'){
+		}if($this->_msgType == 'text'||$this->_msgType == 'voice'){
+			if($this->_msgType == 'voice') $this->_postObject->Content = $this->_postObject->Recognition;
+			interface_log(lDEBUG, 0, "messagetype：".$this->_msgType.",#绑定检查的回复是：".$this->_postObject->Recognition);
 			$rb = new rxl();
 			$rb->init($this->_postObject->Content);
 			$model = $rb->progress($this->FromUserName);
-			interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
+			interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$model);
 				if (!isset($model)) {
 					$out = $this->bdcheck($this->_postObject->Content);
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
