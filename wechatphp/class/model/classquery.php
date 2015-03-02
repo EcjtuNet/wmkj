@@ -37,7 +37,7 @@ class classquery extends AbstractQuery
 		if($this->chenck($this->_ClassID)){
 			try {
 				$db = DbFactory::getInstance('CLASS');
-				$sql = "SELECT course FROM class WHERE cid='$this->_ClassID' AND term="."'2014.1'";
+				$sql = "SELECT course FROM class WHERE cid='$this->_ClassID' AND term="."'2014.2'";
 				//$sql = "insert into userinput (userId, input) values(\"" . $this->_fromUserName . "\", \"" . $this->_postObject->Content . "\")";
 				interface_log(DEBUG, 0, "sql:" . $sql);			
 				$rs = $db->query($sql);
