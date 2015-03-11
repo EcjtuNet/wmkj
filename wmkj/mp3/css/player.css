@@ -180,6 +180,8 @@
 }
 .showlist{
 	display: none;
+	padding-right: 10px;
+	padding-bottom: 20px;
 	width: 0px;
 	height: 0px;
 	background: #fff;
@@ -194,6 +196,7 @@
 }
 ul li{
 	border-bottom: #222 soild 1px;
+	line-height: 20px;
 	text-decoration: none;
 	list-style: none;
 }

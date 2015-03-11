@@ -2,7 +2,7 @@
 	"use strict"
 	$.post( "./index.php", {content:"list"}, function(data){
 		$.each(data,function(id,obj){
-			var html = "<li><a data-id="+obj.id+" data-url="+obj.url+">"+obj.title+"</li>";
+			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+">"+obj.title+"</li>";
 			$(".showlist ul").append(html);
 		});
 	},  "json");
