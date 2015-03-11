@@ -3,7 +3,7 @@
 	$.post("./index.php",{content:"list"},function(data){
 		$.each(data,function(id,obj){
 			var html = "<li><a data-id="+obj.id+" data-url="+obj.url+">"+obj.title+"</li>";
-			$(".showlist ul").append(html));
+			$(".showlist ul").append(html);
 		}
 	},"json");
 	var musicGround = $("#music-ground"),
