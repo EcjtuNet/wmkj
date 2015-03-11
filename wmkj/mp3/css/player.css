@@ -209,23 +209,23 @@ ul li{
 	font-size: 16px;
 }
 
-@media only screen and ( max-device-width:640px ) {
+@media only screen and ( max-device-width:640px ) and (-webkit-min-device-pixel-ratio: 2) {
 
 .fix{
 	position: absolute;
 	font-size: 100px;
 	margin-top: -160px;
-	margin-left: 110px;
+	margin-left: 35%;
 }
 
 }
-@media only screen and ( min-device-width:641px )  and ( max-device-width:1080px ){
+@media only screen and ( max-device-width:1080px ){
 
 .fix{
 	position: absolute;
 	font-size: 100px;
 	margin-top: -160px;
-	margin-left: 130px;
+	margin-left: 40%;
 }
 
 }
