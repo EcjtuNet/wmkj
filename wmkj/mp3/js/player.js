@@ -1,5 +1,8 @@
 (function(){
 	"use strict"
+	$.post("./index.php",{content:"list"},function(data){
+		console.log(data);
+	},"json");
 	var musicGround = $("#music-ground"),
 		player = $("#player")[0],
 		playerControl = $("#player-controls-play"),
