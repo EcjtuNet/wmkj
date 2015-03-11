@@ -6,6 +6,7 @@
 		mask = true,
 		isClose = true,
 		isTalk = false,
+		isRed = false,
 		title = $(".title"),
 		author = $(".author");
 		console.log(title);
@@ -41,13 +42,21 @@
 		playerControl.click();
 	});
 	$(".like").click(function(){
-		$(this).css("color","red");
+		if(!isRed){
+			$(this).css("color","red");
+			isRed = true;
+		}else{
+			$(this).css("color","white");
+			isRed = false;
+		}
 	});
 	$(".talk").click(function(){
 		if(!isTalk){
 			$(".talk-box").show();
+			isTalk = true;
 		}else{
 			$(".talk-box").hide();
+			isTalk = false;
 		}
 	});
 	$(".list").click(function(){
