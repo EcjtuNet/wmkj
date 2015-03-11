@@ -209,7 +209,7 @@ ul li{
 	font-size: 16px;
 }
 
-@media screen and (max-device-width:640px) {
+@media only screen and ( max-device-width:640px ) {
 
 .fix{
 	position: absolute;
@@ -219,7 +219,7 @@ ul li{
 }
 
 }
-@media screen and (max-device-width:1080px){
+@media only screen and ( min-device-width:641px )  and ( max-device-width:1080px ){
 
 .fix{
 	position: absolute;
