@@ -7,7 +7,7 @@
 		isClose = true,
 		title = $(".title"),
 		author = $(".author");
-		console.log(player);
+		console.log(title);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
 		title.text = data[0].title;
