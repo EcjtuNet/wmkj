@@ -1,16 +1,25 @@
 (function(){
 	"use strict"
+	var musicGround = $("#music-ground"),
+		player = new Audio(),
+		playerControl = $("#player-controls-play"),
+		mask = true,
+		isClose = true,
+		title = $(".title"),
+		author = $(".author");
 	$.post( "./index.php", {content:"list"}, function(data){
+		player.src = data[0].url;
+		title.text = data[0].title;
+		author.text = data[0].pulishMan;
+		playerControl.click();
 		$.each(data,function(id,obj){
-			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+">"+obj.title+"</li>";
+			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
 	},  "json");
-	var musicGround = $("#music-ground"),
-		player = $("#player")[0],
-		playerControl = $("#player-controls-play"),
-		mask = true,
-		isClose = true;
+	player.addEventListener("ended",function(){
+		playerControl.click();
+	});
 	playerControl.click(function(){
 		console.log(this);
 		if(mask){
