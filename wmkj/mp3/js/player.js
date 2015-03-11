@@ -7,11 +7,12 @@
 		isClose = true,
 		title = $(".title"),
 		author = $(".author");
+		console.log(player);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
 		title.text = data[0].title;
 		author.text = data[0].pulishMan;
-		playerControl.click();
+		//playerControl.click();
 		$.each(data,function(id,obj){
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
