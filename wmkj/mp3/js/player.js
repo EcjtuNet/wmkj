@@ -45,9 +45,9 @@
 	});
 	$(".talk").click(function(){
 		if(!isTalk){
-			$(".hide").show();
+			$(".talk-box").show();
 		}else{
-			$(".hide").hide();
+			$(".talk-box").hide();
 		}
 	});
 	$(".list").click(function(){
