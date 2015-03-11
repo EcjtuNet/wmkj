@@ -72,7 +72,7 @@
 }
 
 :root{
-	background: url("../image/background.png") no-repeat;
+	background: url("../../image/background.png") no-repeat;
 	background-size: cover;
 }
 
@@ -92,7 +92,7 @@
 	background-color: #634f56;
 }
 .big{
-	background: url("../image/player.png") no-repeat;
+	background: url("../../image/player.png") no-repeat;
 	 box-shadow: 0 1px 0 #f9bd71 inset,0 1px 0 #0a0a0a;
 	width: 240px;
 	height:240px;
