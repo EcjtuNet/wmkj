@@ -35,6 +35,10 @@
 			player.pause();
 		}
 	});
+	$(".showlist ul li").click(function(){
+		player.src = $(this).attr("data-url");
+		playerControl.click();
+	});
 	$(".list").click(function(){
 		console.log("hehe");
 		$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
