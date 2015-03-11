@@ -1,7 +1,10 @@
 (function(){
 	"use strict"
 	$.post("./index.php",{content:"list"},function(data){
-		console.log(data);
+		$.each(function(data){
+			var html = "<li><a data-id="this.id" data-url="this.url">"this.title"</li>";
+			$(".showlist ul").append(html));
+		}
 	},"json");
 	var musicGround = $("#music-ground"),
 		player = $("#player")[0],
