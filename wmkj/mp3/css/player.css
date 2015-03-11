@@ -201,6 +201,14 @@ ul li{
 	list-style: none;
 }
 
+.title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.author{
+	font-size: 16px;
+}
+
 @media screen and (max-width:640px){
 
 .fix{
