@@ -5,8 +5,8 @@
 		playerControl = $("#player-controls-play"),
 		mask = true,
 		isClose = true,
-		title = $(".title"),
-		author = $(".author");
+		title = $(".title")[0],
+		author = $(".author")[0];
 		console.log(title);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
@@ -27,7 +27,7 @@
 			musicGround.addClass("spinner");
 			playerControl.removeClass("icon-play3").addClass("icon-pause2");
 			mask = false;
-			console.log(player.play());
+			player.play();
 		}else{
 			musicGround.removeClass("spinner");
 			playerControl.removeClass("icon-pause2").addClass("icon-play3");
