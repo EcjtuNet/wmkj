@@ -4,7 +4,7 @@
 		$.each(data,function(id,obj){
 			var html = "<li><a data-id="+obj.id+" data-url="+obj.url+">"+obj.title+"</li>";
 			$(".showlist ul").append(html);
-		}
+		});
 	},  "json");
 	var musicGround = $("#music-ground"),
 		player = $("#player")[0],
