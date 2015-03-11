@@ -5,6 +5,7 @@
 		playerControl = $("#player-controls-play"),
 		mask = true,
 		isClose = true,
+		isTalk = false,
 		title = $(".title"),
 		author = $(".author");
 		console.log(title);
@@ -38,6 +39,16 @@
 	$(".showlist ul li").click(function(){
 		player.src = $(this).attr("data-url");
 		playerControl.click();
+	});
+	$(".like").click(function(){
+		$(this).css("color","red");
+	});
+	$(".talk").click(function(){
+		if(!isTalk){
+			$(".hide").show();
+		}else{
+			$(".hide").hide();
+		}
 	});
 	$(".list").click(function(){
 		console.log("hehe");

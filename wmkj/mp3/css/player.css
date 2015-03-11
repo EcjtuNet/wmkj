@@ -57,6 +57,12 @@
 .mf30{
 	margin-left: 30px;
 }
+.mf20{ 
+	margin-left: 20px;
+}
+.mf10{
+	margin-left: 10px;
+}
 .mr30{
 	margin-right: 30px;
 }
@@ -209,7 +215,7 @@ ul li{
 	font-size: 16px;
 }
 
-@media only screen and ( max-device-width:640px ) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and( min-device-width: 241px ) and ( max-device-width:640px ) and (-webkit-min-device-pixel-ratio: 2) {
 
 .fix{
 	position: absolute;
