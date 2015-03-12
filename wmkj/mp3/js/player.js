@@ -40,7 +40,7 @@
 			player.pause();
 		}
 	});
-	$(".showlist ul").children("li").click(function(){
+	list.click(function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
