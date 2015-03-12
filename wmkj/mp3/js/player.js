@@ -38,7 +38,7 @@
 		}
 	});
 	$(".showlist ul li").click(function(){
-		console.log("hehea");
+		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
 	});
