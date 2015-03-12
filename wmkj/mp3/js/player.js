@@ -70,11 +70,4 @@
 			isClose=true; 
 		}
 	});
-	$(document).click(function (event) { 
-			console.log(isClose);
-			isClose&&$('.showlist').slideUp('slow');
-			isClose = true; 
-			console.log(isClose);
-		});  
-	// $('.list').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
 })();
