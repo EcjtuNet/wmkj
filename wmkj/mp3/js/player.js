@@ -9,11 +9,7 @@
 		isRed = false,
 		title = $(".title"),
 		author = $(".author"),
-		list = null,
-		listClick = function(){
-			player.src = $(this).attr("data-url");
-			playerControl.click();
-		};
+		list = null;
 		console.log(title);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
@@ -24,7 +20,10 @@
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
-		$(".showlist ul li").click(listClick());
+		$(".showlist ul li").addEventListener("click",function(){
+			player.src = $(this).attr("data-url");
+			playerControl.click();
+		});
 	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
