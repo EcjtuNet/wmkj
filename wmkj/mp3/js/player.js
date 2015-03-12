@@ -9,7 +9,11 @@
 		isRed = false,
 		title = $(".title"),
 		author = $(".author"),
-		list = null;
+		list = null,
+		listClick = function(){
+			player.src = $(this).attr("data-url");
+			playerControl.click();
+		};
 		console.log(title);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
@@ -20,8 +24,9 @@
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
-		list = $(".showlist ul li");
-		console.log(list);
+		$(".showlist ul li").click(function(){
+
+		});
 	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
@@ -40,12 +45,12 @@
 			player.pause();
 		}
 	});
-	console.log(list);
+	/*console.log(list);
 	list.click(function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
-	});
+	});*/
 	$(".like").click(function(){
 		if(!isRed){
 			$(this).css("color","red");
