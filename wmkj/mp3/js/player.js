@@ -40,11 +40,11 @@
 			player.pause();
 		}
 	});
-	list.onclick = function(){
+	$(list).click(function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
-	};
+	});
 	$(".like").click(function(){
 		if(!isRed){
 			$(this).css("color","red");
