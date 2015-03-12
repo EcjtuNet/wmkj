@@ -38,7 +38,7 @@
 		}
 	});
 	$(".showlist ul li").click(function(){
-		console.log("hehe");
+		console.log("hehea");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
 	});
@@ -66,5 +66,5 @@
 		isClose = false;
 	});
 	$(document).click(function (event) { isClose&&$('.showlist').slideUp('slow');isClose = true; });  
-	$('.showlist').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
+	$('.list').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
 })();
