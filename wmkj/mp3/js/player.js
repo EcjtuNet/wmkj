@@ -40,11 +40,11 @@
 			player.pause();
 		}
 	});
-	list.click(function(){
+	list.onclick = function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
-	});
+	};
 	$(".like").click(function(){
 		if(!isRed){
 			$(this).css("color","red");
@@ -63,7 +63,7 @@
 			isTalk = false;
 		}
 	});
-	$(".list").onclick = function(){
+	$(".list").click(function(){
 		if(isClose){
 			console.log("hehe");
 			$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
@@ -72,5 +72,5 @@
 			$(".showlist").fadeOut(1000);
 			isClose=true; 
 		}
-	};
+	});
 })();
