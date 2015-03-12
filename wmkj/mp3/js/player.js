@@ -20,11 +20,11 @@
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
-		$(".showlist ul li").addEventListener("click",function(){
+	},  "json");
+	$(".showlist ul li").addEventListener("click",function(){
 			player.src = $(this).attr("data-url");
 			playerControl.click();
 		});
-	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
 	});
