@@ -24,9 +24,7 @@
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
-		$(".showlist ul li").click(function(){
-
-		});
+		$(".showlist ul li").click(listClick());
 	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
