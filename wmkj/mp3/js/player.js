@@ -61,9 +61,14 @@
 		}
 	});
 	$(".list").click(function(){
-		console.log("hehe");
-		$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
-		isClose = false;
+		if(isClose){
+			console.log("hehe");
+			$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
+			isClose = false;
+		}else{
+			$(".showlist").fadeOut(1000);
+			isClose=true; 
+		}
 	});
 	$(document).click(function (event) { 
 			console.log(isClose);
@@ -71,5 +76,5 @@
 			isClose = true; 
 			console.log(isClose);
 		});  
-	$('.list').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
+	// $('.list').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
 })();
