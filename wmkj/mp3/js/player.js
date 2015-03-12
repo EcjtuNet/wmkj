@@ -21,10 +21,6 @@
 			$(".showlist ul").append(html);
 		});
 	},  "json");
-	$(".showlist ul li").addEventListener("onclick",function(){
-			player.src = $(this).attr("data-url");
-			playerControl.click();
-		});
 	player.addEventListener("ended",function(){
 		playerControl.click();
 	});
@@ -42,12 +38,12 @@
 			player.pause();
 		}
 	});
-	/*console.log(list);
-	list.click(function(){
+	console.log(list);
+	$(".showlist ul li").click(function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
-	});*/
+	});
 	$(".like").click(function(){
 		if(!isRed){
 			$(this).css("color","red");
