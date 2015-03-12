@@ -21,6 +21,7 @@
 			$(".showlist ul").append(html);
 		});
 		list = $(".showlist ul li");
+		console.log(list);
 	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
