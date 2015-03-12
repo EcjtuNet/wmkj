@@ -38,6 +38,7 @@
 		}
 	});
 	$(".showlist ul li").click(function(){
+		console.log("hehe");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
 	});
