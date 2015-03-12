@@ -39,7 +39,7 @@
 		}
 	});
 	console.log(list);
-	$(".showlist ul li").click(function(){
+	$(".showlist ul li").live("click",function(){
 		console.log("heheaa");
 		player.src = $(this).attr("data-url");
 		playerControl.click();
