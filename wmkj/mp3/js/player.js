@@ -65,6 +65,11 @@
 		$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
 		isClose = false;
 	});
-	$(document).click(function (event) { isClose&&$('.showlist').slideUp('slow');isClose = true; });  
+	$(document).click(function (event) { 
+			console.log(isClose);
+			isClose&&$('.showlist').slideUp('slow');
+			isClose = true; 
+			console.log(isClose);
+		});  
 	$('.list').click(function (event) { isClose&&$(this).fadeOut(1000);isClose=true; });  
 })();
