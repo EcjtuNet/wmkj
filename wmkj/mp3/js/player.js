@@ -8,7 +8,8 @@
 		isTalk = false,
 		isRed = false,
 		title = $(".title"),
-		author = $(".author");
+		author = $(".author"),
+		list = null;
 		console.log(title);
 	$.post( "./index.php", {content:"list"}, function(data){
 		player.src = data[0].url;
@@ -19,6 +20,7 @@
 			var html = "<li><a data-id="+obj.ID+" data-url="+obj.url+" data-author="+data.pulishMan+">"+obj.title+"</a></li>";
 			$(".showlist ul").append(html);
 		});
+		list = $(".showlist ul li");
 	},  "json");
 	player.addEventListener("ended",function(){
 		playerControl.click();
