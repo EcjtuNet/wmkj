@@ -38,7 +38,7 @@
 			player.pause();
 		}
 	});
-	$(".showlist ul li").live("click",function(){
+	$(".showlist ul").on("click","li",function(){
 		player.src = $(this).attr("data-url");
 		playerControl.click();
 	});
