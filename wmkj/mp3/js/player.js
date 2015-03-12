@@ -63,7 +63,7 @@
 			isTalk = false;
 		}
 	});
-	$(".list").click(function(){
+	$(".list").onclick = function(){
 		if(isClose){
 			console.log("hehe");
 			$('.showlist').show().animate({width:"150px",height:"100px"},"slow");
@@ -72,5 +72,5 @@
 			$(".showlist").fadeOut(1000);
 			isClose=true; 
 		}
-	});
+	};
 })();
