@@ -21,7 +21,7 @@
 			$(".showlist ul").append(html);
 		});
 	},  "json");
-	$(".showlist ul li").addEventListener("click",function(){
+	$(".showlist ul li").addEventListener("onclick",function(){
 			player.src = $(this).attr("data-url");
 			playerControl.click();
 		});
