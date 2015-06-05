@@ -34,7 +34,7 @@ class WeChatCallBack {
 	$resultStr = sprintf ( HINT_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, 'text', $hint );
 		return $resultStr;
 	}else{
-		return "success";
+		return "";
 	}
     }
     /**
@@ -158,7 +158,7 @@ class WeChatCallBack {
 					$out = $this->bdcheck($this->_postObject->Content);
 					interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content.",#绑定检查的回复是：".$out);
 					if($out != null ) return $this->makeHint($out);
-					else return $this->makeHint("");//$this->makeHint("小黑说：".$this->tuLing($this->_postObject->Content));
+					else return ""; //$this->makeHint("");//$this->makeHint("小黑说：".$this->tuLing($this->_postObject->Content));
 				}
 				if(strstr($model, 'model')){
 					$queryObj = $this->modelMatch($model);
