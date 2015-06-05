@@ -34,7 +34,7 @@ class WeChatCallBack {
 	$resultStr = sprintf ( HINT_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, 'text', $hint );
 		return $resultStr;
 	}else{
-		return null;
+		return "success";
 	}
     }
     /**
