@@ -46,7 +46,7 @@ class WeChatCallBackKeyWord extends WeChatCallBack{
 			}
 			if (!isset($model)) {
 				interface_log(lDEBUG, 0, "内容不属于关键字，内容是：".$this->_postObject->Content);
-				return $this->makeHint($this->_fromUSerName);
+				return $this->makeHint("");
 			}
 			if(strstr($model, 'model')){
 				$queryObj = $this->modelMatch($model);
