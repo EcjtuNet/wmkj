@@ -30,8 +30,12 @@ class WeChatCallBack {
     }
     
     protected  function makeHint($hint) {
-    	$resultStr = sprintf ( HINT_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, 'text', $hint );
+    	if($hint != ""){
+	$resultStr = sprintf ( HINT_TPL, $this->_fromUserName, $this->_toUserName, $this->_time, 'text', $hint );
 		return $resultStr;
+	}else{
+		return null;
+	}
     }
     /**
     *@desc 用来封装图文信息
