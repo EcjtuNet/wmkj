@@ -88,7 +88,9 @@ class WeChatCallBack {
 	}*/
 	
 	public function process(){
-
+		
+		return $this->makeHint("由于换届和服务器运营问题，日小新公众号暂停提供所有技术服务，由此为您带来的不便，日小新技术运营团队深表歉意，希望大家能一如既往的支持日新网的其他产品，谢谢。");
+		
 		$redis = new Predis\Client();
 
 		if($this->_msgType == 'event'){
