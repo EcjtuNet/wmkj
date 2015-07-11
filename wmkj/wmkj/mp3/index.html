@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>华交微电台</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/player.css">
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="showlist">
+		<ul>
+			<li class="hide"></li>
+		</ul>
+	</div>
+	<div id="container fl">
+		<button class="list button normal icon-menu"></button>
+		<div class="player-box mt30 pt50">
+			<div class="mask center"><div class="button big center" id="music-ground"></div></div>
+			<div id="player-controls-play"  class="icon-play3 play-icon fix"></div>
+			<div class="title-box">
+				<p class="title">你妹妹的点点</p>
+				<p class="author">来自于你妹妹的</p>
+				<div id="player-control">
+					<span class="icon-spinner11 mf10 reload"></span>
+					<span class="icon-heart mf10 like"></span>
+					<span  class="icon-bubbles4 mf10 talk" ></span>
+				</div>
+			</div>
+			<section class="mb50"><button class="button icon-backward2 normal mf30" id="forward"></button><button class="button icon-forward3 normal mr30" id="next"></button></section>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/player.js"></script>
+	<!-- 多说评论框 start -->
+	<div class="ds-thread hide talk-box" data-thread-key="xxx" data-title="xxx" data-url="http://wx.ecjtu.net/wmkj/mp3/index.php"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"ecjtuwx"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+</body>
+</html>

@@ -1,0 +1,238 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?fylmwk');
+	src:url('../fonts/icomoon.eot?#iefixfylmwk') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?fylmwk') format('woff'),
+		url('../fonts/icomoon.ttf?fylmwk') format('truetype'),
+		url('../fonts/icomoon.svg?fylmwk#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bubbles4:before {
+	content: "\e970";
+}
+
+.icon-spinner11:before {
+	content: "\e984";
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+
+.icon-play3:before {
+	content: "\ea1c";
+}
+
+.icon-pause2:before {
+	content: "\ea1d";
+}
+
+.icon-backward2:before {
+	content: "\ea1f";
+}
+
+.icon-forward3:before {
+	content: "\ea20";
+}
+
+.icon-heart:before {
+	content: "\e600";
+}
+.mf30{
+	margin-left: 30px;
+}
+.mf20{ 
+	margin-left: 20px;
+}
+.mf10{
+	margin-left: 10px;
+}
+.mr30{
+	margin-right: 30px;
+}
+.mb50{
+	margin-bottom: 50px;
+}
+.mt30{
+	margin-top: 30px;
+}
+
+.pt50{
+	padding-bottom: 50px;
+}
+
+:root{
+	background: url("../../image/background.png") no-repeat;
+	background-size: cover;
+}
+
+.button{
+	/*font-size: 24px;*/
+	color: white;
+	border: none;
+	outline: none;
+	-moz-border-radius: 50px;
+    	-webkit-border-radius: 50px;
+    	border-radius:50px;
+}
+
+.normal{
+	width: 50px;
+	height: 50px;
+	background-color: #634f56;
+}
+.big{
+	background: url("../../image/player.png") no-repeat;
+	 box-shadow: 0 1px 0 #f9bd71 inset,0 1px 0 #0a0a0a;
+	width: 240px;
+	height:240px;
+	-moz-border-radius: 240px;
+    	-webkit-border-radius: 240px;
+    	border-radius:240px;
+}
+
+.mask{
+		filter:Alpha(Opacity=60);
+		opacity: 0.6;
+}
+
+.fl{
+	float: left;
+}
+.hide{
+	display: none;
+}
+.play-icon{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.list{
+	margin: 30px 0 0 30px;
+}
+.center{
+	  display: -webkit-box;
+	  -webkit-box-orient: horizontal;
+	  -webkit-box-pack: center;
+	  -webkit-box-align: center;
+	  
+	  display: -moz-box;
+	  -moz-box-orient: horizontal;
+	  -moz-box-pack: center;
+	  -moz-box-align: center;
+	  
+	  display: -o-box;
+	  -o-box-orient: horizontal;
+	  -o-box-pack: center;
+	  -o-box-align: center;
+	  
+	  display: -ms-box;
+	  -ms-box-orient: horizontal;
+	  -ms-box-pack: center;
+	  -ms-box-align: center;
+	  
+	  display: box;
+	  box-orient: horizontal;
+	  box-pack: center;
+	  box-align: center;
+}
+.title-box{
+	width: 320px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {-webkit-transform:rotate(360deg);}
+}
+
+.spinner{
+  overflow: hidden;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.fix{
+	position: absolute;
+	font-size: 100px;
+	margin-top: -160px;
+	margin-left: 120px;
+	color:white;
+}
+
+#forward{
+	float: left;
+}
+#next{
+	float: right;
+}
+.showlist{
+	display: none;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	width: 0px;
+	height: 0px;
+	background: #fff;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	zoom:1;
+	z-index: 100;
+}
+ul li{
+	border-bottom: #222 soild 1px;
+	line-height: 20px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.author{
+	font-size: 16px;
+}
+
+@media only screen and( min-device-width: 241px ) and ( max-device-width:640px ) and (-webkit-min-device-pixel-ratio: 2) {
+
+.fix{
+	position: absolute;
+	font-size: 100px;
+	margin-top: -160px;
+	margin-left: 35%;
+}
+
+}
+@media only screen and ( max-device-width:1080px ){
+
+.fix{
+	position: absolute;
+	font-size: 100px;
+	margin-top: -160px;
+	margin-left: 36%;
+}
+
+}
