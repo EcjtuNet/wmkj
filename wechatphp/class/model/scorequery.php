@@ -26,7 +26,7 @@ class scorequery extends AbstractQuery
 		$tmp .= $bk;		
 		$tmp = '';
 		$count = 0;
-		if($curl_errno>0){
+		if($curl_errno<0){
 			return $out = "抱歉程序出了点故障\n但你可以回复 查成绩 再试一次\n或者回复 抽打 抽打一下程序员";
 		}
 		elseif(False){
