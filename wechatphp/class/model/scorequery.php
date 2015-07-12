@@ -39,7 +39,7 @@ class scorequery extends AbstractQuery
 				{
 					$cj = (array) $cj;
 					interface_log(DEBUG, 0, var_export($cj,true));
-					if($cj['Term']=='2014.2' || $cj['Term']=='2015.1') {								
+					if($cj['Term']=='2015.2' || $cj['Term']=='2016.1') {								
 						$tmp .= "☆ ".$cj['Course']."  ".$cj['Score']."\n";
 						
 						if($cj['Score']!='合格'&&$cj['Score']!='不合格')
