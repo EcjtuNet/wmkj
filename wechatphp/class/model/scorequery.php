@@ -94,7 +94,7 @@ class scorequery extends AbstractQuery
 	{
 		//$a = "python ./scoreforwx.py".$this->_StudentID."";
 		$output = exec("python /home/data/www/wx_ecjtu_net/wechatphp/class/model/scoreforwx.py $this->_StudentID");
-		interface_log(DEBUG, 0, var_export("python ./scoreforwx.py $this->_StudentID",true));
+		interface_log(DEBUG, 110, var_export("python ./scoreforwx.py $this->_StudentID",true));
 		return json_decode($output);
 	}
 	
