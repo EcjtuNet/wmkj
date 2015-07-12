@@ -32,7 +32,7 @@ class scorequery extends AbstractQuery
 		elseif(False){
 			return $out = ("抱歉现在暂时没有你的成绩呢,可能是教务处还没有录入哦~\n但你可以回复 查成绩 再试一次\n或者回复 抽打 抽打一下程序员");
 		}else{
-				$tmp .="你本学期已公布的成绩如下：\n";
+				$tmp .="你本学期已公布的成绩如下 $this->_StudentID：\n";
 				$bk1 = '';
 				$bk2 = '';
 				foreach($output as $cj)
