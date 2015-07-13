@@ -21,7 +21,7 @@ def GetPage(StudID):
         'pass':'jwc'
     })
     querydata = urllib.urlencode({
-        'StuID':studID,
+        'StuID':StudID,
         'Term' :2014.2
         })
     urlGet(url,logindata)
