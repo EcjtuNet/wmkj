@@ -18,7 +18,7 @@ class scorequery extends AbstractQuery
 	public function progress(){
 		$curl_errno = $this->getScoreFromPython();
 		//$output = $this->_output;
-		$output = $this->_output;//$this->getScoreFromPython();
+		$output = $this->output;//$this->getScoreFromPython();
 		//return $out = $output;
 		interface_log(DEBUG, 0, var_export($output,true));
 		$total = 0;
@@ -103,9 +103,9 @@ class scorequery extends AbstractQuery
 		switch($cj)
 		{
 			case '优秀':
-			return 90;break;
+				return 90;break;
 			case '良好':
-	                return 80;break;
+	             return 80;break;
 			case '中等':
                 return 70;break;
 			case '合格':
